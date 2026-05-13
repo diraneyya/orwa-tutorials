@@ -1,0 +1,263 @@
+This tutorial is written for your specific situation: a fifteen year old aloe vera, big rootstock pieces planted in sandy soil dug from the Almere garden, now showing yellow-green and curled leaves. The question is whether the sandy soil was the right call, and if not, what to switch to.
+
+It also serves as a tour of the soil aisles at Action and Ranzijn Tuin & Dier so you can recognize what you are seeing on a future trip. Along the way I will gloss the Dutch terms — the bag fronts read like a vocabulary lesson, and once you know that [nl: grond] just means soil and [nl: potgrond] just means pot-soil, the whole aisle becomes navigable.
+
+1. What aloe vera actually wants in its soil.
+
+Aloe vera is a cam succulent from arid East Africa and the Arabian Peninsula. The species' entire biology assumes brief, intense rain events followed by long dry spells. Roots flood, then air out for weeks. Native habitat is gravelly, rocky, slightly weathered volcanic soil — not the dark humic earth that [nl: potgrond] tries to simulate. Roots must have oxygen available continuously. If they sit in saturated soil, they suffocate, then opportunistic fungi (Pythium, Fusarium) move in and the plant rots from the base up.
+
+Three things matter for the substrate, in order of importance: fast drainage, low organic content, and a mix of particle sizes including grit two to ten millimeters across. A useful mental model: imagine the substrate as a rock pile with some soil between the rocks, not as a soil with some rocks scattered through it. That is the right ratio.
+
+Target p H is six point zero to seven point five — slightly acidic to neutral. Almere tap water at p H seven point eight with bicarbonate buffer drifts the substrate alkaline over time. Aloe tolerates this fine.
+
+2. Why your sandy garden soil is "almost right" but probably not ideal.
+
+Sandy soil from your Almere garden is closer to right than ordinary potting soil. Sand has good drainage and low organic content — both green flags for aloe. This is why the big rootstock pieces have not outright died.
+
+But three problems likely apply. First, Dutch coastal sand is mostly fine grains around 0.1 to 0.5 millimeters, well sorted by glaciers and wind. Fine sand packs tightly when wet, then crusts when dry. Roots cannot breathe easily through this. What you want is a mix of particle sizes, including chunks two to ten millimeters across.
+
+Second, soil from a garden bed has invisible passengers. You already noted woodlice — [nl: pissebedden] — in the pot. They are not a direct threat, but their presence means the substrate has enough organic decomposition to feed them, which means it is also feeding root-rot fungi.
+
+Third, fine sand holds water at the bottom of the pot. Water travels downward, hits the pot floor, and capillary action makes it cling to the fine particles instead of draining. The bottom two to three centimeters of a sandy pot stays saturated even after the surface looks dry. This is exactly where rot starts.
+
+The fact that leaves are yellow-green and drooping but the base is not blackened yet suggests the plant is in stress mode but has not crossed into active rot. That is a window of opportunity — repot before rot starts.
+
+3. The recipe — what a real succulent mix looks like.
+
+A proven succulent and aloe mix is roughly:
+
+The succulent recipe. 50 to 60 percent — mineral grit (drainage, air pockets). 30 to 40 percent — low-organic substrate (moisture buffer). 0 to 10 percent — extra structure (bark, pumice, lava).
+
+The mineral grit can be any combination of perlite, pumice, coarse horticultural grit, expanded clay pellets, or lava rock fines. Particle sizes range from one to sixteen millimeters depending on the material. All of them serve the same function: keeping air pockets between the soil particles so roots can breathe even when the medium is moist.
+
+The most common form of expanded clay in Dutch garden stores is sold as [nl: Hydrokorrels] — clay balls baked until they puff up. The Dutch word [nl: korrels] means granules, the same root as the German [de: Körner]. So [nl: hydrokorrels] translates literally as water-granules.
+
+Up next is [nl: Florentus Hydrokorrels], ten liter bag, six euros ninety nine at Ranzijn.
+
+The white granular alternative is perlite — volcanic glass popped like popcorn, lightweight and sterile. Ranzijn does not stock it. Praxis does.
+
+This is DCM Perliet, ten liter bag at Praxis for around ten to thirteen euros.
+
+For the substrate component you have three main options: coconut coir, peat-free [nl: potgrond], or a pre-mixed [nl: cactusgrond]. The cheapest by far — and one you already own — is a compressed cocos brick from Action.
+
+This is the [nl: MyGarden Compressed Premium Potgrond] brick, two euros at Action, expands to twenty five liters when soaked.
+
+Drop the brick in a clean bucket with nine liters of warm water, leave fifteen minutes, and you have enough substrate for all three aloe pots with leftover. With the cocos brick in hand, you have the substrate component of the recipe for free. You just need a mineral grit component — perlite, hydrokorrels, or pumice — and you are set.
+
+4. A walk through the soil aisle at Ranzijn Tuin & Dier.
+
+What follows is the soil aisle at Ranzijn organized as if you were walking through it. For each major category I will show you the products, explain what they are for, and call out which ones apply to aloe and which do not — and why. The point is to read the labels. Every bag of [nl: potgrond] exists to solve a specific problem, and that problem is usually written somewhere on the front.
+
+4.1 Universal potting soils — the workhorses.
+
+These are the cheapest, most generic bags. Brown, peat-heavy, formulated to be "good enough" for everything — which means perfect for nothing.
+
+This is [nl: Florentus Langwerkende Potgrond], ten liter bag, three euros ninety nine.
+
+The Dutch word [nl: langwerkend] breaks into [nl: lang] and [nl: werkend] — long and working — exactly like the German [de: langwirkend]. It means long-acting: this bag contains six months of slow-release nutrients.
+
+For aloe this bag is wrong on its own — too water retentive, too organic. But it works as the substrate component of a custom mix if you blend it fifty fifty with grit.
+
+Beside it on the shelf you will see [nl: Ranzijn Potgrond Universeel] at twenty liter for four euros twenty five (no extras, no slow-release), and [nl: Ranzijn Premium Potgrond] at thirty liter for ten euros ninety five (with extra cocos for water retention — which is the opposite of what aloe wants).
+
+4.2 Peat-free / bio soils — ecological alternatives.
+
+The push to eliminate peat from gardening is driven by climate: peat extraction releases carbon dioxide stored over centuries in bogs. Most major Dutch garden brands now offer [nl: veenvrij] lines — peat-free. The Dutch [nl: veen] means peat or bog; [nl: vrij] means free of.
+
+Ranzijn carries [nl: Bio Veenvrije Potgrond] at thirty liter for six euros ninety nine (two for twelve). Made from composted bark, wood fiber, and coconut coir instead of peat. Same recommendation as the universal soils — OK as a substrate component if mixed with grit, not great on its own.
+
+This is [nl: Florentus Bio Potgrond Kokos], forty liter bag, fourteen euros ninety five.
+
+The label says "houdt water beter vast" — holds water better. Coconut-coir-based, three months of nutrients. For aloe: wrong on its own. The water-retention phrasing is again the red flag. But pure coconut coir, separated from its added nutrients, is one of the cleanest substrates you can use for succulents when paired with grit.
+
+You may also find compressed cocos bricks at Action — and you already own one, as we saw in section three.
+
+4.3 Mediterranean and specialty soils — your closest match.
+
+The [nl: Mediterrane] line at Ranzijn is the closest match the store carries for an aloe — formulated for citrus, fig, palm, olive, and oleander, all of which share aloe's preference for sharp drainage, moderate moisture, alkaline tolerance, and modest nitrogen. It is not [nl: cactusgrond], but the philosophy is the same family.
+
+This is [nl: Florentus Bio Mediterrane Planten], forty liter bag, the peat-free variant of the Mediterrane line.
+
+The store also stocks a non-Bio [nl: Florentus Mediterrane Potgrond] at forty liter for twelve euros ninety five (two for twenty four). Same Mediterranean formulation but with conventional substrate. Front of the bag says "weerstandverhogend en met juiste voeding voor citrus-, vijgen-, palm-, en olijfbomen en oleander" — resistance-boosting and correctly fed for citrus, fig, palm, olive, and oleander.
+
+For aloe: closest match available at Ranzijn. Either variant works; mix with extra hydrokorrels to sharpen the drainage further.
+
+4.4 Acidifying soils — NOT for aloe but important to recognize.
+
+This is the most important wrong-for-aloe category to identify, because the bags look similar to the others and you could grab one by mistake. These are designed to LOWER soil p H for acid-loving plants.
+
+This is [nl: Ranzijn Tuinturf Biologisch], thirty liter bag, six euros forty nine.
+
+[nl: Tuinturf] means garden peat — [nl: tuin] is garden, [nl: turf] is peat. Essentially pure peat extracted from Dutch peat bogs. Highly acidic on its own (p H around four to five), excellent for acidifying alkaline garden soil. For aloe: categorically wrong. Pure peat is acidic, water-retentive, and decomposes anaerobically. Three strikes.
+
+For what then? Amending soil for rhododendrons, azaleas, blueberries, [nl: hortensias] (if you want blue flowers), camellias, magnolias. Any plant whose native habitat is acid forest floor.
+
+This is [nl: Florentus Hortensiagrond], twenty liter bag, six euros ninety nine.
+
+Specifically for [nl: hortensias] — hydrangeas. The acidity controls flower color: more acidic soil gives blue blooms, more alkaline gives pink. This bag pushes hortensias toward blue.
+
+This is DCM Vivimus Heide, Rhodo, and Zuurminnend, forty liter bag, eleven euros ninety five.
+
+[nl: Heide] means heather. Rhodo is rhododendron. [nl: Zuurminnend] means acid-loving — [nl: zuur] is acid, [nl: minnend] is loving. This is the peat-rich, acidified mix for that whole family. For aloe: wrong, categorically. But if you ever want to grow blueberries in a pot, or rescue a yellowing rhododendron (yellow leaves on acid-lovers usually means iron lockout from soil that is too alkaline), this bag is your tool.
+
+4.5 Seed-starting and cutting soils.
+
+These are fine-textured, low-nutrient mixes designed for the germination phase.
+
+This is [nl: Florentus Zaai- en Stekgrond], forty liter bag, thirteen euros ninety five (also available as a one liter and a ten liter for six euros ninety nine).
+
+[nl: Zaai] means sowing, [nl: stek] means cutting. The mix is finely sifted — no chunks — and intentionally low in nutrients so seedlings have to grow their roots in search of food. High nutrients would actually inhibit germination of many seeds.
+
+For aloe: not useful directly since you have established plants. But this is what you would use to root cuttings or sow seeds.
+
+4.6 Vegetable garden and food-crop soils.
+
+A whole category exists for [nl: moestuin] soils — kitchen garden mixes with boosted nutrients to feed hungry food crops. [nl: Moestuin] breaks into [nl: moes] (cooked vegetables, broth) and [nl: tuin] (garden) — the German equivalent is [de: Gemüsegarten].
+
+This is [nl: Pokon Mix voor je Moestuinbak], forty five liter bag, fifteen euros ninety five.
+
+[nl: Moestuinbak] means raised vegetable bed — [nl: bak] is bin or box.
+
+This is [nl: Ranzijn Moestuinaarde Biologisch], thirty liter bag, eight euros ninety nine (two for sixteen).
+
+[nl: Moestuinaarde] — vegetable-garden soil. [nl: Aarde] is the Dutch word for soil or earth (same root as the German [de: Erde]).
+
+This is DCM Vivimus Universeel, forty liter bag, eleven euros ninety five (two for twenty two).
+
+General-purpose enriched garden soil. For aloe: wrong — too rich, too water-retentive, designed to maximize biomass production.
+
+4.7 Compost — too rich for aloe pots.
+
+This is [nl: Ranzijn Compost Voedingsrijk], thirty liter bag, six euros twenty five (three for sixteen).
+
+[nl: Voedingsrijk] means nutrient-rich: [nl: voeding] is food or nutrition, [nl: rijk] is rich. Aged organic matter, dark, crumbly, nutrient-dense.
+
+For aloe: skip. Compost belongs in vegetable beds and at the planting hole of new trees and shrubs. In a pot — especially for a desert plant — it is too rich and decomposes too actively, releasing carbon dioxide in the root zone and displacing oxygen.
+
+4.8 Drainage components — the most useful category for aloe.
+
+This is where you find what aloe actually needs. We already met [nl: Hydrokorrels] in section three; now to put them in context.
+
+This is [nl: Florentus Hydrokorrels] again, ten liter for six euros ninety nine — also known internationally as LECA, Lightweight Expanded Clay Aggregate.
+
+Baked clay balls, four to sixteen millimeters in size. The bag label says "verbetert wateropname en voorkomt uitdroging" — improves water uptake and prevents drying out. How it works: the clay balls are full of tiny pores that hold a thin film of water without being saturated. They never compact, never break down, and let air flow freely between them. Indefinite lifespan.
+
+For aloe: essential. Use as a drainage layer at the bottom of the pot (the bottom two to three centimeters), or mix into the substrate at about twenty five to thirty percent by volume to create air pockets throughout.
+
+Ranzijn also stocks bigger volumes — [nl: Florentus Hydrokorrels] at forty liter for sixteen euros ninety five if you are scaling up, and [nl: Pokon Hydrokorrels] at twenty liter for eleven euros ninety five (same product, different brand).
+
+4.9 Mulches and top-dressings — extra structure.
+
+These do not go inside the pot; they go on top. They serve two purposes: hold moisture in the soil by reducing surface evaporation, and look tidy.
+
+This is [nl: Jardino Franse Pijnboomschors], seventy liter bag, eighteen euros ninety five.
+
+[nl: Boomschors] means tree bark — [nl: boom] is tree, [nl: schors] is bark, the German equivalent is [de: Baumrinde]. Pine bark chunks, twenty five to forty millimeters. For aloe: useful as a top-dressing only — a one centimeter layer on top of the soil, never mixed in (the chunks are too large for the inside of a small pot).
+
+A smaller bag is also available — [nl: Ranzijn Boomschors] at forty liter for twelve euros ninety five.
+
+This is [nl: Pokon Cacaodoppen], forty liter bag, fifteen euros ninety five (two for thirty).
+
+[nl: Cacaodoppen] means cacao husks — [nl: doppen] is shells or husks, the German would be [de: Kakaoschalen]. Dark brown, fragrant for the first few weeks (chocolate smell), more porous and lighter than bark.
+
+For aloe: OK as a top-dressing, same role as bark. Warning: toxic to dogs — contains theobromine, the same compound that makes chocolate dangerous to dogs. Skip this one if you have a dog.
+
+4.10 Lime — for raising soil p H.
+
+This is [nl: Green Boots Tuinkalk], four kilogram box, three euros ninety nine.
+
+[nl: Tuinkalk] is garden lime — pulverized calcium carbonate — same root word in Dutch and German ([de: Gartenkalk]). Spread on the soil to raise p H (make less acidic, more alkaline).
+
+For aloe: not needed. Almere tap water is already alkaline, your garden soil here is likely slightly alkaline already, and aloe tolerates the full range from six point zero to seven point five. Adding lime would push p H higher than necessary.
+
+For what then? Lawns where moss is taking over (moss prefers acidic conditions; raising p H discourages it). Vegetable beds where soil has become acidic over years of nitrogen fertilizer use. Around stone fruit trees. Brassica beds — they are sensitive to club root, a fungal disease worse in acidic soil.
+
+4.11 Other / specialty — not for aloe directly.
+
+A few more bags worth recognizing as you walk the aisle:
+
+This is [nl: Ranzijn Aanplantgrond], thirty liter bag, six euros ninety nine (three for eighteen).
+
+[nl: Aanplant] means planting in the sense of putting a tree or shrub in the ground; [nl: grond] is ground. So [nl: aanplantgrond] is planting-soil — what Germans would call [de: Pflanzerde]. This is enriched soil for putting into the hole when you plant a tree, shrub, or perennial in the ground.
+
+For aloe: skip — too rich, meant for in-ground planting, not container culture. For the broader garden, pour it into the hole when planting new shrubs or trees.
+
+Also on shelf, less relevant for aloe but worth knowing: [nl: Florentus Potgrond Terras en Balkon] at forty liter for eleven euros ninety five (with added clay for moisture retention — opposite of what aloe wants), [nl: Florentus Rozen Potgrond] at twenty liter for four euros ninety nine (rose-specific), and [nl: Florentus Gazongrond] at forty liter for seven euros ninety nine ([nl: gazon] meaning lawn).
+
+5. The compromise recipe — using only Ranzijn products.
+
+If you do not want to make a second trip and just want to improve on your current sandy soil, here is the best you can do at Ranzijn:
+
+The Ranzijn-only recipe. Bottom 3 centimeters — Florentus Hydrokorrels (drainage layer). 2 parts — Florentus Mediterrane Potgrond. 1 part — Florentus Hydrokorrels (mixed in). 1 part — sterilized sandy garden soil.
+
+To sterilize the garden soil, bake it in a tray at eighty to one hundred degrees Celsius for thirty minutes, or pour boiling water through it. This kills weed seeds, pathogens, [nl: pissebedden] and their eggs. Cool fully before mixing.
+
+This gets you to roughly forty percent mineral and fifty percent medium, with ten percent sand. Not the textbook fifty fifty, but a real improvement over pure sandy garden soil. Total cost: about twenty euros. Top-dress with a thin layer of more [nl: hydrokorrels] or with [nl: boomschors] if you have it.
+
+6. The proper recipe — and what is missing at Ranzijn.
+
+If you are willing to make one more stop, the proper succulent mix is much better. The recipe:
+
+The proper succulent recipe. 1 part — coconut coir or peat-free potgrond (substrate). 1 part — perlite (light drainage, air). 1 part — coarse grit or pumice (heavy drainage, structure).
+
+Good news: you already own the substrate component — the [nl: MyGarden Compressed Cocos] brick from Action expands to twenty five liters when soaked, plenty for all three aloe pots with leftover.
+
+You just need the mineral grit components — perlite plus pumice or grit. Ranzijn does not stock these. Praxis does, and there is also a cheaper specialty option (pre-mixed [nl: cactusgrond]) at Action.
+
+6.1 Cactusgrond / Vetplantengrond — the pre-mixed shortcut.
+
+This is Pokon Cactus Potgrond, five liter bag at Praxis for about six to eight euros.
+
+[nl: Vetplant] means succulent — literally "fat plant", same idea as the German [de: Fettpflanze]. The bag is small because you do not need much — five liters fills one or two aloe pots.
+
+This is the same product family as the other Pokon [nl: potgronds], but blended with extra perlite and grit so the texture is gritty rather than fluffy. Out of the bag, this is the closest thing to a "just open and pour" succulent mix. Similar products to look for: [nl: Florentus Cactus en Vetplanten Potgrond], [nl: Culvita Cactusgrond], [nl: Intratuin Cactusgrond RHP].
+
+The cheapest option in this category is at Action stores — they often stock a generic [nl: Cactus en Vetplantengrond] six liter bag for one euro ninety nine to two ninety nine. Same idea, lower price, slightly less consistent quality. For aloe rescue at home scale, perfectly fine.
+
+6.2 Perlite — perliet in Dutch.
+
+This is DCM Perliet, ten liter bag at Praxis for around ten to thirteen euros.
+
+Volcanic glass that has been heated until it pops like popcorn — turns into lightweight white granules, two to six millimeters in size, full of tiny pores. p H-neutral, sterile (no fungi, no weed seeds), holds a tiny bit of water in its pores, lets air flow freely. Does not compress. Lasts indefinitely.
+
+In a succulent mix, perlite is the workhorse aerator. Mix one part perlite into two parts of any potting soil and you have already significantly improved drainage. Beyond succulents, perlite is used for starting seeds (sterile medium prevents damping-off disease), rooting cuttings, hydroponics, and as a soil amendment for heavy clay garden beds.
+
+6.3 Pumice — bims in Dutch — and coarse grit.
+
+For a pre-blended bonsai-grade mineral substrate, Praxis carries a Pokon Bonsai option that includes pumice, perlite, and lava rock.
+
+This is Pokon Bonsai Potgrond, five liter bag at Praxis for about seven euros.
+
+Pumice — [nl: bims] in Dutch, [de: Bims] in German (same word, same volcanic stone) — is heavier than perlite, similarly porous, also in the three to eight millimeter range. Does not crush over time, which makes it preferred over perlite for long-lived collections (cacti, bonsai). Sold standalone in Dutch bonsai shops, typically fifteen to twenty five euros for a five liter bag.
+
+Coarse horticultural grit is angular silica or basalt rock fragments, one to four millimeters. Mostly drainage, very little water retention. The cheapest mineral component if you can find it — try Welkoop or the Praxis aquarium section. Aquarium gravel works fine if it is labeled calcium-free, [nl: kalkvrij] in Dutch.
+
+For bonsai enthusiasts: the classic substrate trio is akadama (fired Japanese clay), pumice, and lava rock fines. These are all valid in a succulent mix too — overkill in cost for a single aloe, but useful to know if you ever build a serious collection.
+
+7. Repotting protocol for your big aloe pieces.
+
+Given the leaves are stressed but the base is not rotted, repot soon — within the next week. Process:
+
+Wait for soil to be bone dry. Do not water for at least three to five days before repotting. It is easier to remove a dry rootball without breaking roots.. Gently lift the plant out of the current pot. Tip the pot sideways, tap the rim, slide the rootball out. If it resists, run a knife around the inside edge of the pot.. Inspect the roots and base. White or cream firm roots are healthy — keep them. Brown, mushy or smelly tissue — cut back with a clean knife until you reach firm tissue, then let air-dry for twenty four hours before potting. Black or soft at the base means root rot is advanced — cut all rotten tissue away, dust with cinnamon (a mild natural antifungal) or charcoal powder, and restart phase one callusing.. Shake off the old sandy soil. Do not scrub the roots — just remove what falls off naturally.. Prepare the new pot. Use a terracotta pot if possible (porous, lets soil dry between waterings — much better for aloe than plastic). Drainage hole essential. Size: only slightly larger than the rootball — aloe likes to be a bit root-bound.. Layer the substrate. Bottom two to three centimeters: [nl: hydrokorrels] (drainage layer). Above that: your succulent mix.. Position the plant so the base is at the same level it was before — no deeper, since burying the stem causes rot.. Fill in around the rootball, tap the pot to settle, top with a one centimeter layer of coarse grit or hydrokorrels. Top-dressing prevents soil splash, looks tidy, and deters fungus gnats.. Do NOT water for five to seven days. This lets any micro-damage to roots heal. Watering immediately after repotting is one of the most common ways to kill a recovering plant. The plant has plenty of water stored in its leaves..
+
+8. Watering protocol after repotting.
+
+Once watering resumes, the frequency rule is: soil bone dry to about five centimeters depth, and leaves slightly wrinkled. Then water. Otherwise wait.
+
+For the method, soak the soil thoroughly until water runs out of the drainage hole. Then empty any saucer underneath — never let the pot sit in standing water.
+
+Frequency in practice: spring and summer outdoors, roughly every ten to fourteen days. Autumn and winter, every three to four weeks. Less is always safer than more.
+
+Always water at the side of the pot, not on the stem or center of the plant. This keeps the crown dry and prevents rot from above.
+
+Underwatering an aloe gives wrinkled leaves, which recover within hours after water. Overwatering gives a blackened base, which is fatal. The asymmetry is large — err dry.
+
+9. Summary — what to actually do this week.
+
+This week's action list. 1 — Soak the MyGarden Cocos brick you own. 2 — Go to Praxis for DCM Perliet 10L (10 to 13 euros). 3 — Optionally Ranzijn for Florentus Hydrokorrels 10L (6.99). 4 — Stop watering the current pots immediately. 5 — In about 5 days when soil is bone dry, repot. 6 — Wait 5 to 7 days before first watering.
+
+Total cost: roughly seventeen to twenty five euros for proper soil for all three pots. The cocos brick you already own saves you from buying additional substrate, making this the cheapest possible proper succulent setup.
+
+Cross-references.
+
+context/aloe-vera.md — overall rescue protocol and phase tracking. tutorials/hydroponics-water-quality.md — p H chemistry, the companion tutorial in this set. photos/agricultural-offerings-nearby/photos.json — verified product catalog used to source every photo reference in this tutorial.

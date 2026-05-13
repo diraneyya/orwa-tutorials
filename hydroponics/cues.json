@@ -1,0 +1,342 @@
+{
+  "cues": [
+    {
+      "type": "overlay",
+      "time": 57.233,
+      "title": "The three target windows",
+      "lines": [
+        "pH — 5.8 to 6.2 sweet spot, 5.5 to 6.8 acceptable",
+        "EC — 850 to 1200 microsiemens vegetative, 1200+ for radish bulbs",
+        "Reservoir temperature — 18 to 22 degrees optimum"
+      ]
+    },
+    {
+      "type": "overlay",
+      "time": 132.233,
+      "title": "The drift rule",
+      "lines": [
+        "Healthy plants eating nitrate → pH goes up",
+        "The cure is acid, almost never base",
+        "If pH falls on its own → root rot, not chemistry"
+      ]
+    },
+    {
+      "type": "overlay",
+      "time": 202.696,
+      "title": "The carbonate buffer chain",
+      "lines": [
+        "CO₂ + H₂O ⇌ H₂CO₃ ⇌ H⁺ + HCO₃⁻",
+        "This pair sits at pH 5 to 7 — exactly your hydroponic range",
+        "Acid added → bicarbonate eats it → barely a pH change"
+      ]
+    },
+    {
+      "type": "image",
+      "time": 312.576,
+      "image": "photos/20260512_201430.jpg",
+      "caption": "Colombo Aquatest full row on shelf — KH, GH, Nitrite, pH, Ammonia, Nitrate, Phosphate variants",
+      "rotation": 0
+    },
+    {
+      "type": "image",
+      "time": 339.613,
+      "image": "photos/20260512_201635.jpg",
+      "caption": "Colombo Aquatest KH and GH boxes — €9.99 each",
+      "rotation": 90
+    },
+    {
+      "type": "overlay",
+      "time": 345.514,
+      "title": "Your starter kit at Ranzijn",
+      "lines": [
+        "Colombo Aquatest pH — 9 euros 99",
+        "Colombo Aquatest KH — 9 euros 99",
+        "Total — 20 euros, lifetime supply for a single tower"
+      ]
+    },
+    {
+      "type": "overlay",
+      "time": 419.433,
+      "title": "KH benchmarks",
+      "lines": [
+        "Rainwater — 0 to 1 °dKH (no buffer, easy to overshoot)",
+        "Target for hydroponics — 2 to 4 °dKH (gentle buffer)",
+        "Almere tap — 8 to 11 °dKH (strong buffer)",
+        "Aachen tap — 12 to 18 °dKH (very hard)",
+        "Demi / RO water — 0 °dKH"
+      ]
+    },
+    {
+      "type": "image",
+      "time": 509.291,
+      "image": "photos/20260512_200428.jpg",
+      "caption": "Colombo Quick Test 6-in-1 Teststrip — 50 strips €15.99, multi-parameter quick check",
+      "rotation": 90
+    },
+    {
+      "type": "image",
+      "time": 549.087,
+      "image": "photos/20260512_201146.jpg",
+      "caption": "JBL ProAquatest Easy 7-in-1 — tube with color chart for pH, KH, GH, NO2, NO3, Cl2, CO2",
+      "rotation": 90
+    },
+    {
+      "type": "image",
+      "time": 579.787,
+      "image": "photos/20260512_200414.jpg",
+      "caption": "Colombo Aquatest Testlab Professional — 8-parameter case, €53.99",
+      "rotation": 0
+    },
+    {
+      "type": "image",
+      "time": 675.545,
+      "image": "photos/20260512_200510.jpg",
+      "caption": "SuperFish pH Min — 1L pond/aquarium pH down, €14.50",
+      "rotation": 90
+    },
+    {
+      "type": "image",
+      "time": 675.545,
+      "image": "photos/20260512_200515.jpg",
+      "caption": "SuperFish pH Min back panel — Dutch dosing instructions",
+      "rotation": 270
+    },
+    {
+      "type": "overlay",
+      "time": 762.371,
+      "title": "Two stock solutions",
+      "lines": [
+        "Tap water reservoir — 5 grams citric acid in 100 mL water",
+        "Rainwater reservoir — 0.5 grams in 100 mL water (10 times more dilute)"
+      ]
+    },
+    {
+      "type": "overlay",
+      "time": 793.221,
+      "title": "Dosing protocol",
+      "lines": [
+        "Add 1 mL of stock at a time",
+        "Stir, wait 5 minutes for mixing",
+        "Re-test pH with the drop kit",
+        "Repeat until in target range"
+      ]
+    },
+    {
+      "type": "image",
+      "time": 867.421,
+      "image": "photos/20260512_201540.jpg",
+      "caption": "Colombo FloraGrow Pro — 500ml aquarium plant fertilizer, €19.95",
+      "rotation": 0
+    },
+    {
+      "type": "overlay",
+      "time": 959.85,
+      "title": "Cold water — more dissolved oxygen",
+      "lines": [
+        "At 12 degrees — 10.8 milligrams per liter at saturation",
+        "At 22 degrees — 8.7 milligrams per liter",
+        "At 28 degrees — 7.8 milligrams per liter",
+        "Roots breathe through dissolved oxygen"
+      ]
+    },
+    {
+      "type": "overlay",
+      "time": 992.412,
+      "title": "Warm water — faster metabolism",
+      "lines": [
+        "At 12 degrees — about 35 percent of optimum uptake",
+        "At 18 degrees — about 75 percent",
+        "At 22 degrees — 100 percent optimum",
+        "At 28 degrees — 120 percent but root rot risk rises"
+      ]
+    },
+    {
+      "type": "overlay",
+      "time": 1062.725,
+      "title": "Warming options ranked by effort",
+      "lines": [
+        "Wait for warmer weather — free, +0",
+        "Insulate the reservoir — 5 to 15 euros, +2 to +4 degrees",
+        "Move tower to a sunny spot — free, +3 to +6 degrees",
+        "Aquarium heater 50 watt — 15 to 25 euros, +5 to +10 degrees"
+      ]
+    },
+    {
+      "type": "overlay",
+      "time": 1176.777,
+      "title": "Minimum kit — 20 euros",
+      "lines": [
+        "Colombo Aquatest pH drop kit — 9 euros 99",
+        "Colombo Aquatest KH drop kit — 9 euros 99",
+        "Citric acid powder from Action — 2 to 4 euros"
+      ]
+    },
+    {
+      "type": "overlay",
+      "time": 1202.689,
+      "title": "Recommended kit — 35 to 40 euros",
+      "lines": [
+        "Above plus a TDS or EC meter from Action or Bol — 10 to 15 euros",
+        "Cheap aquarium thermometer — 3 to 5 euros"
+      ]
+    },
+    {
+      "type": "overlay",
+      "time": 1230.152,
+      "title": "Stable-temperature kit — 60 to 80 euros",
+      "lines": [
+        "Above plus Colombo Aquatest GH — 9 euros 99",
+        "Aquarium heater 50 watt with thermostat — 15 to 25 euros"
+      ]
+    },
+    {
+      "type": "overlay",
+      "time": 1266.364,
+      "title": "Fresh reservoir with rainwater",
+      "lines": [
+        "1 — Fill reservoir with rainwater",
+        "2 — Add A+B nutrients to EC 900 to 1200",
+        "3 — Stir, wait 10 minutes",
+        "4 — Test pH — expect 5.8 to 6.3",
+        "5 — Set pump duty cycle for stage",
+        "6 — Recheck every 2 to 3 days"
+      ]
+    },
+    {
+      "type": "overlay",
+      "time": 1300.077,
+      "title": "Fresh reservoir with tap water",
+      "lines": [
+        "1 — Fill with Almere tap water",
+        "2 — Add A+B to EC 900 to 1200 (deduct ~400 tap baseline)",
+        "3 — Stir, wait 10 minutes",
+        "4 — Test pH — expect 7.4 to 7.8 (high)",
+        "5 — Dose strong citric stock 1 mL at a time",
+        "6 — Continue until pH 6.0 — expect 5 to 10 mL total",
+        "7 — Recheck every 3 to 5 days"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "time": 43.52,
+      "level": 2,
+      "title": "1. The three numbers that decide success"
+    },
+    {
+      "time": 109.383,
+      "level": 2,
+      "title": "2. Why pH always drifts upward"
+    },
+    {
+      "time": 182.77,
+      "level": 2,
+      "title": "3. The bicarbonate buffer — why tap water is patient"
+    },
+    {
+      "time": 268.933,
+      "level": 2,
+      "title": "4. Measurement — walking the Ranzijn aquarium aisle"
+    },
+    {
+      "time": 289.508,
+      "level": 3,
+      "title": "4.1 The Colombo Aquatest drop-kit row — your primary tool"
+    },
+    {
+      "time": 330.139,
+      "level": 3,
+      "title": "4.2 pH and KH — the only two you actually need"
+    },
+    {
+      "time": 380.464,
+      "level": 3,
+      "title": "4.3 What KH actually measures"
+    },
+    {
+      "time": 454.945,
+      "level": 3,
+      "title": "4.4 GH — total calcium and magnesium"
+    },
+    {
+      "time": 489.567,
+      "level": 3,
+      "title": "4.5 Multi-parameter strips — fast snapshots, lower accuracy"
+    },
+    {
+      "time": 569.837,
+      "level": 3,
+      "title": "4.6 The Testlab Pro — overkill for your scale"
+    },
+    {
+      "time": 601.824,
+      "level": 3,
+      "title": "4.7 What Ranzijn does NOT stock — and where to get it"
+    },
+    {
+      "time": 655.587,
+      "level": 2,
+      "title": "5. Adjusting pH — citric acid is the right answer"
+    },
+    {
+      "time": 660.487,
+      "level": 3,
+      "title": "5.1 What Ranzijn offers — and why to skip it"
+    },
+    {
+      "time": 706.534,
+      "level": 3,
+      "title": "5.2 Citric acid powder from Action — the right answer"
+    },
+    {
+      "time": 759.496,
+      "level": 3,
+      "title": "5.3 Stock solutions and dosing protocol"
+    },
+    {
+      "time": 853.159,
+      "level": 2,
+      "title": "6. Nutrients — a quick word on what Ranzijn does NOT replace"
+    },
+    {
+      "time": 938.699,
+      "level": 2,
+      "title": "7. Water temperature — the variable doing the most damage right now"
+    },
+    {
+      "time": 953.875,
+      "level": 3,
+      "title": "7.1 The physics — two opposing effects"
+    },
+    {
+      "time": 1022.787,
+      "level": 3,
+      "title": "7.2 What this means for your tower right now"
+    },
+    {
+      "time": 1059.912,
+      "level": 3,
+      "title": "7.3 What you can do about it"
+    },
+    {
+      "time": 1123.487,
+      "level": 3,
+      "title": "7.4 Quick diagnostic — is temperature your bottleneck?"
+    },
+    {
+      "time": 1168.727,
+      "level": 2,
+      "title": "8. Putting it together — your shopping kit"
+    },
+    {
+      "time": 1258.564,
+      "level": 2,
+      "title": "9. Quick start protocol for a fresh reservoir"
+    },
+    {
+      "time": 1352.127,
+      "level": 2,
+      "title": "Cross-references"
+    }
+  ]
+}

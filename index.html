@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tutorials</title>
+<style>
+:root { --bg:#1a1a1a; --fg:#f0f0f0; --accent:#4a9eff; --dim:rgba(255,255,255,0.6); }
+* { box-sizing:border-box; margin:0; padding:0; }
+html, body { height:100%; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  background: var(--bg); color: var(--fg);
+  display: flex; align-items: center; justify-content: center;
+  min-height: 100vh; padding: 2rem 1.5rem;
+}
+.wrap { max-width: 560px; width: 100%; }
+h1 { font-size: 1.4rem; font-weight: 500; margin-bottom: 0.4rem; }
+.intro { color: var(--dim); font-size: 0.95rem; margin-bottom: 2rem; line-height: 1.5; }
+.tutorials { display: flex; flex-direction: column; gap: 0.9rem; }
+a.tutorial {
+  display: block; padding: 1.25rem 1.25rem;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 12px;
+  color: var(--fg); text-decoration: none;
+  transition: background 0.15s, border-color 0.15s;
+}
+a.tutorial:hover, a.tutorial:active {
+  background: rgba(74,158,255,0.12);
+  border-color: var(--accent);
+}
+.title { font-size: 1.1rem; font-weight: 500; color: var(--accent); margin-bottom: 0.3rem; }
+.meta { font-size: 0.85rem; color: var(--dim); }
+.subtitle { font-size: 0.92rem; color: var(--fg); opacity: 0.85; margin-top: 0.35rem; line-height: 1.45; }
+footer { margin-top: 2.5rem; font-size: 0.75rem; color: var(--dim); text-align: center; opacity: 0.5; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Tutorials</h1>
+  <p class="intro">Narrated walkthroughs with synced images. Tap a tutorial, hit play, hold the phone in landscape if you can.</p>
+  <div class="tutorials">
+    <a class="tutorial" href="aloe/index.html">
+      <div class="title">Soil for Your Aloe Vera</div>
+      <div class="meta">29 min · 22 images · 4 overlays</div>
+      <div class="subtitle">A walk through the Ranzijn and Action soil aisles, plus what an aloe actually needs underneath it.</div>
+    </a>
+    <a class="tutorial" href="hydroponics/index.html">
+      <div class="title">Hydroponic Water Quality</div>
+      <div class="meta">23 min · 8 images · 15 overlays</div>
+      <div class="subtitle">pH, the bicarbonate buffer, water temperature — and what to buy at the Ranzijn aquarium aisle.</div>
+    </a>
+  </div>
+  <footer>Narrated with edge-tts. Dutch terms by Maarten · German bridges by Katja · English by Brian.</footer>
+</div>
+</body>
+</html>
