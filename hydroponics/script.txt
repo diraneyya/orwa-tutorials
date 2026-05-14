@@ -1,4 +1,6 @@
-Your vertical PVC tower in Almere is a chemistry experiment with lettuce on top. Three numbers decide whether it thrives or stalls: p H, the bicarbonate buffer in your reservoir water, and water temperature. This tutorial walks through each, explains why they behave the way they do, and shows what to actually buy at Ranzijn Tuin & Dier and Action to manage them — with a deliberate bias toward bargain solutions that match a hobby-scale test setup.
+This is the tower this guide is about: a vertical PVC pipe in the Almere garden, lettuce and radish growing out of rockwool cubes, a four liter reservoir in the bucket at its base. It is a chemistry experiment with lettuce on top. The grey tarp on the left is a rain cover — rain dilutes the nutrient solution and can mark the leaves.
+
+Three numbers decide whether it thrives or stalls: p H, the bicarbonate buffer in the reservoir water, and water temperature. This guide walks through each, explains why they behave the way they do, and shows what to actually buy at Ranzijn Tuin & Dier and Action to manage them — and then reviews the things that were actually bought, the BSI p H Down, the Colombo drop kits, the SuperFish heater, and asks whether each was the right call.
 
 Along the way I will gloss the Dutch terms on the boxes. The aquarium aisle reads like a chemistry vocabulary lesson, and once you know that [nl: hardheid] just means hardness and [nl: voeding] just means nutrition, the labels start telling you exactly what is inside.
 
@@ -14,7 +16,9 @@ For lettuce specifically the p H sweet spot is closer to five point six to six p
 
 2. Why p H always drifts upward.
 
-Your A plus B nutrient mix is nitrate-dominant — most of the nitrogen arrives as nitrate. When roots take up nitrate (a negative ion), they release hydroxide ( hydroxide ) to keep their internal charge balanced. Hydroxide is alkaline. So the more your plants eat, the more your reservoir p H climbs.
+Your A plus B nutrient mix is nitrate-dominant — most of the nitrogen arrives as nitrate.
+
+When roots take up nitrate, a negative ion, they release hydroxide — hydroxide — to keep their internal charge balanced. Hydroxide is alkaline. So the more your plants eat, the more your reservoir p H climbs.
 
 The drift rule. Healthy plants eating nitrate → p H goes up. The cure is acid, almost never base. If p H falls on its own → root rot, not chemistry.
 
@@ -24,11 +28,11 @@ A reservoir that is drifting upward fast means happy plants. A reservoir whose p
 
 3. The bicarbonate buffer — why tap water is patient.
 
-Almere tap water comes out of the limestone aquifer underneath the city carrying about one hundred fifty to two hundred milligrams per liter of bicarbonate. This is a chemical buffer — it absorbs p H changes in both directions, like a sponge that soaks up acid or base before the p H reading actually moves.
+Almere tap water comes out of the limestone aquifer underneath the city carrying a moderate load of bicarbonate — it measures about six degrees of carbonate hardness. This is a chemical buffer — it absorbs p H changes in both directions, like a sponge that soaks up acid or base before the p H reading actually moves.
 
 The carbonate buffer chain. carbon dioxide + water ⇌ carbonic acid ⇌ hydrogen ion + bicarbonate. This pair sits at p H 5 to 7 — exactly your hydroponic range. Acid added → bicarbonate eats it → barely a p H change.
 
-Practical consequences for your reservoir. Alkalinity is not p H — two waters at the same p H can have wildly different buffer capacity. Almere tap is high alkalinity. Rainwater has effectively none. The first acid drops are wasted on the buffer: they neutralize bicarbonate, and only after the buffer is partially consumed does p H actually start moving. Letting tap water sit out does not fix this — that trick works for chlorine, but bicarbonate stays put. Buffer is fully exhausted only below p H four point three, so long before then your dosing budget is fine.
+Practical consequences for your reservoir. Alkalinity is not p H — two waters at the same p H can have wildly different buffer capacity. Almere tap is moderate-alkalinity; rainwater has effectively none. The first acid drops are wasted on the buffer: they neutralize bicarbonate, and only after the buffer is partially consumed does p H actually start moving. Letting tap water sit out does not fix this — that trick works for chlorine, but bicarbonate stays put. Buffer is fully exhausted only below p H four point three, so long before then your dosing budget is fine.
 
 This is why rainwater behaves dramatically differently in a hydroponic reservoir. Small acid additions swing p H wildly because there is nothing to absorb them. Both water sources have advantages, but they require different dosing protocols.
 
@@ -40,174 +44,178 @@ The aquarium aisle at Ranzijn is where the freshwater testing kits live. Aquariu
 
 This is the row to find. Each box contains a reagent bottle, a glass test tube, and a color comparison card. About forty tests per bottle. No calibration, no drift, no storage solution. [nl: Druppeltests] — drop tests — are the right tool for a hobby tower.
 
-This is the full Colombo Aquatest shelf row at Ranzijn.
+This is the full Colombo Aquatest shelf row at Ranzijn. Left to right you can see K H, G H, Nitrite, p H, Ammonia, Nitrate, Phosphate. Most are nine euros ninety nine; Nitrate and Phosphate creep up to fifteen ninety five.
 
-Left to right you can see K H, G H, Nitrite, p H, Ammonia, Nitrate, Phosphate. Most are nine euros ninety nine. Nitrate and Phosphate creep up to fifteen ninety five.
+4.2 p H and K H — the two you actually need, and the two that were bought.
 
-4.2 p H and K H — the only two you actually need.
+For a hobby lettuce-and-radish tower, two of those boxes do all the work — and these are the two that were actually bought.
 
-For a hobby lettuce-and-radish tower, two of those boxes do all the work.
+This is the Colombo Aquatest K H kit, opened — a reagent bottle and a glass titration tube. The p H kit is the same idea with a color comparison card. Nine euros ninety nine each.
 
-This is the Colombo Aquatest K H and G H pair, nine euros ninety nine each.
+And this is what a reading looks like — a p H test sitting at six point five, right in the target range. Hold the tube against the white half-circle on the card, not against a colored swatch; it reads far more cleanly that way.
 
 Your starter kit at Ranzijn. Colombo Aquatest p H — 9 euros 99. Colombo Aquatest K H — 9 euros 99. Total — 20 euros, lifetime supply for a single tower.
 
-p H gives you the dosing decision: are we in range, do we need acid. K H tells you how aggressively to dose: a high-K H reservoir absorbs many acid drops before p H moves, a low-K H one swings on a single drop.
-
-G H and the nitrogen tests are nice-to-have for diagnostics later. Skip them for now.
+p H gives you the dosing decision: are we in range, do we need acid. K H tells you how aggressively to dose: a high-K H reservoir absorbs many acid drops before p H moves, a low-K H one swings on a single drop. Verdict on the purchase: correct — the right tool, the right price, and they will outlast the tower.
 
 4.3 What K H actually measures.
 
-K H is literally the bicarbonate concentration in your water, expressed as degrees of carbonate hardness. The Dutch term on the box is [nl: Carbonaathardheid] — exactly the same word as the German [de: Karbonathärte], just spelled with a "d" at the end instead of "te". The English word "hardness" is the same root: hard, [nl: hard], [de: hart].
+K H is literally the bicarbonate concentration in your water, expressed as degrees of carbonate hardness. The Dutch term on the box is [nl: Carbonaathardheid] — the same word as the German [de: Karbonathärte], just spelled with a "d" at the end instead of "te". The English word "hardness" is the same root: hard, [nl: hard], [de: hart].
 
 The conversion: one degree of carbonate hardness equals seventeen point eight six milligrams per liter of bicarbonate.
 
-K H benchmarks. Rainwater — 0 to 1 °dKH (no buffer, easy to overshoot). Target for hydroponics — 2 to 4 °dKH (gentle buffer). Almere tap — 8 to 11 °dKH (strong buffer). Aachen tap — 12 to 18 °dKH (very hard). Demi / R O water — 0 °dKH.
+K H benchmarks. Rainwater — 0 to 1 °dKH (no buffer, easy to overshoot). Target for hydroponics — 2 to 4 °dKH (gentle buffer). Almere tap — measured 6 °dKH (moderate buffer). Demi / R O water — 0 °dKH.
 
-If your reservoir is on Almere tap, expect to dose plenty of acid the first time. If you switch to rainwater, expect a tiny pinch of acid powder to do the same job.
+If your reservoir is on Almere tap, expect to dose a fair bit of acid the first time. If you switch to rainwater, expect a tiny dose to do the same job.
 
-4.4 G H — total calcium and magnesium.
+4.4 G H, the nitrogen kits, and your unreliable meter.
 
-G H is [nl: Totale Hardheid] in Dutch, [de: Gesamthärte] in German — total hardness, measuring dissolved calcium and magnesium together. For lettuce and radish at modest E C, this is rarely a problem — your A plus B nutrient mix already provides what plants need. G H becomes useful only if you ever see calcium or magnesium deficiency symptoms, like tip burn on lettuce hearts, or if you scale up to demanding crops like tomatoes. For now, skip.
+G H is [nl: Totale Hardheid] in Dutch, [de: Gesamthärte] in German — total hardness, measuring dissolved calcium and magnesium together. For lettuce and radish at modest E C this is rarely a problem; your A plus B mix already provides what plants need. Skip it for now.
+
+E C versus the specific-ion kits. E C meter — one bulk number: how much nutrient is in there at all. Nitrate kit — is the nitrogen specifically running low. Nitrite and Ammonia near zero — the roots are healthy.
+
+But the rest of that Colombo row — Nitrate, Nitrite, Ammonia — is more interesting than it first looks, because your T D S meter is as unreliable as a cheap p H meter. Here is the thing to understand. An E C or T D S meter measures the total dissolved salt in the water — one bulk number for how much nutrient is in there. It cannot tell you which nutrient is running low. The nitrate drop kit measures one specific thing: how much nitrate the water actually holds.
+
+So the kits do not replace an E C meter — they answer a different question. E C says "is there enough nutrient overall"; the Nitrate kit says "is the nitrogen specifically getting depleted". And the Nitrite and Ammonia kits are a root-health signal: in a healthy fishless tower both should read essentially zero, so if either climbs, something is decomposing — usually root die-off. For a tower with a meter you cannot trust, a Nitrate kit is a genuinely useful cross-check. Worth adding once you are past the seedling phase.
 
 4.5 Multi-parameter strips — fast snapshots, lower accuracy.
 
-If you want a one-glance weekly snapshot of multiple parameters, the Colombo Quick Test six-in-one strips read p H, K H, G H, NO₂, NO₃, and Cl in one dip.
+If you want a one-glance weekly snapshot of several parameters, the Colombo Quick Test six-in-one strips read p H, K H, G H, NO₂, NO₃, and Cl in one dip.
 
-This is the [nl: Colombo Quick Test 6-in-1 Teststrip], fifty strips, fifteen euros ninety nine.
-
-[nl: Teststrip] is a simple compound — [nl: test] plus [nl: strip], same as German [de: Teststreifen]. The catch is accuracy: color differences in the p H five to seven range are hard to distinguish on strips, exactly the range you care about. Useful for triage; not great for dosing decisions.
+This is the [nl: Colombo Quick Test 6-in-1 Teststrip], fifty strips, fifteen euros ninety nine. [nl: Teststrip] is a simple compound — [nl: test] plus [nl: strip], same as German [de: Teststreifen]. The catch is accuracy: color differences in the p H five to seven range are hard to distinguish on strips, exactly the range you care about. Useful for triage; not great for dosing decisions.
 
 JBL has a similar seven-in-one product called ProAquatest Easy, with a clean color chart printed on the tube.
 
-This is the JBL ProAquatest Easy 7-in-1, twenty two euros fifty.
+This is the JBL ProAquatest Easy 7-in-1, twenty two euros fifty. Same principle as the Colombo strips. It adds a smartphone-app variant, JBL ProScan, at twenty three euros fifty — cute, but not necessary for a hobby reservoir; your eyeballs are fine.
 
-Same principle as the Colombo strips. Adds a smartphone-app variant called JBL ProScan at twenty three euros fifty — twenty four strips plus an app that reads the colors via camera. Cute but not necessary for a hobby reservoir; your eyeballs are fine.
+You may already own something even cruder — wide-range p H one-to-eleven strips, like these UNITEST ones. They are fine for a yes-or-no check on whether a concentrate is strongly acidic, but in the six to seven point five range that actually matters for the tower the colors are indistinguishable. Keep them for sanity-checking the p H-down bottle, not for reading the reservoir.
 
 4.6 The Testlab Pro — overkill for your scale.
 
-The Colombo Aquatest Testlab Professional bundles eight reagent drop kits in one case.
-
-This is the Colombo Aquatest Testlab Professional, fifty three euros ninety nine.
-
-Eight parameters in one case: p H, K H, G H, ammonia, NO₂, NO₃, phosphate, and more. If you ever start instrumenting seriously this could make sense, but for a single hobby tower you would want individual boxes as needed. Skip.
+The Colombo Aquatest Testlab Professional bundles eight reagent drop kits in one case, fifty three euros ninety nine — p H, K H, G H, ammonia, nitrite, nitrate, phosphate and more. If you ever start instrumenting seriously this could make sense, but for a single hobby tower you would want individual boxes as needed. Skip.
 
 4.7 What Ranzijn does NOT stock — and where to get it.
 
-A few useful things are not in the aquarium aisle. E C or T D S meters are not stocked — you need one to manage nutrient concentration properly. Action sometimes carries cheap pen-style ones at ten to fifteen euros; Bol has a T D S-3 at around ten euros and the Apera EC60 at around sixty. Decent digital p H meters are not stocked either — anything under thirty euros drifts, and it is only worth buying at the Apera PH20 tier of fifty euros or the Bluelab tier of ninety. The A P I Freshwater p H kit (the American aquarium brand) is functionally identical to the Colombo p H drop kit, about seven to nine euros at pet stores or Bol — slightly cheaper if you happen to be near a Maxi Zoo.
+A few useful things are not in the aquarium aisle. E C or T D S meters are not stocked — and a good one matters, because as section four point four explained, E C is your only bulk gauge of nutrient concentration. Action sometimes carries cheap pen-style ones at ten to fifteen euros; Bol has a T D S-3 at around ten euros and the Apera EC60 at around sixty. Be honest about the cheap ones, though: a ten euro T D S pen drifts about as much as a ten euro p H pen — which is exactly why the specific-ion drop kits above are worth having as a cross-check. Decent digital p H meters are not stocked either; anything under thirty euros drifts, and it is only worth buying at the Apera or Bluelab tier. Everything else you need for measurement is in the Colombo row at Ranzijn.
 
-Everything else you need for measurement is in the Colombo row at Ranzijn.
-
-5. Adjusting p H — citric acid is the right answer.
+5. Adjusting p H — what to buy and how to dose it.
 
 5.1 What Ranzijn offers — and why to skip it.
 
 The Ranzijn p H adjustment shelf has exactly one option, and it is overpriced.
 
-This is [nl: SuperFish p H Min], one liter bottle, fourteen euros fifty.
+This is [nl: SuperFish p H Min], a one liter bottle, fourteen euros fifty. [nl: Min] is Dutch shorthand for minus — p H minus, the same as English "p H down". Worth noting: SuperFish is the same brand as the aquarium heater in section seven — the heater is a good buy, this is not.
 
-[nl: Min] is the Dutch shorthand for minus — p H minus, the same as English "p H down". The product is most likely a dilute phosphoric or sulfuric acid solution; the back panel does not make the active ingredient obvious:
+The product is most likely a dilute phosphoric or sulfuric acid solution; the back panel does not make the active ingredient obvious. It would work, but you are paying retail for water with a small percentage of acid, you cannot see exactly what is in it, and it is pond-dosing-formulated — fifty milliliters per thousand liters, far more dilute than a four liter reservoir needs.
 
-It would work, but you are paying retail for water with a small percentage of acid, you cannot see exactly what the active ingredient is, and it is pond-dosing-formulated (fifty milliliters per thousand liters of pond — far more dilute than you need for a thirty liter reservoir).
+5.2 BSI p H Down — what was actually bought, and why it is right.
 
-5.2 Citric acid powder from Action — the right answer.
+This is BSI p H Down, a one liter bottle from Gamma for three euros forty six. It is a pool product — the label talks about [nl: zwembadwater], swimming-pool water — but pool chemistry and hydroponic chemistry overlap here exactly. Its active ingredient is sodium bisulfate, the same thing the dry "p H Down" powders in grow shops are made of, just pre-dissolved.
 
-You want citric acid powder from a supermarket or [nl: drogist] (drugstore, same root as the German [de: Drogist]). Action carries five hundred gram bags for two to four euros. Food-grade, no fumes, no toxic surprises, lifetime supply for a hobby reservoir.
+Sodium bisulfate sounds like something to avoid, and an earlier version of this guide said to skip it as "not food grade". That was the wrong call for a hydroponic reservoir, and here is why. When it dissolves it gives you a hydrogen ion — the acid you want — a sulfate ion, and a sodium ion. Sulfate is a plant nutrient, sulfur, so that part is feeding the plants, not polluting them. There is no organic carbon in it, which means no microbe can eat it, which means no p H bounce. Sodium does slowly accumulate, but at hydroponic doses very slowly, and a periodic reservoir flush clears it.
 
-Why citric acid beats commercial p H down for your scale. You know the active ingredient by name and you control the concentration. It biodegrades naturally — won't permanently load your reservoir with phosphate or sulfate. And it costs one tenth per acid-equivalent.
+That "no p H bounce" point is the decisive one. The earlier guide recommended citric acid powder — cheap, food-grade, genuinely fine for a one-off — but in a recirculating reservoir microbes eat the citrate over a few days and the p H drifts back up. BSI p H Down does not do that. Citric acid is now the rejected option, not the recommended one.
 
-The one caveat is biodegradation itself: p H rebounds in a few days as microbes eat the citrate. That is actually fine for a hobby system where you check p H every few days anyway.
+Why BSI p H Down beats citric acid here. Sulfate is a plant nutrient, not a pollutant. No organic carbon → no microbes → no p H bounce. 3 euros 46 a litre — cheaper per dose, and you know what is in it.
 
-5.3 Stock solutions and dosing protocol.
+5.3 Dosing protocol — the magic numbers.
 
-Two stock solutions. Tap water reservoir — 5 grams citric acid in 100 milliliters water. Rainwater reservoir — 0.5 grams in 100 milliliters water (10 times more dilute).
+Worked out on the actual four liter tower, the dosing turned out simple enough that the careful dilution steps were unnecessary.
 
-The reason for two stocks: tap water has a huge bicarbonate buffer that absorbs acid before p H moves, so you need a strong stock. Rainwater has no buffer, so a weak stock prevents overshooting from p H seven down to p H four with one drop.
+Dosing the 4-litre tower on tap water. Fresh mix, p H 7.5 → 6.0 — about 5 to 6 milliliters of BSI, dosed direct. Daily top-up, p H ~7 → 6.5 — about 3 milliliters, dosed direct. Measure with a syringe, add, stir, wait, re-test.
 
-Dosing protocol. Add 1 milliliters of stock at a time. Stir, wait 5 minutes for mixing. Re-test p H with the drop kit. Repeat until in target range.
+For routine work on a tap-water tower, skip the dilutions entirely — measure full-strength BSI with a syringe straight into the reservoir. Three milliliters is enough to move a drifted reservoir from about seven point five down to six point five.
 
-For a tap-water reservoir starting at p H seven point eight, expect the first few milliliters to do nothing. That is the buffer absorbing the first wave. Keep going in one milliliters increments. Then suddenly p H will start to fall. The transition is sharp because once the bicarbonate is locally depleted, the next drops act directly on water.
+The working-solution route — this is a repurposed [nl: gedemineraliseerd water] bottle holding a one-to-twenty dilution — was tried and mostly abandoned. A first attempt at one-to-a-hundred was far too weak to be practical; one-to-twenty is better but still fiddlier than just dosing direct. The one place it earns its keep is rainwater: rainwater has no buffer at all, so a full-strength drop would overshoot from six straight past four. Keep the one-to-twenty solution for rainwater runs; for tap water, dose direct.
 
-Skip white vinegar (worse rebound, smell), lemon or lime juice (sugars feed microbial slime), pool p H down with sodium bisulfate (not food grade), and battery acid (dangerous and totally inappropriate). If you ever upgrade for serious scale, food-grade phosphoric acid seventy five percent from a Dutch homebrew shop is around ten euros for one liter and lasts years — but absolutely not needed for hobby scale.
+Safety: always add acid to water, never water to acid. The concentrate is an irritant — gloves and eye protection when handling it neat. Once it is diluted in the reservoir it is completely safe.
 
-6. Nutrients — a quick word on what Ranzijn does NOT replace.
+Skip the alternatives that get suggested online: white vinegar (smell, worse rebound), lemon or lime juice (sugars feed microbial slime), and battery acid (dangerous and totally inappropriate). Citric acid powder works for a one-off but bounces in a recirculating system, as section five point two explained.
 
-You already have your A plus B mix from Bol. Ranzijn does not stock proper hydroponic nutrients, but it stocks something that looks similar and is a trap.
+6. Nutrients — fixed-ratio A and B, and the advanced game of dosing ions one by one.
 
-This is [nl: Colombo FloraGrow Pro Special Fertilizer], five hundred milliliter bottle, nineteen euros ninety five.
+You already have your A plus B mix from Bol — a two-part, nitrate-dominant nutrient with chelated micronutrients. Ranzijn does not stock proper hydroponic nutrients, but the aquarium aisle holds something that looks similar, and it is worth understanding properly rather than just dismissing.
 
-The Dutch word for fertilizer is [nl: meststof] or [nl: voeding] — feed or nutrition. FloraGrow Pro looks like it should be a plant food, and it is — but it is formulated for planted aquariums, where the tank already gets nitrogen from fish waste. So it is deliberately low or zero on nitrate and ammonium. In a fish-less hydroponic tower, this would starve your plants of the main macronutrient.
+6.1 Why your nutrient comes in two bottles.
 
-The same warning applies to its smaller siblings on the same shelf — Flora Grow at two fifty milliliter, FloraGrow Carbo, Nutri Caps, FE Tabs. They are tools for diagnosing specific micronutrient deficiencies on top of a real nutrient base. Keep your Bol A plus B as the base. Do not switch.
+A two-part A plus B nutrient is two bottles for one chemical reason. Part A carries the calcium, as calcium nitrate; Part B carries the phosphates and sulfates. If you mixed them at full concentration, the calcium would lock onto the phosphate and sulfate and fall out of solution as a white sludge — calcium phosphate, gypsum. They are only safe together once both are heavily diluted in the reservoir. That is the whole reason it is A plus B and not one bottle.
 
-The one scenario where one of these could be useful: if you ever see clear iron chlorosis on new leaves despite good p H, a small dose of an iron-rich one (FE Tabs) could supplement. But that is a diagnostic tool, not a daily food.
+The catch with any A plus B mix: it is a fixed ratio. Adding more does not change the recipe — it adds nitrogen, phosphorus, potassium and everything else in the same proportion the manufacturer chose. You can make the solution stronger or weaker, but you cannot shift it.
 
-7. Water temperature — the variable doing the most damage right now.
+6.2 The aquarium fertiliser — what it is, and what it is not.
 
-Your tower reservoir is currently around twelve degrees Celsius because Dutch spring weather has been chilly. This is not dangerous, but it is quietly limiting everything the plants do.
+This is [nl: Colombo FloraGrow Pro Special Fertilizer], five hundred milliliters, nineteen euros ninety five. The Dutch word for fertilizer is [nl: meststof] or [nl: voeding] — feed or nutrition. An earlier version of this guide warned that FloraGrow Pro is deliberately low or zero on nitrate. That is true of the base FloraGrow, but not of the Pro version — the Pro is made for heavily planted aquascapes and explicitly adds nitrates and phosphates.
+
+So why is it still not your tower's nutrient. Two reasons. First, it is dosed at ten milliliters per fifty liters — aquarium-supplement strength, designed to nudge a tank to a few milligrams per liter of nitrate, while a hydroponic solution runs a hundred to two hundred. Used as a base it is hopelessly dilute. Second, it is balanced — and balanced is the opposite of what you want for a specific job like radish bulbing. Keep your Bol A plus B as the base. Do not switch.
+
+6.3 The advanced game — measuring and dosing nutrients one ion at a time.
+
+Here is where the aquarium aisle gets genuinely interesting. Next to the FloraGrow bottles sits a row of single-nutrient products: Flora Nitro adds nitrate only, Flora Phospho adds phosphate only, Flora Ferro adds iron only — each one printed with its own dosing math, like plus zero point one milligrams per liter of phosphate per dose per twenty five liters.
+
+That is not a gimmick. That is exactly how serious growers run a reservoir: instead of dumping in more fixed-ratio A plus B and hoping, you measure one ion with a test kit and top up that one ion with a single-nutrient bottle. Measure nitrate, dose nitrate. Measure phosphate, dose phosphate. The Colombo test row and the Colombo single-ion row are two halves of the same loop — and your unreliable T D S meter is the reason this matters. When the bulk gauge cannot be trusted, the specific-ion measure-and-dose loop is what you fall back on.
+
+The honest limitation: that single-ion row is nitrate, phosphate, and iron — there is no potassium bottle — and the doses are aquarium-scale, small.
+
+6.4 Supplementing for radish bulbs — the real options.
+
+Radish moving into bulb formation wants the ratio shifted: more potassium and phosphorus, less nitrogen. A fixed-ratio A plus B cannot do that, and FloraGrow Pro is too weak and too balanced to do it either. The real options, cheapest first:
+
+Pushing K and P for radish bulbing. Run A and B a little stronger — crude, but gets you most of the way. Mono-potassium phosphate, MKP — the classic cheap bloom salt, adds both P and K. A 3-part nutrient, Grow Micro Bloom — you mix the ratio yourself.
+
+Mono-potassium phosphate from a hydroponics or homebrew supplier is the targeted answer — a few euros for a bag, it dissolves clean, and it adds phosphorus and potassium without adding nitrogen. For a single hobby tower, running the A plus B slightly stronger through the bulbing phase is the no-extra-shopping option, and it is honestly fine. The one aquarium-aisle item that could play a real supplementary role is FE Tabs, an iron supplement — but only if you ever see iron chlorosis, yellowing on new leaves, despite good p H. That is a diagnostic fix, not a daily food.
+
+7. Water temperature — and the heater that was bought for it.
 
 7.1 The physics — two opposing effects.
 
-Two competing temperature effects drive hydroponics:
+Two competing temperature effects drive hydroponics, and they pull in opposite directions. Colder water holds more dissolved oxygen — about ten point eight milligrams per liter at twelve degrees, down to eight point seven at twenty two, and seven point eight at twenty eight. Roots breathe through that dissolved oxygen, so colder water is better for root health; root rot is essentially impossible at twelve degrees.
 
-Cold water — more dissolved oxygen. At 12 degrees — 10.8 milligrams per liter at saturation. At 22 degrees — 8.7 milligrams per liter. At 28 degrees — 7.8 milligrams per liter. Roots breathe through dissolved oxygen.
+But plant metabolism follows the opposite curve. At twelve degrees the plants take up nutrients at about thirty five percent of their optimum; at eighteen degrees about seventy five percent; at twenty two degrees, full speed. Push past twenty eight and uptake is even faster, but the warm water has lost its oxygen and root rot risk climbs sharply. The sweet spot — eighteen to twenty two degrees — is simply where the two curves overlap.
 
-So colder water is better for root health. Root rot is essentially impossible at twelve degrees — the cold inhibits the anaerobic bacteria and the Pythium and Phytophthora fungi that drive rot.
+7.2 What this means for the tower right now.
 
-Warm water — faster metabolism. At 12 degrees — about 35 percent of optimum uptake. At 18 degrees — about 75 percent. At 22 degrees — 100 percent optimum. At 28 degrees — 120 percent but root rot risk rises.
+At around twelve to fourteen degrees with lettuce and radish, both cool-weather crops, you are not in danger. No root rot risk, no nutrient lockout, no enzyme damage. But growth is about a third of optimum — plants are eating slowly, p H is drifting slowly, E C is dropping slowly. Everything is in slow motion. Disease risk is very low; bacteria and fungi slow down even more than plants do. This is actually a fine state to learn in — you have time to read meters, adjust dosing, and observe without the system running away from you.
 
-Plant biochemistry follows the Arrhenius rule of thumb: enzyme rates roughly double every ten degrees, until you hit the temperature where enzymes start to denature, around thirty five degrees for most plants.
+7.3 The heater that was bought — SuperFish Eco 50W.
 
-7.2 What this means for your tower right now.
+The temperature fix that was actually bought is the SuperFish Eco Heater 50W — a seventeen centimeter submersible aquarium heater with a thermostat, fifteen euros, rated for tanks of twenty to fifty liters.
 
-At twelve degrees with lettuce and radish (both cool-weather crops), you are not in danger. No root rot risk, no nutrient lockout, no enzyme damage. But growth is about a third of optimum — plants are eating slowly, p H is drifting slowly, E C is dropping slowly. Everything is in slow motion.
+Here it is in the reservoir at night, and here is the honest review of the purchase. Rated for fifty liters, dropped into a four liter outdoor bucket, it is wildly over-capacity on paper — yet outdoors on a cold Dutch night it still cannot do much. It bumps the reservoir from about thirteen degrees to about seventeen, a few degrees, and it runs at one hundred percent duty cycle to do even that, because the bucket loses heat to the night air about as fast as the heater adds it.
 
-Disease risk is very low — bacteria and fungi slow down even more than plants do.
-
-This is actually a fine state to learn in. You have time to read meters, adjust dosing, and observe without the system running away from you.
-
-7.3 What you can do about it.
-
-Warming options ranked by effort. Wait for warmer weather — free, +0. Insulate the reservoir — 5 to 15 euros, +2 to +4 degrees. Move tower to a sunny spot — free, +3 to +6 degrees. Aquarium heater 50 watt — 15 to 25 euros, +5 to +10 degrees.
-
-For an outdoor Dutch tower in May, insulation plus sun is the cheapest fix. The fifteen euro aquarium heater is the durable answer if you plan to run the tower past autumn — small enough to leave in the bucket year-round, prevents winter freezing.
-
-A reservoir wrapped in bubble wrap does not just raise the average temperature — it flattens the daily swing. An unwrapped Dutch outdoor reservoir in May can swing from eight degrees at dawn to twenty five degrees at three pm. That seventeen degree swing stresses roots more than a constant twelve does. Bubble wrap might only raise the average to fourteen, but it shrinks the swing to maybe twelve to eighteen — much gentler.
+Two adjustments make it work better. First, the thermostat never trips at a high setpoint because the water never reaches it — so set it lower, around twenty two degrees, so the thermostat becomes a real safety cutoff if the tower ever moves indoors or catches a sunny afternoon. Second, insulate the bucket — sides and base, not the top, since the reservoir still needs gas exchange. Any wrapping must be opaque, or light reaching the nutrient solution will grow algae. Insulation does more than raise the average; it flattens the daily swing, and a swing stresses roots more than a steady cold does. Verdict on the purchase: a fine fifteen euro buy for what it is — but understand its limit. For a small outdoor reservoir it is a few-degree nudge and a freeze guard, not a way to hold twenty two degrees.
 
 7.4 Quick diagnostic — is temperature your bottleneck?.
 
-You can confirm temperature is the limit by watching how fast p H and E C drift. If p H barely moves over five days and E C barely drops, plants are barely eating — temperature is the bottleneck. If p H rises noticeably over five days and E C drops, plants are eating well — focus on p H management. If p H falls on its own, that is root rot, which is unlikely at twelve degrees but worth checking.
-
-If p H is barely moving (the likely case right now), do not bother dosing acid. The plants are not generating hydroxide to push p H up, so there is nothing to correct. Cold reservoirs need less p H management, not more.
+You can confirm temperature is the limit by watching how fast p H and E C drift. If p H barely moves over five days and E C barely drops, plants are barely eating — temperature is the bottleneck. If p H rises noticeably and E C drops, plants are eating well — focus on p H management. If p H falls on its own, that is root rot, which is unlikely at twelve degrees but worth checking. And if p H is barely moving, do not bother dosing acid — the plants are not generating hydroxide to push it up, so there is nothing to correct. Cold reservoirs need less p H management, not more.
 
 8. Putting it together — your shopping kit.
 
 Three tiers of investment, depending on how seriously you want to run the system.
 
-Minimum kit — 20 euros. Colombo Aquatest p H drop kit — 9 euros 99. Colombo Aquatest K H drop kit — 9 euros 99. Citric acid powder from Action — 2 to 4 euros.
+Minimum kit — about 23 euros. Colombo Aquatest p H drop kit — 9 euros 99. Colombo Aquatest K H drop kit — 9 euros 99. BSI p H Down from Gamma — 3 euros 46.
 
-This is the kit that lets you run a hobby tower competently for at least a year. Drop kits last forty tests each; citric acid bag lasts effectively forever.
+This is the kit that lets you run a hobby tower competently for at least a year. The drop kits last forty tests each; the BSI bottle lasts effectively forever at four-liter doses.
 
-Recommended kit — 35 to 40 euros. Above plus a T D S or E C meter from Action or Bol — 10 to 15 euros. Cheap aquarium thermometer — 3 to 5 euros.
+Recommended kit — 35 to 45 euros. Above plus a T D S or E C meter from Action or Bol — 10 to 15 euros. A cheap aquarium thermometer — 3 to 5 euros.
 
-The E C meter unlocks nutrient-concentration management, which matters more once seedlings transition into vegetative growth. The thermometer makes the temperature discussion above concrete — you will see the daily swing instead of guessing.
+The E C meter unlocks nutrient-concentration management, which matters more once seedlings transition into vegetative growth. The thermometer makes the temperature discussion concrete — you will see the daily swing instead of guessing.
 
-Stable-temperature kit — 60 to 80 euros. Above plus Colombo Aquatest G H — 9 euros 99. Aquarium heater 50 watt with thermostat — 15 to 25 euros.
+Serious kit — 50 to 65 euros. Above plus a Colombo Nitrate kit to cross-check the meter — 15 euros. SuperFish Eco Heater 50W — 15 euros.
 
-Worth considering only once you are past the seedling phase and want to either rule out calcium-magnesium issues with G H, or stabilize reservoir temperature in cooler weather. The heater is also what makes year-round outdoor hydroponics possible in Dutch winters.
+Worth considering once you are past the seedling phase and want either a specific-ion cross-check on an untrustworthy meter, or a few degrees of warmth and a freeze guard for cooler weather.
 
 9. Quick start protocol for a fresh reservoir.
 
 Two scripts for the first fill, depending on your water source.
 
-Fresh reservoir with rainwater. 1 — Fill reservoir with rainwater. 2 — Add A and B nutrients to E C 900 to 1200. 3 — Stir, wait 10 minutes. 4 — Test p H — expect 5.8 to 6.3. 5 — Set pump duty cycle for stage. 6 — Recheck every 2 to 3 days.
+Fresh reservoir with rainwater. 1 — Fill reservoir with rainwater. 2 — Add A and B nutrients to E C 900 to 1200. 3 — Stir, wait 10 minutes. 4 — Test p H — expect 5.8 to 6.3. 5 — If dosing is needed, use the 1:20 BSI solution, not neat. 6 — Recheck every 2 to 3 days.
 
-Rainwater plus A plus B usually arrives in your target p H window without any acid. The hard part with rainwater is not overshooting if you do need to dose.
+Rainwater plus A plus B usually arrives in your target p H window without any acid. The hard part with rainwater is not overshooting if you do need to dose — which is why the diluted working solution exists.
 
-Fresh reservoir with tap water. 1 — Fill with Almere tap water. 2 — Add A and B to E C 900 to 1200 (deduct ~400 tap baseline). 3 — Stir, wait 10 minutes. 4 — Test p H — expect 7.4 to 7.8 (high). 5 — Dose strong citric stock 1 milliliters at a time. 6 — Continue until p H 6.0 — expect 5 to 10 milliliters total. 7 — Recheck every 3 to 5 days.
+Fresh reservoir with tap water. 1 — Fill with Almere tap water. 2 — Add A and B to E C 900 to 1200. 3 — Stir, wait 10 minutes. 4 — Test p H — expect about 7.5. 5 — Dose BSI p H Down direct with a syringe, ~5 to 6 milliliters. 6 — Stir, wait, re-test — land at p H 6.0. 7 — Recheck every few days; top up ~3 milliliters as it drifts back up.
 
-Tap-water reservoirs need acid dosing on day one and again every few days as the buffer slowly replenishes from any tap-water top-ups. The first few milliliters of acid will appear to do nothing — that is the bicarbonate buffer absorbing them. Stay patient and keep dosing in small increments.
+Tap-water reservoirs need acid dosing on day one and again every few days as the buffer slowly replenishes from any tap-water top-ups. The first milliliters of acid will appear to do little — that is the bicarbonate buffer absorbing them — then p H falls. Stay patient and dose in small increments.
 
 Cross-references.
 
-context/hydroponics.md — the full operating protocol (pump duty cycle, diagnostic patterns, rainwater strategy). context/agriculture.md — the sensor architecture you will eventually want (ESPHome, ESP32, DFRobot probes, MQTT, Grafana). tutorials/aloe-soil-guide.md — the companion tutorial for the aloe rescue. photos/agricultural-offerings-nearby/photos.json — verified product catalog.
+context/hydroponics.md — the full operating protocol (pump duty cycle, diagnostic patterns, rainwater strategy, BSI dosing, heater notes). context/agriculture.md — the sensor architecture you will eventually want (ESPHome, ESP32, DFRobot probes, MQTT, Grafana). tutorials/aloe-soil-guide.md — the companion tutorial for the aloe rescue. photos/agricultural-offerings-nearby/photos.json — verified product catalog.

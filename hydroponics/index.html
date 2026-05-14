@@ -100,6 +100,8 @@ footer {
 .cue-mark.overlay-mark:hover { background: rgb(255,200,100); }
 .cue-mark.vocab-mark { background: rgba(199,155,240,0.7); }
 .cue-mark.vocab-mark:hover { background: rgb(199,155,240); }
+.cue-mark.gap-mark { background: rgba(255,90,90,0.85); }
+.cue-mark.gap-mark:hover { background: rgb(255,90,90); }
 #scrubber-marks { pointer-events: none; }
 #scrubber-marks .cue-mark { pointer-events: auto; }
 /* Vocabulary card — color-coded to match the narration voices */
@@ -126,6 +128,25 @@ footer {
 .vocab-row.lang-de .vocab-lang { color: #7ec77e; }
 .vocab-row.lang-en .vocab-lang { color: #4a9eff; }
 .vocab-row.lang-ar .vocab-lang { color: #c89bf0; }
+/* Gap slide — a visual the author declared but hasn't sourced yet */
+.gap-slide {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  width: 100%; height: 100%; padding: 2rem; gap: 1rem; text-align: center;
+  background: repeating-linear-gradient(45deg,
+    rgba(255,90,90,0.06), rgba(255,90,90,0.06) 12px,
+    rgba(255,90,90,0.02) 12px, rgba(255,90,90,0.02) 24px);
+  border: 2px dashed rgba(255,90,90,0.5); border-radius: 12px;
+}
+.gap-slide .gap-tag {
+  font-size: 0.8rem; font-weight: 700; letter-spacing: 0.12em;
+  color: #ff7a7a; text-transform: uppercase;
+}
+.gap-slide .gap-text {
+  font-size: 1.6rem; font-weight: 500; opacity: 0.92; max-width: 85%; line-height: 1.3;
+}
+.gap-slide .gap-meta {
+  font-size: 0.9rem; color: var(--dim); opacity: 0.7; max-width: 80%;
+}
 #cue-preview {
   position: fixed;
   z-index: 100;
@@ -244,8 +265,8 @@ const tTotal = document.getElementById("t-total");
 const cueCounter = document.getElementById("cue-counter");
 const sectionRibbon = document.getElementById("section-ribbon");
 
-const cues = [{"type": "overlay", "time": 57.233, "title": "The three target windows", "lines": ["pH — 5.8 to 6.2 sweet spot, 5.5 to 6.8 acceptable", "EC — 850 to 1200 microsiemens vegetative, 1200+ for radish bulbs", "Reservoir temperature — 18 to 22 degrees optimum"]}, {"type": "overlay", "time": 132.233, "title": "The drift rule", "lines": ["Healthy plants eating nitrate → pH goes up", "The cure is acid, almost never base", "If pH falls on its own → root rot, not chemistry"]}, {"type": "overlay", "time": 202.696, "title": "The carbonate buffer chain", "lines": ["CO₂ + H₂O ⇌ H₂CO₃ ⇌ H⁺ + HCO₃⁻", "This pair sits at pH 5 to 7 — exactly your hydroponic range", "Acid added → bicarbonate eats it → barely a pH change"]}, {"type": "image", "time": 312.576, "image": "photos/20260512_201430.jpg", "caption": "Colombo Aquatest full row on shelf — KH, GH, Nitrite, pH, Ammonia, Nitrate, Phosphate variants", "rotation": 0}, {"type": "image", "time": 339.613, "image": "photos/20260512_201635.jpg", "caption": "Colombo Aquatest KH and GH boxes — €9.99 each", "rotation": 90}, {"type": "overlay", "time": 345.514, "title": "Your starter kit at Ranzijn", "lines": ["Colombo Aquatest pH — 9 euros 99", "Colombo Aquatest KH — 9 euros 99", "Total — 20 euros, lifetime supply for a single tower"]}, {"type": "overlay", "time": 419.433, "title": "KH benchmarks", "lines": ["Rainwater — 0 to 1 °dKH (no buffer, easy to overshoot)", "Target for hydroponics — 2 to 4 °dKH (gentle buffer)", "Almere tap — 8 to 11 °dKH (strong buffer)", "Aachen tap — 12 to 18 °dKH (very hard)", "Demi / RO water — 0 °dKH"]}, {"type": "image", "time": 509.291, "image": "photos/20260512_200428.jpg", "caption": "Colombo Quick Test 6-in-1 Teststrip — 50 strips €15.99, multi-parameter quick check", "rotation": 90}, {"type": "image", "time": 549.087, "image": "photos/20260512_201146.jpg", "caption": "JBL ProAquatest Easy 7-in-1 — tube with color chart for pH, KH, GH, NO2, NO3, Cl2, CO2", "rotation": 90}, {"type": "image", "time": 579.787, "image": "photos/20260512_200414.jpg", "caption": "Colombo Aquatest Testlab Professional — 8-parameter case, €53.99", "rotation": 0}, {"type": "image", "time": 675.545, "image": "photos/20260512_200510.jpg", "caption": "SuperFish pH Min — 1L pond/aquarium pH down, €14.50", "rotation": 90}, {"type": "image", "time": 675.545, "image": "photos/20260512_200515.jpg", "caption": "SuperFish pH Min back panel — Dutch dosing instructions", "rotation": 270}, {"type": "overlay", "time": 762.371, "title": "Two stock solutions", "lines": ["Tap water reservoir — 5 grams citric acid in 100 mL water", "Rainwater reservoir — 0.5 grams in 100 mL water (10 times more dilute)"]}, {"type": "overlay", "time": 793.221, "title": "Dosing protocol", "lines": ["Add 1 mL of stock at a time", "Stir, wait 5 minutes for mixing", "Re-test pH with the drop kit", "Repeat until in target range"]}, {"type": "image", "time": 867.421, "image": "photos/20260512_201540.jpg", "caption": "Colombo FloraGrow Pro — 500ml aquarium plant fertilizer, €19.95", "rotation": 0}, {"type": "overlay", "time": 959.85, "title": "Cold water — more dissolved oxygen", "lines": ["At 12 degrees — 10.8 milligrams per liter at saturation", "At 22 degrees — 8.7 milligrams per liter", "At 28 degrees — 7.8 milligrams per liter", "Roots breathe through dissolved oxygen"]}, {"type": "overlay", "time": 992.412, "title": "Warm water — faster metabolism", "lines": ["At 12 degrees — about 35 percent of optimum uptake", "At 18 degrees — about 75 percent", "At 22 degrees — 100 percent optimum", "At 28 degrees — 120 percent but root rot risk rises"]}, {"type": "overlay", "time": 1062.725, "title": "Warming options ranked by effort", "lines": ["Wait for warmer weather — free, +0", "Insulate the reservoir — 5 to 15 euros, +2 to +4 degrees", "Move tower to a sunny spot — free, +3 to +6 degrees", "Aquarium heater 50 watt — 15 to 25 euros, +5 to +10 degrees"]}, {"type": "overlay", "time": 1176.777, "title": "Minimum kit — 20 euros", "lines": ["Colombo Aquatest pH drop kit — 9 euros 99", "Colombo Aquatest KH drop kit — 9 euros 99", "Citric acid powder from Action — 2 to 4 euros"]}, {"type": "overlay", "time": 1202.689, "title": "Recommended kit — 35 to 40 euros", "lines": ["Above plus a TDS or EC meter from Action or Bol — 10 to 15 euros", "Cheap aquarium thermometer — 3 to 5 euros"]}, {"type": "overlay", "time": 1230.152, "title": "Stable-temperature kit — 60 to 80 euros", "lines": ["Above plus Colombo Aquatest GH — 9 euros 99", "Aquarium heater 50 watt with thermostat — 15 to 25 euros"]}, {"type": "overlay", "time": 1266.364, "title": "Fresh reservoir with rainwater", "lines": ["1 — Fill reservoir with rainwater", "2 — Add A+B nutrients to EC 900 to 1200", "3 — Stir, wait 10 minutes", "4 — Test pH — expect 5.8 to 6.3", "5 — Set pump duty cycle for stage", "6 — Recheck every 2 to 3 days"]}, {"type": "overlay", "time": 1300.077, "title": "Fresh reservoir with tap water", "lines": ["1 — Fill with Almere tap water", "2 — Add A+B to EC 900 to 1200 (deduct ~400 tap baseline)", "3 — Stir, wait 10 minutes", "4 — Test pH — expect 7.4 to 7.8 (high)", "5 — Dose strong citric stock 1 mL at a time", "6 — Continue until pH 6.0 — expect 5 to 10 mL total", "7 — Recheck every 3 to 5 days"]}];
-const sections = [{"time": 43.52, "level": 2, "title": "1. The three numbers that decide success"}, {"time": 109.383, "level": 2, "title": "2. Why pH always drifts upward"}, {"time": 182.77, "level": 2, "title": "3. The bicarbonate buffer — why tap water is patient"}, {"time": 268.933, "level": 2, "title": "4. Measurement — walking the Ranzijn aquarium aisle"}, {"time": 289.508, "level": 3, "title": "4.1 The Colombo Aquatest drop-kit row — your primary tool"}, {"time": 330.139, "level": 3, "title": "4.2 pH and KH — the only two you actually need"}, {"time": 380.464, "level": 3, "title": "4.3 What KH actually measures"}, {"time": 454.945, "level": 3, "title": "4.4 GH — total calcium and magnesium"}, {"time": 489.567, "level": 3, "title": "4.5 Multi-parameter strips — fast snapshots, lower accuracy"}, {"time": 569.837, "level": 3, "title": "4.6 The Testlab Pro — overkill for your scale"}, {"time": 601.824, "level": 3, "title": "4.7 What Ranzijn does NOT stock — and where to get it"}, {"time": 655.587, "level": 2, "title": "5. Adjusting pH — citric acid is the right answer"}, {"time": 660.487, "level": 3, "title": "5.1 What Ranzijn offers — and why to skip it"}, {"time": 706.534, "level": 3, "title": "5.2 Citric acid powder from Action — the right answer"}, {"time": 759.496, "level": 3, "title": "5.3 Stock solutions and dosing protocol"}, {"time": 853.159, "level": 2, "title": "6. Nutrients — a quick word on what Ranzijn does NOT replace"}, {"time": 938.699, "level": 2, "title": "7. Water temperature — the variable doing the most damage right now"}, {"time": 953.875, "level": 3, "title": "7.1 The physics — two opposing effects"}, {"time": 1022.787, "level": 3, "title": "7.2 What this means for your tower right now"}, {"time": 1059.912, "level": 3, "title": "7.3 What you can do about it"}, {"time": 1123.487, "level": 3, "title": "7.4 Quick diagnostic — is temperature your bottleneck?"}, {"time": 1168.727, "level": 2, "title": "8. Putting it together — your shopping kit"}, {"time": 1258.564, "level": 2, "title": "9. Quick start protocol for a fresh reservoir"}, {"time": 1352.127, "level": 2, "title": "Cross-references"}];
+const cues = [{"type": "image", "time": 0.087, "image": "photos/tower-daytime.jpg", "caption": "The vertical PVC tower in Almere — lettuce and radish, with a rain tarp on the left", "rotation": 0, "explicit": true}, {"type": "overlay", "time": 76.52, "title": "The three target windows", "lines": ["pH — 5.8 to 6.2 sweet spot, 5.5 to 6.8 acceptable", "EC — 850 to 1200 microsiemens vegetative, 1200+ for radish bulbs", "Reservoir temperature — 18 to 22 degrees optimum"]}, {"type": "image", "time": 136.07, "image": "photos/diagram-ph-drift-en.svg", "caption": "Roots take up nitrate and release hydroxide — so the reservoir drifts alkaline", "rotation": 0, "explicit": true}, {"type": "overlay", "time": 149.395, "title": "The drift rule", "lines": ["Healthy plants eating nitrate → pH goes up", "The cure is acid, almost never base", "If pH falls on its own → root rot, not chemistry"]}, {"type": "image", "time": 203.295, "image": "photos/diagram-buffer-en.svg", "caption": "A strong buffer absorbs acid before pH moves; with no buffer, one drop swings it hard", "rotation": 0, "explicit": true}, {"type": "overlay", "time": 220.77, "title": "The carbonate buffer chain", "lines": ["CO₂ + H₂O ⇌ H₂CO₃ ⇌ H⁺ + HCO₃⁻", "This pair sits at pH 5 to 7 — exactly your hydroponic range", "Acid added → bicarbonate eats it → barely a pH change"]}, {"type": "vocab", "time": 313.358, "entries": [{"lang": "nl", "word": "druppeltest"}, {"lang": "de", "word": "Tropfentest"}, {"lang": "en", "word": "drop test"}]}, {"type": "image", "time": 332.051, "image": "photos/20260512_201430.jpg", "caption": "The full Colombo Aquatest row at Ranzijn — KH, GH, Nitrite, pH, Ammonia, Nitrate, Phosphate", "rotation": 0, "explicit": true}, {"type": "image", "time": 360.863, "image": "photos/colombo-kh-kit.jpg", "caption": "The Colombo Aquatest KH kit, opened — reagent bottle and titration tube", "rotation": 0, "explicit": true}, {"type": "image", "time": 374.076, "image": "photos/colombo-ph-test-6.5.jpg", "caption": "A Colombo pH test reading 6.5 — held against the white half of the card", "rotation": 0, "explicit": true}, {"type": "overlay", "time": 388.038, "title": "Your starter kit at Ranzijn", "lines": ["Colombo Aquatest pH — 9 euros 99", "Colombo Aquatest KH — 9 euros 99", "Total — 20 euros, lifetime supply for a single tower"]}, {"type": "vocab", "time": 425.788, "entries": [{"lang": "nl", "word": "carbonaathardheid"}, {"lang": "de", "word": "Karbonathärte"}, {"lang": "en", "word": "carbonate hardness"}]}, {"type": "overlay", "time": 461.169, "title": "KH benchmarks", "lines": ["Rainwater — 0 to 1 °dKH (no buffer, easy to overshoot)", "Target for hydroponics — 2 to 4 °dKH (gentle buffer)", "Almere tap — measured 6 °dKH (moderate buffer)", "Demi / RO water — 0 °dKH"]}, {"type": "overlay", "time": 517.989, "title": "EC versus the specific-ion kits", "lines": ["EC meter — one bulk number: how much nutrient is in there at all", "Nitrate kit — is the nitrogen specifically running low", "Nitrite and Ammonia near zero — the roots are healthy"]}, {"type": "image", "time": 610.114, "image": "photos/20260512_200428.jpg", "caption": "Colombo Quick Test 6-in-1 strips — 50 strips, €15.99", "rotation": 90, "explicit": true}, {"type": "vocab", "time": 610.114, "entries": [{"lang": "nl", "word": "teststrip"}, {"lang": "de", "word": "Teststreifen"}, {"lang": "en", "word": "test strip"}]}, {"type": "image", "time": 649.837, "image": "photos/20260512_201146.jpg", "caption": "JBL ProAquatest Easy 7-in-1 — tube with a printed colour chart", "rotation": 90, "explicit": true}, {"type": "image", "time": 668.674, "image": "photos/unitest-ph-strips.jpg", "caption": "UNITEST pH 1–11 wide-range strips — useless in the 6–7.5 range that matters", "rotation": 0, "explicit": true}, {"type": "image", "time": 694.324, "image": "photos/20260512_200414.jpg", "caption": "Colombo Aquatest Testlab Professional — 8-parameter case, €53.99", "rotation": 0, "explicit": true}, {"type": "image", "time": 781.862, "image": "photos/20260512_200510.jpg", "caption": "SuperFish pH Min — 1 L pond/aquarium pH down, €14.50", "rotation": 90, "explicit": true}, {"type": "image", "time": 803.807, "image": "photos/20260512_200515.jpg", "caption": "SuperFish pH Min back panel — Dutch pond-dosing instructions, active ingredient unclear", "rotation": 270, "explicit": true}, {"type": "image", "time": 829.032, "image": "photos/bsi-ph-down.jpg", "caption": "BSI pH Down — €3.46 for 1 L at Gamma, sodium-bisulfate based", "rotation": 0, "explicit": true}, {"type": "overlay", "time": 911.056, "title": "Why BSI pH Down beats citric acid here", "lines": ["Sulfate is a plant nutrient, not a pollutant", "No organic carbon → no microbes → no pH bounce", "3 euros 46 a litre — cheaper per dose, and you know what is in it"]}, {"type": "overlay", "time": 936.843, "title": "Dosing the 4-litre tower on tap water", "lines": ["Fresh mix, pH 7.5 → 6.0 — about 5 to 6 mL of BSI, dosed direct", "Daily top-up, pH ~7 → 6.5 — about 3 mL, dosed direct", "Measure with a syringe, add, stir, wait, re-test"]}, {"type": "image", "time": 972.806, "image": "photos/ph-down-working-solution-bottle.jpg", "caption": "A repurposed demi-water bottle — the 1:20 working solution, kept only for rainwater", "rotation": 0, "explicit": true}, {"type": "image", "time": 1117.611, "image": "photos/20260512_201540.jpg", "caption": "Colombo FloraGrow Pro — 500 mL planted-aquarium fertiliser, €19.95", "rotation": 0, "explicit": true}, {"type": "overlay", "time": 1266.11, "title": "Pushing K and P for radish bulbing", "lines": ["Run A+B a little stronger — crude, but gets you most of the way", "Mono-potassium phosphate, MKP — the classic cheap bloom salt, adds both P and K", "A 3-part nutrient, Grow Micro Bloom — you mix the ratio yourself"]}, {"type": "image", "time": 1325.209, "image": "photos/diagram-temperature-en.svg", "caption": "Dissolved oxygen falls as water warms; plant uptake rises — the sweet spot is the overlap", "rotation": 0, "explicit": true}, {"type": "image", "time": 1418.947, "image": "photos/superfish-heater-box.jpg", "caption": "SuperFish Eco Heater 50W — a 17 cm submersible aquarium heater, rated 20–50 L, €15", "rotation": 0, "explicit": true}, {"type": "image", "time": 1432.197, "image": "photos/heater-in-reservoir.jpg", "caption": "The heater submerged in the 4 L reservoir at night, running flat out", "rotation": 0, "explicit": true}, {"type": "image", "time": 1458.31, "image": "photos/heater-and-tower.jpg", "caption": "The heater in the reservoir, tower above — heat loss to the night air is the real opponent", "rotation": 0, "explicit": true}, {"type": "overlay", "time": 1555.547, "title": "Minimum kit — about 23 euros", "lines": ["Colombo Aquatest pH drop kit — 9 euros 99", "Colombo Aquatest KH drop kit — 9 euros 99", "BSI pH Down from Gamma — 3 euros 46"]}, {"type": "overlay", "time": 1583.735, "title": "Recommended kit — 35 to 45 euros", "lines": ["Above plus a TDS or EC meter from Action or Bol — 10 to 15 euros", "A cheap aquarium thermometer — 3 to 5 euros"]}, {"type": "overlay", "time": 1611.347, "title": "Serious kit — 50 to 65 euros", "lines": ["Above plus a Colombo Nitrate kit to cross-check the meter — 15 euros", "SuperFish Eco Heater 50W — 15 euros"]}, {"type": "overlay", "time": 1641.303, "title": "Fresh reservoir with rainwater", "lines": ["1 — Fill reservoir with rainwater", "2 — Add A+B nutrients to EC 900 to 1200", "3 — Stir, wait 10 minutes", "4 — Test pH — expect 5.8 to 6.3", "5 — If dosing is needed, use the 1:20 BSI solution, not neat", "6 — Recheck every 2 to 3 days"]}, {"type": "overlay", "time": 1679.916, "title": "Fresh reservoir with tap water", "lines": ["1 — Fill with Almere tap water", "2 — Add A+B to EC 900 to 1200", "3 — Stir, wait 10 minutes", "4 — Test pH — expect about 7.5", "5 — Dose BSI pH Down direct with a syringe, ~5 to 6 mL", "6 — Stir, wait, re-test — land at pH 6.0", "7 — Recheck every few days; top up ~3 mL as it drifts back up"]}];
+const sections = [{"time": 62.807, "level": 2, "title": "1. The three numbers that decide success"}, {"time": 126.57, "level": 2, "title": "2. Why pH always drifts upward"}, {"time": 198.845, "level": 2, "title": "3. The bicarbonate buffer — why tap water is patient"}, {"time": 288.595, "level": 2, "title": "4. Measurement — walking the Ranzijn aquarium aisle"}, {"time": 308.87, "level": 3, "title": "4.1 The Colombo Aquatest drop-kit row — your primary tool"}, {"time": 349.563, "level": 3, "title": "4.2 pH and KH — the two you actually need, and the two that were bought"}, {"time": 422.776, "level": 3, "title": "4.3 What KH actually measures"}, {"time": 492.932, "level": 3, "title": "4.4 GH, the nitrogen kits, and your unreliable meter"}, {"time": 591.664, "level": 3, "title": "4.5 Multi-parameter strips — fast snapshots, lower accuracy"}, {"time": 690.737, "level": 3, "title": "4.6 The Testlab Pro — overkill for your scale"}, {"time": 717.199, "level": 3, "title": "4.7 What Ranzijn does NOT stock — and where to get it"}, {"time": 768.287, "level": 2, "title": "5. Adjusting pH — what to buy and how to dose it"}, {"time": 772.725, "level": 3, "title": "5.1 What Ranzijn offers — and why to skip it"}, {"time": 824.369, "level": 3, "title": "5.2 BSI pH Down — what was actually bought, and why it is right"}, {"time": 925.893, "level": 3, "title": "5.3 Dosing protocol — the magic numbers"}, {"time": 1040.561, "level": 2, "title": "6. Nutrients — fixed-ratio A+B, and the advanced game of dosing ions one by one"}, {"time": 1064.736, "level": 3, "title": "6.1 Why your nutrient comes in two bottles"}, {"time": 1113.273, "level": 3, "title": "6.2 The aquarium fertiliser — what it is, and what it is not"}, {"time": 1179.222, "level": 3, "title": "6.3 The advanced game — measuring and dosing nutrients one ion at a time"}, {"time": 1246.272, "level": 3, "title": "6.4 Supplementing for radish bulbs — the real options"}, {"time": 1317.985, "level": 2, "title": "7. Water temperature — and the heater that was bought for it"}, {"time": 1321.784, "level": 3, "title": "7.1 The physics — two opposing effects"}, {"time": 1376.622, "level": 3, "title": "7.2 What this means for the tower right now"}, {"time": 1413.547, "level": 3, "title": "7.3 The heater that was bought — SuperFish Eco 50W"}, {"time": 1505.922, "level": 3, "title": "7.4 Quick diagnostic — is temperature your bottleneck?"}, {"time": 1547.485, "level": 2, "title": "8. Putting it together — your shopping kit"}, {"time": 1633.435, "level": 2, "title": "9. Quick start protocol for a fresh reservoir"}, {"time": 1730.666, "level": 2, "title": "Cross-references"}];
 let currentCueIdx = -2;  // sentinel so initial render fires
 let currentSectionIdx = -2;
 
@@ -348,6 +369,28 @@ const renderVocab = cue => {
   caption.textContent = "";
 };
 
+const renderGap = cue => {
+  stage.innerHTML = "";
+  const g = document.createElement("div");
+  g.className = "gap-slide";
+  const tag = document.createElement("div");
+  tag.className = "gap-tag";
+  tag.textContent = cue.tier ? "Visual needed · tier " + cue.tier : "Visual needed";
+  g.appendChild(tag);
+  const txt = document.createElement("div");
+  txt.className = "gap-text";
+  txt.textContent = cue.gap_text || "";
+  g.appendChild(txt);
+  if (cue.note) {
+    const n = document.createElement("div");
+    n.className = "gap-meta";
+    n.textContent = cue.note;
+    g.appendChild(n);
+  }
+  stage.appendChild(g);
+  caption.textContent = "";
+};
+
 const setCue = (idx, sectionIdx) => {
   const sectionChanged = sectionIdx !== currentSectionIdx;
   // Stale-cue detection: an active cue placed before the current section
@@ -378,6 +421,7 @@ const setCue = (idx, sectionIdx) => {
   const cue = cues[effectiveIdx];
   if (cue.type === "overlay") renderOverlay(cue);
   else if (cue.type === "vocab") renderVocab(cue);
+  else if (cue.type === "gap") renderGap(cue);
   else renderImage(cue);
   cueCounter.textContent = `cue ${effectiveIdx + 1} / ${cues.length}`;
 };
@@ -422,6 +466,23 @@ const renderPreviewForCue = (cue) => {
       if (e.lang === "ar") l.dir = "rtl";
       cuePreview.appendChild(l);
     }
+  } else if (cue.type === "gap") {
+    const t = document.createElement("div");
+    t.className = "preview-overlay-title";
+    t.style.color = "#ff7a7a";
+    t.textContent = cue.tier ? "Visual needed · tier " + cue.tier : "Visual needed";
+    cuePreview.appendChild(t);
+    const l = document.createElement("div");
+    l.className = "preview-overlay-line";
+    l.textContent = cue.gap_text || "";
+    cuePreview.appendChild(l);
+    if (cue.note) {
+      const n = document.createElement("div");
+      n.className = "preview-overlay-line";
+      n.style.opacity = "0.6";
+      n.textContent = cue.note;
+      cuePreview.appendChild(n);
+    }
   }
   const tInfo = document.createElement("div");
   tInfo.className = "preview-time";
@@ -459,10 +520,10 @@ audio.addEventListener("loadedmetadata", () => {
   for (let i = 0; i < cues.length; i++) {
     const cue = cues[i];
     const mark = document.createElement("div");
-    mark.className = "cue-mark" + (cue.type === "overlay" ? " overlay-mark" : cue.type === "vocab" ? " vocab-mark" : "");
+    mark.className = "cue-mark" + (cue.type === "overlay" ? " overlay-mark" : cue.type === "vocab" ? " vocab-mark" : cue.type === "gap" ? " gap-mark" : "");
     mark.style.left = (100 * cue.time / audio.duration) + "%";
     mark.dataset.cueIndex = String(i);
-    mark.title = (cue.caption || cue.title || "") + " — " + fmt(cue.time);
+    mark.title = (cue.caption || cue.title || cue.gap_text || "") + " — " + fmt(cue.time);
     mark.addEventListener("mouseenter", () => showPreview(i, mark));
     mark.addEventListener("mouseleave", hidePreview);
     mark.addEventListener("click", e => {

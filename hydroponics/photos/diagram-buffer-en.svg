@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <rect width="1200" height="675" fill="#161616"/>
+  <text x="600" y="56" fill="#4a9eff" font-size="34" font-weight="600" text-anchor="middle">The bicarbonate buffer — why tap water is patient</text>
+
+  <!-- ===== LEFT: tap water, strong buffer ===== -->
+  <g transform="translate(60,90)">
+    <rect width="515" height="496" rx="18" fill="#18241b" stroke="#2f5740" stroke-width="2"/>
+    <text x="258" y="44" fill="#8fc79b" font-size="23" font-weight="500" text-anchor="middle">Tap water — KH 6 — strong buffer</text>
+    <!-- acid drop falling -->
+    <text x="258" y="86" fill="#d8704a" font-size="20" text-anchor="middle">acid added</text>
+    <line x1="258" y1="96" x2="258" y2="128" stroke="#d8704a" stroke-width="6" stroke-linecap="round"/>
+    <path d="M250 124 L258 142 L266 124 Z" fill="#d8704a"/>
+    <!-- water body full of bicarbonate -->
+    <rect x="40" y="150" width="435" height="250" rx="10" fill="#1b2b3a"/>
+    <g fill="#5ea9e0" font-size="19" font-weight="600">
+      <text x="80" y="195">HCO₃⁻</text><text x="200" y="190">HCO₃⁻</text><text x="320" y="200">HCO₃⁻</text>
+      <text x="120" y="250">HCO₃⁻</text><text x="260" y="255">HCO₃⁻</text><text x="370" y="250">HCO₃⁻</text>
+      <text x="80" y="315">HCO₃⁻</text><text x="210" y="320">HCO₃⁻</text><text x="330" y="312">HCO₃⁻</text>
+      <text x="150" y="375">HCO₃⁻</text><text x="290" y="378">HCO₃⁻</text>
+    </g>
+    <!-- pH needle steady -->
+    <g transform="translate(180,420)">
+      <rect x="0" y="0" width="155" height="44" rx="8" fill="#20303f"/>
+      <text x="77" y="29" fill="#8fc79b" font-size="22" font-weight="600" text-anchor="middle">pH ~ steady</text>
+    </g>
+    <text x="258" y="486" fill="#7c9a86" font-size="20" text-anchor="middle">bicarbonate eats the acid first</text>
+  </g>
+
+  <!-- ===== RIGHT: rainwater, no buffer ===== -->
+  <g transform="translate(625,90)">
+    <rect width="515" height="496" rx="18" fill="#2a1a1a" stroke="#5a3030" stroke-width="2"/>
+    <text x="258" y="44" fill="#d89b9b" font-size="23" font-weight="500" text-anchor="middle">Rainwater — KH 0 — no buffer</text>
+    <text x="258" y="86" fill="#d8704a" font-size="20" text-anchor="middle">one drop</text>
+    <line x1="258" y1="96" x2="258" y2="128" stroke="#d8704a" stroke-width="6" stroke-linecap="round"/>
+    <path d="M250 124 L258 142 L266 124 Z" fill="#d8704a"/>
+    <!-- empty water body -->
+    <rect x="40" y="150" width="435" height="250" rx="10" fill="#1b2b3a"/>
+    <text x="258" y="285" fill="#46586a" font-size="22" text-anchor="middle" font-style="italic">nothing to absorb it</text>
+    <!-- pH needle crashed -->
+    <g transform="translate(180,420)">
+      <rect x="0" y="0" width="155" height="44" rx="8" fill="#3a2020"/>
+      <text x="77" y="29" fill="#d8704a" font-size="22" font-weight="600" text-anchor="middle">pH crashes</text>
+    </g>
+    <text x="258" y="486" fill="#9a7c7c" font-size="20" text-anchor="middle">pH swings hard on a single drop</text>
+  </g>
+</svg>

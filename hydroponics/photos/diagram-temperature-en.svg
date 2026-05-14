@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <rect width="1200" height="675" fill="#161616"/>
+  <text x="600" y="52" fill="#4a9eff" font-size="34" font-weight="600" text-anchor="middle">Reservoir temperature: two forces pulling opposite ways</text>
+
+  <!-- sweet-spot band 18-22C : x = 120 + (T-10)*48 -->
+  <rect x="504" y="95" width="192" height="465" fill="#2f5740" opacity="0.35"/>
+  <text x="600" y="120" fill="#8fc79b" font-size="20" font-weight="600" text-anchor="middle">sweet spot</text>
+  <text x="600" y="142" fill="#8fc79b" font-size="18" text-anchor="middle">18–22 °C</text>
+
+  <!-- root-rot risk zone above ~24C : x = 120+(24-10)*48 = 792 -->
+  <rect x="792" y="95" width="288" height="465" fill="#5a3030" opacity="0.32"/>
+  <text x="936" y="120" fill="#d89b9b" font-size="18" font-weight="600" text-anchor="middle">root-rot risk rises</text>
+
+  <!-- axes -->
+  <line x1="120" y1="560" x2="1080" y2="560" stroke="#5a6570" stroke-width="2"/>
+  <line x1="120" y1="95" x2="120" y2="560" stroke="#5a6570" stroke-width="2"/>
+  <!-- x ticks -->
+  <g fill="#9aa6b2" font-size="18" text-anchor="middle">
+    <text x="216" y="588">12°</text>
+    <text x="408" y="588">16°</text>
+    <text x="600" y="588">20°</text>
+    <text x="792" y="588">24°</text>
+    <text x="984" y="588">28°</text>
+  </g>
+  <text x="600" y="618" fill="#c9d2db" font-size="22" text-anchor="middle">reservoir temperature</text>
+
+  <!-- dissolved oxygen curve (blue, declining): points at 12,18,22,28 -->
+  <polyline points="216,161 504,308 696,381 984,476"
+            fill="none" stroke="#5ea9e0" stroke-width="6" stroke-linecap="round"/>
+  <g fill="#5ea9e0">
+    <circle cx="216" cy="161" r="7"/><circle cx="504" cy="308" r="7"/>
+    <circle cx="696" cy="381" r="7"/><circle cx="984" cy="476" r="7"/>
+  </g>
+  <text x="235" y="150" fill="#5ea9e0" font-size="22" font-weight="600">dissolved oxygen</text>
+
+  <!-- metabolic uptake curve (orange, rising): points at 12,18,22,28 -->
+  <polyline points="216,447 504,318 696,237 984,172"
+            fill="none" stroke="#e8a04a" stroke-width="6" stroke-linecap="round"/>
+  <g fill="#e8a04a">
+    <circle cx="216" cy="447" r="7"/><circle cx="504" cy="318" r="7"/>
+    <circle cx="696" cy="237" r="7"/><circle cx="984" cy="172" r="7"/>
+  </g>
+  <text x="235" y="478" fill="#e8a04a" font-size="22" font-weight="600">plant uptake rate</text>
+
+  <text x="600" y="652" fill="#c9d2db" font-size="21" text-anchor="middle">Cold water holds more oxygen; warm water feeds the plants faster — the overlap is the sweet spot.</text>
+</svg>

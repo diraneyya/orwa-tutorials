@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <rect width="1200" height="675" fill="#161616"/>
+  <text x="600" y="58" fill="#4a9eff" font-size="36" font-weight="600" text-anchor="middle">Why pH always drifts upward</text>
+
+  <!-- reservoir water -->
+  <rect x="70" y="100" width="700" height="500" rx="16" fill="#1b2b3a"/>
+
+  <!-- the root -->
+  <path d="M380 120 C 350 230, 470 320, 400 440 C 360 510, 430 545, 410 585"
+        fill="none" stroke="#d8cba6" stroke-width="46" stroke-linecap="round"/>
+  <path d="M380 120 C 350 230, 470 320, 400 440 C 360 510, 430 545, 410 585"
+        fill="none" stroke="#e8ddbe" stroke-width="20" stroke-linecap="round" opacity="0.6"/>
+  <text x="250" y="350" fill="#cdbf9b" font-size="22" text-anchor="middle">root</text>
+
+  <!-- nitrate going IN -->
+  <g>
+    <text x="150" y="200" fill="#5ea9e0" font-size="30" font-weight="600">NO₃⁻</text>
+    <line x1="225" y1="192" x2="335" y2="210" stroke="#5ea9e0" stroke-width="5" marker-end="url(#bin)"/>
+    <text x="150" y="430" fill="#5ea9e0" font-size="30" font-weight="600">NO₃⁻</text>
+    <line x1="225" y1="422" x2="330" y2="430" stroke="#5ea9e0" stroke-width="5" marker-end="url(#bin)"/>
+  </g>
+  <!-- hydroxide coming OUT -->
+  <g>
+    <text x="560" y="250" fill="#e8a04a" font-size="30" font-weight="600">OH⁻</text>
+    <line x1="455" y1="250" x2="545" y2="245" stroke="#e8a04a" stroke-width="5" marker-end="url(#bout)"/>
+    <text x="560" y="470" fill="#e8a04a" font-size="30" font-weight="600">OH⁻</text>
+    <line x1="455" y1="468" x2="545" y2="465" stroke="#e8a04a" stroke-width="5" marker-end="url(#bout)"/>
+  </g>
+
+  <!-- pH bar on the right -->
+  <g transform="translate(880,110)">
+    <text x="120" y="20" fill="#f0f0f0" font-size="26" font-weight="600" text-anchor="middle">reservoir pH</text>
+    <defs>
+      <linearGradient id="phg" x1="0" y1="1" x2="0" y2="0">
+        <stop offset="0" stop-color="#d8704a"/>
+        <stop offset="0.5" stop-color="#8fc79b"/>
+        <stop offset="1" stop-color="#6f8fd8"/>
+      </linearGradient>
+    </defs>
+    <rect x="80" y="50" width="80" height="430" rx="10" fill="url(#phg)"/>
+    <text x="175" y="70" fill="#9aa6b2" font-size="20">alkaline</text>
+    <text x="175" y="475" fill="#9aa6b2" font-size="20">acidic</text>
+    <!-- rising arrow -->
+    <line x1="40" y1="430" x2="40" y2="110" stroke="#e8a04a" stroke-width="8" marker-end="url(#bout)"/>
+    <text x="20" y="280" fill="#e8a04a" font-size="40" font-weight="700" text-anchor="middle" transform="rotate(-90 20 280)">climbs</text>
+  </g>
+
+  <text x="600" y="648" fill="#c9d2db" font-size="23" text-anchor="middle">Roots take in nitrate, release hydroxide — so pH climbs as the plants feed.</text>
+
+  <defs>
+    <marker id="bin" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#5ea9e0"/>
+    </marker>
+    <marker id="bout" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#e8a04a"/>
+    </marker>
+  </defs>
+</svg>
