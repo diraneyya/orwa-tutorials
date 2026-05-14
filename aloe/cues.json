@@ -85,6 +85,24 @@
       ]
     },
     {
+      "type": "vocab",
+      "time": 293.18,
+      "entries": [
+        {
+          "lang": "nl",
+          "word": "korrels"
+        },
+        {
+          "lang": "de",
+          "word": "Körner"
+        },
+        {
+          "lang": "en",
+          "word": "granules"
+        }
+      ]
+    },
+    {
       "type": "image",
       "time": 315.875,
       "image": "photos/20260512_195230.jpg",
@@ -123,6 +141,24 @@
       "caption": "Florentus Langwerkende Potgrond 10L — long-acting universal potting soil",
       "rotation": 0,
       "explicit": false
+    },
+    {
+      "type": "vocab",
+      "time": 442.646,
+      "entries": [
+        {
+          "lang": "nl",
+          "word": "langwerkend"
+        },
+        {
+          "lang": "de",
+          "word": "langwirkend"
+        },
+        {
+          "lang": "en",
+          "word": "long-acting"
+        }
+      ]
     },
     {
       "type": "image",
@@ -221,12 +257,48 @@
       "explicit": false
     },
     {
+      "type": "vocab",
+      "time": 1063.372,
+      "entries": [
+        {
+          "lang": "nl",
+          "word": "boomschors"
+        },
+        {
+          "lang": "de",
+          "word": "Baumrinde"
+        },
+        {
+          "lang": "en",
+          "word": "tree bark"
+        }
+      ]
+    },
+    {
       "type": "image",
       "time": 1098.336,
       "image": "photos/20260512_195355.jpg",
       "caption": "Pokon Cacaodoppen 40L bag",
       "rotation": 0,
       "explicit": false
+    },
+    {
+      "type": "vocab",
+      "time": 1106.98,
+      "entries": [
+        {
+          "lang": "nl",
+          "word": "cacaodoppen"
+        },
+        {
+          "lang": "de",
+          "word": "Kakaoschalen"
+        },
+        {
+          "lang": "en",
+          "word": "cacao husks"
+        }
+      ]
     },
     {
       "type": "image",
@@ -274,6 +346,24 @@
       "explicit": false
     },
     {
+      "type": "vocab",
+      "time": 1415.908,
+      "entries": [
+        {
+          "lang": "nl",
+          "word": "vetplant"
+        },
+        {
+          "lang": "de",
+          "word": "Fettpflanze"
+        },
+        {
+          "lang": "en",
+          "word": "succulent"
+        }
+      ]
+    },
+    {
       "type": "image",
       "time": 1480.123,
       "image": "photos/dcm-perliet-10l-praxis.webp",
@@ -288,6 +378,24 @@
       "caption": "Pokon Bonsai Potgrond 5L from Praxis — bonsai mix with pumice and perlite",
       "rotation": 0,
       "explicit": false
+    },
+    {
+      "type": "vocab",
+      "time": 1548.236,
+      "entries": [
+        {
+          "lang": "nl",
+          "word": "bims"
+        },
+        {
+          "lang": "de",
+          "word": "Bims"
+        },
+        {
+          "lang": "en",
+          "word": "pumice"
+        }
+      ]
     },
     {
       "type": "overlay",
