@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aloe Soil Guide Arabic</title>
+<style>
+:root { --bg:#1a1a1a; --fg:#f0f0f0; --accent:#4a9eff; --dim:rgba(255,255,255,0.6); }
+* { box-sizing:border-box; margin:0; padding:0; }
+html, body { height:100%; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  background: var(--bg); color: var(--fg);
+  display: flex; flex-direction: column;
+}
+header { padding: 0.7rem 2rem 0.25rem; display:flex; flex-direction:column; gap:0.15rem; }
+.doc-title { font-size: 0.9rem; font-weight: 500; opacity: 0.6; letter-spacing: 0.02em; }
+.section-ribbon { font-size: 1.05rem; font-weight: 500; color: var(--accent); min-height: 1.4em; }
+main {
+  flex: 1; display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  padding: 0.75rem 2rem; gap: 0.5rem; min-height: 0;
+}
+#stage {
+  flex: 1; width: 100%; max-width: 1200px;
+  display: flex; align-items: center; justify-content: center;
+  background: #000; border-radius: 12px; overflow: hidden;
+  min-height: 40vh; position: relative;
+}
+#stage img {
+  max-width: 100%; max-height: 75vh; object-fit: contain;
+  opacity: 0; transition: opacity 0.35s ease;
+  transform-origin: center center;
+}
+/* When rotated 90 or 270 deg, image's pre-rotation width becomes the visible height. */
+#stage img.rot-90, #stage img.rot-270 {
+  max-width: 75vh; max-height: 92%;
+}
+#stage img.visible { opacity: 1; }
+.fallback {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  text-align: center; padding: 2rem; gap: 1rem;
+  color: var(--fg); width: 100%; height: 100%;
+}
+.fallback .section-big {
+  font-size: 2.2rem; font-weight: 500; opacity: 0.85;
+  max-width: 90%; line-height: 1.25;
+}
+.fallback .hint {
+  font-size: 0.95rem; color: var(--dim); opacity: 0.6;
+}
+.overlay {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  width: 100%; height: 100%; padding: 2rem; gap: 1.5rem;
+  background: linear-gradient(135deg, rgba(74,158,255,0.08), rgba(74,158,255,0.02));
+}
+.overlay .ov-title {
+  font-size: 1.8rem; font-weight: 500; color: var(--accent); text-align: center;
+}
+.overlay .ov-lines {
+  display: flex; flex-direction: column; gap: 0.85rem; align-items: center;
+}
+.overlay .ov-line {
+  font-size: 1.7rem; font-weight: 400; opacity: 0.95;
+  font-variant-numeric: tabular-nums;
+}
+#caption {
+  font-size: 0.9rem; color: var(--dim);
+  text-align: center; min-height: 1.2em; max-width: 1100px;
+}
+footer {
+  padding: 0.75rem 2rem 1.25rem;
+  display: flex; flex-direction: column; gap: 0.5rem;
+  background: rgba(255,255,255,0.04);
+  border-top: 1px solid rgba(255,255,255,0.06);
+}
+#scrubber {
+  width: 100%; height: 5px; background: rgba(255,255,255,0.15);
+  border-radius: 3px; cursor: pointer; position: relative;
+}
+#scrubber-fill {
+  height: 100%; background: var(--accent); border-radius: 3px;
+  width: 0%; pointer-events: none;
+}
+#scrubber-marks {
+  position: absolute; top: 0; left: 0; right: 0; height: 100%;
+  pointer-events: none;
+}
+.cue-mark {
+  position: absolute; top: -3px; width: 2px; height: 11px;
+  background: rgba(255,255,255,0.45); border-radius: 1px;
+  cursor: pointer; pointer-events: auto;
+}
+.cue-mark::before {
+  content: ""; position: absolute;
+  top: -10px; bottom: -10px; left: -7px; right: -7px;
+}
+.cue-mark:hover { background: var(--accent); width: 3px; }
+.cue-mark.overlay-mark { background: rgba(255,200,100,0.65); }
+.cue-mark.overlay-mark:hover { background: rgb(255,200,100); }
+.cue-mark.vocab-mark { background: rgba(199,155,240,0.7); }
+.cue-mark.vocab-mark:hover { background: rgb(199,155,240); }
+#scrubber-marks { pointer-events: none; }
+#scrubber-marks .cue-mark { pointer-events: auto; }
+/* Vocabulary card — color-coded to match the narration voices */
+.vocab-card {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  width: 100%; height: 100%; padding: 2rem; gap: 0.9rem;
+  background: linear-gradient(135deg, rgba(199,155,240,0.10), rgba(199,155,240,0.02));
+}
+.vocab-row {
+  display: flex; align-items: baseline; gap: 0.9rem;
+  font-size: 2rem; font-weight: 500;
+}
+.vocab-row .vocab-lang {
+  font-size: 0.8rem; font-weight: 600; text-transform: uppercase;
+  letter-spacing: 0.06em; opacity: 0.85;
+  min-width: 2.2em; text-align: right;
+}
+.vocab-row .vocab-word { font-weight: 500; }
+.vocab-lang-nl, .vocab-row.lang-nl .vocab-word { color: #f0a868; }
+.vocab-lang-de, .vocab-row.lang-de .vocab-word { color: #7ec77e; }
+.vocab-lang-en, .vocab-row.lang-en .vocab-word { color: #4a9eff; }
+.vocab-lang-ar, .vocab-row.lang-ar .vocab-word { color: #c89bf0; }
+.vocab-row.lang-nl .vocab-lang { color: #f0a868; }
+.vocab-row.lang-de .vocab-lang { color: #7ec77e; }
+.vocab-row.lang-en .vocab-lang { color: #4a9eff; }
+.vocab-row.lang-ar .vocab-lang { color: #c89bf0; }
+#cue-preview {
+  position: fixed;
+  z-index: 100;
+  background: rgba(20,20,22,0.97);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 10px;
+  padding: 8px;
+  max-width: 280px;
+  pointer-events: none;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.45);
+  display: none;
+  font-size: 0.82rem;
+}
+#cue-preview.visible { display: block; }
+#cue-preview img {
+  display: block;
+  max-width: 100%;
+  max-height: 160px;
+  border-radius: 6px;
+  margin-bottom: 6px;
+}
+#cue-preview img.rot-90, #cue-preview img.rot-270 {
+  max-width: 160px; max-height: 100%;
+}
+#cue-preview .preview-caption {
+  color: var(--fg); line-height: 1.3; opacity: 0.95;
+}
+#cue-preview .preview-time {
+  color: var(--accent); font-variant-numeric: tabular-nums;
+  font-size: 0.75rem; margin-top: 4px; opacity: 0.85;
+}
+#cue-preview .preview-overlay-title {
+  color: rgb(255,200,100); font-weight: 500; margin-bottom: 4px;
+}
+#cue-preview .preview-overlay-line {
+  opacity: 0.9; margin-bottom: 2px;
+}
+.controls {
+  display: flex; align-items: center; justify-content: center;
+  gap: 0.5rem; flex-wrap: wrap;
+}
+button {
+  background: rgba(255,255,255,0.08);
+  color: var(--fg);
+  border: 1px solid rgba(255,255,255,0.18);
+  padding: 0.5rem 0.9rem;
+  border-radius: 8px;
+  font-size: 0.92rem;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.05s;
+  font-family: inherit;
+}
+button:hover { background: rgba(255,255,255,0.16); }
+button:active { transform: scale(0.97); }
+button.primary {
+  background: var(--accent); border-color: var(--accent);
+  font-weight: 500; min-width: 80px;
+}
+button.primary:hover { background: #6db1ff; }
+.time-info {
+  font-size: 0.82rem; color: var(--dim); text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+.cue-counter {
+  font-size: 0.82rem; color: var(--dim); text-align: center;
+}
+audio { display: none; }
+@media (max-width: 600px) {
+  header, footer, main { padding-left: 1rem; padding-right: 1rem; }
+  button { padding: 0.45rem 0.7rem; font-size: 0.88rem; }
+  .fallback .section-big { font-size: 1.5rem; }
+  .overlay .ov-title { font-size: 1.3rem; }
+  .overlay .ov-line { font-size: 1.2rem; }
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="doc-title">Aloe Soil Guide Arabic</div>
+  <div class="section-ribbon" id="section-ribbon">&nbsp;</div>
+</header>
+<main>
+  <div id="stage"></div>
+  <div id="caption"></div>
+</main>
+<footer>
+  <div id="scrubber">
+    <div id="scrubber-fill"></div>
+    <div id="scrubber-marks"></div>
+  </div>
+  <div class="controls">
+    <button id="prev-cue" title="Previous cue (↑)">⏮ Cue</button>
+    <button id="back-10" title="Back 10 seconds (←)">−10s</button>
+    <button id="play-pause" class="primary">Play</button>
+    <button id="fwd-10" title="Forward 10 seconds (→)">+10s</button>
+    <button id="next-cue" title="Next cue (↓)">Cue ⏭</button>
+  </div>
+  <div class="time-info">
+    <span id="t-current">0:00</span> / <span id="t-total">--:--</span>
+    <span style="margin: 0 0.5rem; opacity: 0.4;">·</span>
+    <span class="cue-counter" id="cue-counter">cue –</span>
+  </div>
+</footer>
+<div id="cue-preview"></div>
+<audio id="audio" src="audio.mp3" preload="auto"></audio>
+<script>
+const audio = document.getElementById("audio");
+const stage = document.getElementById("stage");
+const caption = document.getElementById("caption");
+const playPause = document.getElementById("play-pause");
+const scrubberFill = document.getElementById("scrubber-fill");
+const scrubber = document.getElementById("scrubber");
+const scrubberMarks = document.getElementById("scrubber-marks");
+const tCurrent = document.getElementById("t-current");
+const tTotal = document.getElementById("t-total");
+const cueCounter = document.getElementById("cue-counter");
+const sectionRibbon = document.getElementById("section-ribbon");
+
+const cues = [{"type": "overlay", "time": 265.26, "title": "وَصفةُ العَصاريّات", "lines": ["خَمسونَ إلى ستّونَ بِالمِئة: حَصًى مَعدِنيٌّ لِلتَّصريفِ والهَواء", "ثَلاثونَ إلى أربَعونَ بِالمِئة: ركيزةٌ قَليلةُ العُضويّة", "صِفرٌ إلى عَشرةٌ بِالمِئة: بُنيةٌ إضافيّةٌ مِنْ لِحاءٍ أوْ خَفّان"]}, {"type": "vocab", "time": 301.51, "entries": [{"lang": "nl", "word": "korrels"}, {"lang": "de", "word": "Körner"}, {"lang": "ar", "word": "حُبَيبات"}, {"lang": "en", "word": "granules"}]}, {"type": "image", "time": 330.343, "image": "photos/20260512_195230.jpg", "caption": "Florentus Hydrokorrels 10L — expanded clay pellets for drainage", "rotation": 0}, {"type": "image", "time": 361.858, "image": "photos/dcm-perliet-10l-praxis.webp", "caption": "DCM Perliet 10L from Praxis — popped volcanic glass for aeration", "rotation": 0}, {"type": "image", "time": 386.351, "image": "photos/20260512_193046.jpg", "caption": "MyGarden Compressed Cocos brick — pure coconut coir, expands to 25 liters with 9 L of warm water", "rotation": 270}, {"type": "image", "time": 466.44, "image": "photos/20260512_195604.jpg", "caption": "Florentus Langwerkende Potgrond 10L — long-acting universal potting soil", "rotation": 0}, {"type": "vocab", "time": 477.3, "entries": [{"lang": "nl", "word": "langwerkend"}, {"lang": "de", "word": "langwirkend"}, {"lang": "ar", "word": "طَويلُ المَفعول"}, {"lang": "en", "word": "long-acting"}]}, {"type": "image", "time": 592.721, "image": "photos/20260512_195331.jpg", "caption": "Florentus Bio Potgrond Kokos 40L bag — coconut-coir-based potting soil", "rotation": 0}, {"type": "image", "time": 655.679, "image": "photos/20260512_195508.jpg", "caption": "Florentus Bio Mediterrane Planten 40L bag — peat-free Mediterranean mix", "rotation": 0}, {"type": "image", "time": 719.374, "image": "photos/20260512_195339.jpg", "caption": "Ranzijn Tuinturf Biologisch 30L bag", "rotation": 90}, {"type": "image", "time": 757.38, "image": "photos/20260512_195301.jpg", "caption": "Florentus Hortensiagrond 20L bag", "rotation": 90}, {"type": "image", "time": 790.15, "image": "photos/20260512_195347.jpg", "caption": "DCM Vivimus Heide/Rhodo/Zuurminnend 40L bag", "rotation": 90}, {"type": "image", "time": 825.177, "image": "photos/20260512_195417.jpg", "caption": "Florentus Zaai- en Stekgrond 40L bag", "rotation": 0}, {"type": "image", "time": 905.636, "image": "photos/20260512_195317.jpg", "caption": "Pokon Moestuinbakken Mix 45L bag", "rotation": 0}, {"type": "image", "time": 912.898, "image": "photos/20260512_195429.jpg", "caption": "Ranzijn Moestuinaarde Biologisch bag", "rotation": 0}, {"type": "image", "time": 939.043, "image": "photos/20260512_195542.jpg", "caption": "DCM Vivimus Universeel 40L bag", "rotation": 90}, {"type": "image", "time": 964.809, "image": "photos/20260512_195308.jpg", "caption": "Ranzijn Compost 30L bag", "rotation": 0}, {"type": "image", "time": 1022.524, "image": "photos/20260512_195230.jpg", "caption": "Florentus Hydrokorrels 10L — expanded clay pellets, the key drainage product", "rotation": 0}, {"type": "image", "time": 1088.371, "image": "photos/20260512_195401.jpg", "caption": "Jardino Franse Pijnboomschors 70L bag", "rotation": 90}, {"type": "vocab", "time": 1100.648, "entries": [{"lang": "nl", "word": "boomschors"}, {"lang": "de", "word": "Baumrinde"}, {"lang": "ar", "word": "لِحاءُ الشَّجَر"}, {"lang": "en", "word": "tree bark"}]}, {"type": "image", "time": 1131.283, "image": "photos/20260512_195355.jpg", "caption": "Pokon Cacaodoppen 40L bag", "rotation": 0}, {"type": "vocab", "time": 1140.753, "entries": [{"lang": "nl", "word": "cacaodoppen"}, {"lang": "de", "word": "Kakaoschalen"}, {"lang": "ar", "word": "قُشورُ الكاكاو"}, {"lang": "en", "word": "cacao husks"}]}, {"type": "image", "time": 1178.158, "image": "photos/20260512_193402.jpg", "caption": "Green Boots Tuinkalk 4kg", "rotation": 0}, {"type": "image", "time": 1223.853, "image": "photos/20260512_195237.jpg", "caption": "Ranzijn Aanplantgrond 30L bag", "rotation": 90}, {"type": "overlay", "time": 1281.784, "title": "وَصفةُ رانزايْن وَحدَه", "lines": ["قاعُ ثَلاثةِ سنتيمِترات: هيدروكورِلز كَطَبَقةِ تَصريف", "جُزآن: فلورنتوس مِديتيرانه بوتغروند", "جُزءٌ واحِد: هيدروكورِلز مَخلوطٌ في الدّاخِل", "جُزءٌ واحِد: تُربةُ حَديقةٍ رَمليّةٌ مُعَقَّمة"]}, {"type": "overlay", "time": 1332.384, "title": "وَصفةُ العَصاريّاتِ السَّليمة", "lines": ["جُزءٌ واحِد: ألياف جوزِ هِندٍ أوْ بوتغروند خالٍ مِنَ الخُثّ", "جُزءٌ واحِد: بيرلايت لِلتَّصريفِ الخَفيفِ والهَواء", "جُزءٌ واحِد: حَصًى خَشِنٌ أوْ خَفّان لِلتَّصريفِ والبُنية"]}, {"type": "image", "time": 1374.13, "image": "photos/pokon-cactus-potgrond-5l-praxis.webp", "caption": "Pokon Cactus Potgrond 5L from Praxis", "rotation": 0}, {"type": "vocab", "time": 1385.98, "entries": [{"lang": "nl", "word": "vetplant"}, {"lang": "de", "word": "Fettpflanze"}, {"lang": "ar", "word": "نَباتٌ عَصاريّ"}, {"lang": "en", "word": "succulent"}]}, {"type": "image", "time": 1427.059, "image": "photos/dcm-perliet-10l-praxis.webp", "caption": "DCM Perliet 10L from Praxis", "rotation": 0}, {"type": "image", "time": 1465.121, "image": "photos/pokon-bonsai-potgrond-5l-praxis.webp", "caption": "Pokon Bonsai Potgrond 5L from Praxis — bonsai mix with pumice and perlite", "rotation": 0}, {"type": "vocab", "time": 1472.784, "entries": [{"lang": "nl", "word": "bims"}, {"lang": "de", "word": "Bims"}, {"lang": "ar", "word": "خَفّان"}, {"lang": "en", "word": "pumice"}]}, {"type": "overlay", "time": 1703.396, "title": "قائِمةُ هٰذا الأُسبوع", "lines": ["واحِد: انقَعْ قالَبَ جوزِ الهِندِ الذي تَملِكُه", "اثنان: اذهَبْ إلى براكسيس لِشِراءِ بيرلايت", "ثَلاثة: اختياريًّا، رانزايْن لِشِراءِ هيدروكورِلز", "أربَعة: أوقِفْ سَقيَ الأُصُصِ الحاليّةِ فَورًا", "خَمسة: بَعدَ خَمسةِ أيّامٍ حينَ تَجِفُّ التُّربة، أعِدِ الزِّراعة", "ستّة: انتَظِرْ خَمسةَ إلى سَبعةِ أيّامٍ قَبلَ أوّلِ سَقية"]}];
+const sections = [{"time": 47.518, "level": 2, "title": "١ — ما الذي يُريدُهُ الصَّبّارُ حَقًّا في تُربَتِه"}, {"time": 143.029, "level": 2, "title": "٢ — لِماذا تُربةُ حَديقَتِكَ الرَّمليّةُ \"قَريبةٌ مِنَ الصَّواب\" لٰكِنّها غالِبًا غَيرُ مِثاليّة"}, {"time": 255.21, "level": 2, "title": "٣ — الوَصفة — كَيفَ يَبدو مَزيجُ العَصاريّاتِ الحَقيقيّ"}, {"time": 419.594, "level": 2, "title": "٤ — جَولةٌ في مَمَرِّ التُّربةِ بِمَتجَرِ رانزايْن"}, {"time": 450.94, "level": 3, "title": "٤·١ — تُرَبُ الأصصِ العامّة — أحصِنةُ العَمَل"}, {"time": 533.818, "level": 3, "title": "٤·٢ — التُّرَبُ الخاليةُ مِنَ الخُثّ — البَدائِلُ البيئيّة"}, {"time": 630.097, "level": 3, "title": "٤·٣ — التُّرَبُ المُتَوَسِّطيّةُ والمُتَخَصِّصة — أقرَبُ تَطابُقٍ لَك"}, {"time": 698.911, "level": 3, "title": "٤·٤ — التُّرَبُ المُحَمِّضة — لَيسَتْ لِلصَّبّارِ لٰكِنْ مُهِمٌّ التَّعَرُّفُ عَلَيها"}, {"time": 816.527, "level": 3, "title": "٤·٥ — تُرَبُ البَذرِ والعُقَل"}, {"time": 863.88, "level": 3, "title": "٤·٦ — تُرَبُ حَديقةِ الخُضارِ والمَحاصيلِ الغِذائيّة"}, {"time": 957.922, "level": 3, "title": "٤·٧ — السَّماد العُضويُّ — غَنيٌّ أكثَرَ مِنَ اللّازِمِ لِأُصُصِ الصَّبّار"}, {"time": 1006.367, "level": 3, "title": "٤·٨ — مُكَوِّناتُ التَّصريف — أنفَعُ فِئةٍ لِلصَّبّار"}, {"time": 1075.759, "level": 3, "title": "٤·٩ — النَّشارةُ والتَّغطيةُ السَّطحيّة — بُنيةٌ إضافيّة"}, {"time": 1174.095, "level": 3, "title": "٤·١٠ — الكِلْس — لِرَفعِ حُموضةِ التُّربة"}, {"time": 1212.829, "level": 3, "title": "٤·١١ — أُخرى ومُتَخَصِّصة — لَيسَتْ لِلصَّبّارِ مُباشَرةً"}, {"time": 1263.834, "level": 2, "title": "٥ — الوَصفةُ الوَسَط — باستِخدامِ مُنتَجاتِ رانزايْن فَقَط"}, {"time": 1320.084, "level": 2, "title": "٦ — الوَصفةُ السَّليمة — وما يَنقُصُ في رانزايْن"}, {"time": 1371.017, "level": 3, "title": "٦·١ — كاكتوسغروند — اختِصارُ المَزيجِ الجاهِز"}, {"time": 1414.972, "level": 3, "title": "٦·٢ — البيرلايت — perliet بِالهولَنديّة"}, {"time": 1447.884, "level": 3, "title": "٦·٣ — الخَفّان — bims بِالهولَنديّة — والحَصى الخَشِن"}, {"time": 1503.389, "level": 2, "title": "٧ — بروتوكولُ إعادةِ زِراعةِ قِطَعِ صَبّارِكَ الكَبيرة"}, {"time": 1628.151, "level": 2, "title": "٨ — بروتوكولُ السَّقيِ بَعدَ إعادةِ الزِّراعة"}, {"time": 1698.696, "level": 2, "title": "٩ — الخُلاصة — ماذا تَفعَلُ فِعلًا هٰذا الأُسبوع"}, {"time": 1754.659, "level": 2, "title": "مَراجِعُ ذاتُ صِلة"}];
+let currentCueIdx = -2;  // sentinel so initial render fires
+let currentSectionIdx = -2;
+
+const fmt = s => {
+  if (!isFinite(s)) return "--:--";
+  const m = Math.floor(s / 60), sec = Math.floor(s % 60);
+  return `${m}:${sec.toString().padStart(2, "0")}`;
+};
+
+const findCueIndex = t => {
+  let idx = -1;
+  for (let i = 0; i < cues.length; i++) {
+    if (cues[i].time <= t) idx = i; else break;
+  }
+  return idx;
+};
+
+const findSectionIndex = t => {
+  let idx = -1;
+  for (let i = 0; i < sections.length; i++) {
+    if (sections[i].time <= t) idx = i; else break;
+  }
+  return idx;
+};
+
+const renderFallback = () => {
+  const sec = currentSectionIdx >= 0 ? sections[currentSectionIdx] : null;
+  stage.innerHTML = "";
+  const div = document.createElement("div");
+  div.className = "fallback";
+  const big = document.createElement("div");
+  big.className = "section-big";
+  big.textContent = sec ? sec.title : "Beginning…";
+  div.appendChild(big);
+  stage.appendChild(div);
+  caption.textContent = "";
+};
+
+const renderImage = cue => {
+  stage.innerHTML = "";
+  const img = new Image();
+  img.alt = cue.caption || "";
+  const rot = (cue.rotation || 0) % 360;
+  if (rot === 90) img.classList.add("rot-90");
+  else if (rot === 180) img.classList.add("rot-180");
+  else if (rot === 270) img.classList.add("rot-270");
+  if (rot) img.style.transform = `rotate(${rot}deg)`;
+  img.onload = () => {
+    stage.appendChild(img);
+    requestAnimationFrame(() => img.classList.add("visible"));
+  };
+  img.src = cue.image;
+  caption.textContent = cue.caption || "";
+};
+
+const renderOverlay = cue => {
+  stage.innerHTML = "";
+  const ov = document.createElement("div");
+  ov.className = "overlay";
+  if (cue.title) {
+    const t = document.createElement("div");
+    t.className = "ov-title";
+    t.textContent = cue.title;
+    ov.appendChild(t);
+  }
+  if (cue.lines && cue.lines.length) {
+    const wrap = document.createElement("div");
+    wrap.className = "ov-lines";
+    for (const ln of cue.lines) {
+      const l = document.createElement("div");
+      l.className = "ov-line";
+      l.textContent = ln;
+      wrap.appendChild(l);
+    }
+    ov.appendChild(wrap);
+  }
+  stage.appendChild(ov);
+  caption.textContent = "";
+};
+
+const renderVocab = cue => {
+  stage.innerHTML = "";
+  const card = document.createElement("div");
+  card.className = "vocab-card";
+  for (const e of (cue.entries || [])) {
+    const row = document.createElement("div");
+    row.className = "vocab-row lang-" + e.lang;
+    const lang = document.createElement("span");
+    lang.className = "vocab-lang vocab-lang-" + e.lang;
+    lang.textContent = e.lang;
+    const word = document.createElement("span");
+    word.className = "vocab-word";
+    word.textContent = e.word;
+    if (e.lang === "ar") { word.dir = "rtl"; word.style.fontSize = "1.3em"; }
+    row.appendChild(lang);
+    row.appendChild(word);
+    card.appendChild(row);
+  }
+  stage.appendChild(card);
+  caption.textContent = "";
+};
+
+const setCue = (idx, sectionIdx) => {
+  const sectionChanged = sectionIdx !== currentSectionIdx;
+  const cueChanged = idx !== currentCueIdx;
+  if (sectionChanged) {
+    currentSectionIdx = sectionIdx;
+    const sec = sectionIdx >= 0 ? sections[sectionIdx] : null;
+    sectionRibbon.textContent = sec ? sec.title : "";
+  }
+  if (!cueChanged && !sectionChanged) return;
+  // When cue is unchanged but only section advanced AND there is no active cue,
+  // re-render fallback to pick up the new section title.
+  if (!cueChanged && idx >= 0) return;
+
+  currentCueIdx = idx;
+  if (idx < 0) {
+    renderFallback();
+    cueCounter.textContent = "cue –";
+    return;
+  }
+  const cue = cues[idx];
+  if (cue.type === "overlay") renderOverlay(cue);
+  else if (cue.type === "vocab") renderVocab(cue);
+  else renderImage(cue);
+  cueCounter.textContent = `cue ${idx + 1} / ${cues.length}`;
+};
+
+const cuePreview = document.getElementById("cue-preview");
+
+const renderPreviewForCue = (cue) => {
+  cuePreview.innerHTML = "";
+  if (cue.type === "image") {
+    const img = new Image();
+    img.src = cue.image;
+    img.alt = cue.caption || "";
+    const rot = (cue.rotation || 0) % 360;
+    if (rot === 90) img.classList.add("rot-90");
+    else if (rot === 270) img.classList.add("rot-270");
+    if (rot) img.style.transform = `rotate(${rot}deg)`;
+    cuePreview.appendChild(img);
+    if (cue.caption) {
+      const cap = document.createElement("div");
+      cap.className = "preview-caption";
+      cap.textContent = cue.caption;
+      cuePreview.appendChild(cap);
+    }
+  } else if (cue.type === "overlay") {
+    if (cue.title) {
+      const t = document.createElement("div");
+      t.className = "preview-overlay-title";
+      t.textContent = cue.title;
+      cuePreview.appendChild(t);
+    }
+    for (const ln of (cue.lines || [])) {
+      const l = document.createElement("div");
+      l.className = "preview-overlay-line";
+      l.textContent = ln;
+      cuePreview.appendChild(l);
+    }
+  } else if (cue.type === "vocab") {
+    for (const e of (cue.entries || [])) {
+      const l = document.createElement("div");
+      l.className = "preview-overlay-line vocab-lang-" + e.lang;
+      l.textContent = e.lang + "  " + e.word;
+      if (e.lang === "ar") l.dir = "rtl";
+      cuePreview.appendChild(l);
+    }
+  }
+  const tInfo = document.createElement("div");
+  tInfo.className = "preview-time";
+  tInfo.textContent = fmt(cue.time);
+  cuePreview.appendChild(tInfo);
+};
+
+const positionPreviewAt = (mark) => {
+  const rect = mark.getBoundingClientRect();
+  cuePreview.classList.add("visible");
+  // Measure after rendering, before final placement
+  const pw = cuePreview.offsetWidth;
+  const ph = cuePreview.offsetHeight;
+  let left = rect.left + rect.width / 2 - pw / 2;
+  left = Math.max(8, Math.min(window.innerWidth - pw - 8, left));
+  let top = rect.top - ph - 10;
+  if (top < 8) top = rect.bottom + 10;
+  cuePreview.style.left = left + "px";
+  cuePreview.style.top = top + "px";
+};
+
+const showPreview = (idx, mark) => {
+  if (idx < 0 || idx >= cues.length) return;
+  renderPreviewForCue(cues[idx]);
+  positionPreviewAt(mark);
+};
+
+const hidePreview = () => {
+  cuePreview.classList.remove("visible");
+  cuePreview.innerHTML = "";
+};
+
+audio.addEventListener("loadedmetadata", () => {
+  tTotal.textContent = fmt(audio.duration);
+  for (let i = 0; i < cues.length; i++) {
+    const cue = cues[i];
+    const mark = document.createElement("div");
+    mark.className = "cue-mark" + (cue.type === "overlay" ? " overlay-mark" : cue.type === "vocab" ? " vocab-mark" : "");
+    mark.style.left = (100 * cue.time / audio.duration) + "%";
+    mark.dataset.cueIndex = String(i);
+    mark.title = (cue.caption || cue.title || "") + " — " + fmt(cue.time);
+    mark.addEventListener("mouseenter", () => showPreview(i, mark));
+    mark.addEventListener("mouseleave", hidePreview);
+    mark.addEventListener("click", e => {
+      e.stopPropagation();
+      audio.currentTime = cue.time;
+    });
+    scrubberMarks.appendChild(mark);
+  }
+});
+
+audio.addEventListener("timeupdate", () => {
+  const t = audio.currentTime;
+  scrubberFill.style.width = (100 * t / audio.duration) + "%";
+  tCurrent.textContent = fmt(t);
+  setCue(findCueIndex(t), findSectionIndex(t));
+});
+
+audio.addEventListener("play", () => playPause.textContent = "Pause");
+audio.addEventListener("pause", () => playPause.textContent = "Play");
+audio.addEventListener("ended", () => playPause.textContent = "Play");
+
+playPause.addEventListener("click", () => {
+  if (audio.paused) audio.play(); else audio.pause();
+});
+
+document.getElementById("back-10").addEventListener("click", () => {
+  audio.currentTime = Math.max(0, audio.currentTime - 10);
+});
+document.getElementById("fwd-10").addEventListener("click", () => {
+  audio.currentTime = Math.min(audio.duration || 0, audio.currentTime + 10);
+});
+
+document.getElementById("prev-cue").addEventListener("click", () => {
+  const t = audio.currentTime;
+  const idx = findCueIndex(t - 0.5);
+  if (idx > 0) audio.currentTime = cues[idx - 1].time;
+  else if (idx === 0) audio.currentTime = cues[0].time > 0.1 ? cues[0].time : 0;
+  else if (cues.length > 0) audio.currentTime = 0;
+});
+
+document.getElementById("next-cue").addEventListener("click", () => {
+  const idx = findCueIndex(audio.currentTime);
+  if (idx + 1 < cues.length) audio.currentTime = cues[idx + 1].time;
+  else if (audio.duration) audio.currentTime = audio.duration;
+});
+
+scrubber.addEventListener("click", e => {
+  const rect = scrubber.getBoundingClientRect();
+  const frac = (e.clientX - rect.left) / rect.width;
+  if (audio.duration) audio.currentTime = frac * audio.duration;
+});
+
+document.addEventListener("keydown", e => {
+  if (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA") return;
+  switch (e.code) {
+    case "Space": e.preventDefault(); playPause.click(); break;
+    case "ArrowLeft": document.getElementById("back-10").click(); break;
+    case "ArrowRight": document.getElementById("fwd-10").click(); break;
+    case "ArrowUp": e.preventDefault(); document.getElementById("prev-cue").click(); break;
+    case "ArrowDown": e.preventDefault(); document.getElementById("next-cue").click(); break;
+  }
+});
+
+// Initial render before audio loads
+setCue(-1, -1);
+</script>
+</body>
+</html>
