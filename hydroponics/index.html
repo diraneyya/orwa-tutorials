@@ -98,8 +98,34 @@ footer {
 .cue-mark:hover { background: var(--accent); width: 3px; }
 .cue-mark.overlay-mark { background: rgba(255,200,100,0.65); }
 .cue-mark.overlay-mark:hover { background: rgb(255,200,100); }
+.cue-mark.vocab-mark { background: rgba(199,155,240,0.7); }
+.cue-mark.vocab-mark:hover { background: rgb(199,155,240); }
 #scrubber-marks { pointer-events: none; }
 #scrubber-marks .cue-mark { pointer-events: auto; }
+/* Vocabulary card — color-coded to match the narration voices */
+.vocab-card {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  width: 100%; height: 100%; padding: 2rem; gap: 0.9rem;
+  background: linear-gradient(135deg, rgba(199,155,240,0.10), rgba(199,155,240,0.02));
+}
+.vocab-row {
+  display: flex; align-items: baseline; gap: 0.9rem;
+  font-size: 2rem; font-weight: 500;
+}
+.vocab-row .vocab-lang {
+  font-size: 0.8rem; font-weight: 600; text-transform: uppercase;
+  letter-spacing: 0.06em; opacity: 0.85;
+  min-width: 2.2em; text-align: right;
+}
+.vocab-row .vocab-word { font-weight: 500; }
+.vocab-lang-nl, .vocab-row.lang-nl .vocab-word { color: #f0a868; }
+.vocab-lang-de, .vocab-row.lang-de .vocab-word { color: #7ec77e; }
+.vocab-lang-en, .vocab-row.lang-en .vocab-word { color: #4a9eff; }
+.vocab-lang-ar, .vocab-row.lang-ar .vocab-word { color: #c89bf0; }
+.vocab-row.lang-nl .vocab-lang { color: #f0a868; }
+.vocab-row.lang-de .vocab-lang { color: #7ec77e; }
+.vocab-row.lang-en .vocab-lang { color: #4a9eff; }
+.vocab-row.lang-ar .vocab-lang { color: #c89bf0; }
 #cue-preview {
   position: fixed;
   z-index: 100;
@@ -300,29 +326,60 @@ const renderOverlay = cue => {
   caption.textContent = "";
 };
 
+const renderVocab = cue => {
+  stage.innerHTML = "";
+  const card = document.createElement("div");
+  card.className = "vocab-card";
+  for (const e of (cue.entries || [])) {
+    const row = document.createElement("div");
+    row.className = "vocab-row lang-" + e.lang;
+    const lang = document.createElement("span");
+    lang.className = "vocab-lang vocab-lang-" + e.lang;
+    lang.textContent = e.lang;
+    const word = document.createElement("span");
+    word.className = "vocab-word";
+    word.textContent = e.word;
+    if (e.lang === "ar") { word.dir = "rtl"; word.style.fontSize = "1.3em"; }
+    row.appendChild(lang);
+    row.appendChild(word);
+    card.appendChild(row);
+  }
+  stage.appendChild(card);
+  caption.textContent = "";
+};
+
 const setCue = (idx, sectionIdx) => {
   const sectionChanged = sectionIdx !== currentSectionIdx;
-  const cueChanged = idx !== currentCueIdx;
+  // Stale-cue detection: an active cue placed before the current section
+  // began is lingering from a previous section — drop it so the section
+  // title shows instead of a stale image.
+  let effectiveIdx = idx;
+  if (effectiveIdx >= 0 && sectionIdx >= 0 &&
+      cues[effectiveIdx].time < sections[sectionIdx].time - 0.01) {
+    effectiveIdx = -1;
+  }
+  const cueChanged = effectiveIdx !== currentCueIdx;
   if (sectionChanged) {
     currentSectionIdx = sectionIdx;
     const sec = sectionIdx >= 0 ? sections[sectionIdx] : null;
     sectionRibbon.textContent = sec ? sec.title : "";
   }
   if (!cueChanged && !sectionChanged) return;
-  // When cue is unchanged but only section advanced AND there is no active cue,
-  // re-render fallback to pick up the new section title.
-  if (!cueChanged && idx >= 0) return;
+  // When cue is unchanged but only section advanced AND there is an active
+  // cue, nothing to re-render.
+  if (!cueChanged && effectiveIdx >= 0) return;
 
-  currentCueIdx = idx;
-  if (idx < 0) {
+  currentCueIdx = effectiveIdx;
+  if (effectiveIdx < 0) {
     renderFallback();
     cueCounter.textContent = "cue –";
     return;
   }
-  const cue = cues[idx];
+  const cue = cues[effectiveIdx];
   if (cue.type === "overlay") renderOverlay(cue);
+  else if (cue.type === "vocab") renderVocab(cue);
   else renderImage(cue);
-  cueCounter.textContent = `cue ${idx + 1} / ${cues.length}`;
+  cueCounter.textContent = `cue ${effectiveIdx + 1} / ${cues.length}`;
 };
 
 const cuePreview = document.getElementById("cue-preview");
@@ -355,6 +412,14 @@ const renderPreviewForCue = (cue) => {
       const l = document.createElement("div");
       l.className = "preview-overlay-line";
       l.textContent = ln;
+      cuePreview.appendChild(l);
+    }
+  } else if (cue.type === "vocab") {
+    for (const e of (cue.entries || [])) {
+      const l = document.createElement("div");
+      l.className = "preview-overlay-line vocab-lang-" + e.lang;
+      l.textContent = e.lang + "  " + e.word;
+      if (e.lang === "ar") l.dir = "rtl";
       cuePreview.appendChild(l);
     }
   }
@@ -394,7 +459,7 @@ audio.addEventListener("loadedmetadata", () => {
   for (let i = 0; i < cues.length; i++) {
     const cue = cues[i];
     const mark = document.createElement("div");
-    mark.className = "cue-mark" + (cue.type === "overlay" ? " overlay-mark" : "");
+    mark.className = "cue-mark" + (cue.type === "overlay" ? " overlay-mark" : cue.type === "vocab" ? " vocab-mark" : "");
     mark.style.left = (100 * cue.time / audio.duration) + "%";
     mark.dataset.cueIndex = String(i);
     mark.title = (cue.caption || cue.title || "") + " — " + fmt(cue.time);

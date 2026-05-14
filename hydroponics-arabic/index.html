@@ -350,28 +350,36 @@ const renderVocab = cue => {
 
 const setCue = (idx, sectionIdx) => {
   const sectionChanged = sectionIdx !== currentSectionIdx;
-  const cueChanged = idx !== currentCueIdx;
+  // Stale-cue detection: an active cue placed before the current section
+  // began is lingering from a previous section — drop it so the section
+  // title shows instead of a stale image.
+  let effectiveIdx = idx;
+  if (effectiveIdx >= 0 && sectionIdx >= 0 &&
+      cues[effectiveIdx].time < sections[sectionIdx].time - 0.01) {
+    effectiveIdx = -1;
+  }
+  const cueChanged = effectiveIdx !== currentCueIdx;
   if (sectionChanged) {
     currentSectionIdx = sectionIdx;
     const sec = sectionIdx >= 0 ? sections[sectionIdx] : null;
     sectionRibbon.textContent = sec ? sec.title : "";
   }
   if (!cueChanged && !sectionChanged) return;
-  // When cue is unchanged but only section advanced AND there is no active cue,
-  // re-render fallback to pick up the new section title.
-  if (!cueChanged && idx >= 0) return;
+  // When cue is unchanged but only section advanced AND there is an active
+  // cue, nothing to re-render.
+  if (!cueChanged && effectiveIdx >= 0) return;
 
-  currentCueIdx = idx;
-  if (idx < 0) {
+  currentCueIdx = effectiveIdx;
+  if (effectiveIdx < 0) {
     renderFallback();
     cueCounter.textContent = "cue –";
     return;
   }
-  const cue = cues[idx];
+  const cue = cues[effectiveIdx];
   if (cue.type === "overlay") renderOverlay(cue);
   else if (cue.type === "vocab") renderVocab(cue);
   else renderImage(cue);
-  cueCounter.textContent = `cue ${idx + 1} / ${cues.length}`;
+  cueCounter.textContent = `cue ${effectiveIdx + 1} / ${cues.length}`;
 };
 
 const cuePreview = document.getElementById("cue-preview");

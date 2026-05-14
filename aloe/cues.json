@@ -29,7 +29,7 @@
       "time": 323.67,
       "image": "photos/20260512_193046.jpg",
       "caption": "MyGarden Compressed Cocos brick — pure coconut coir, expands to 25 liters with 9 L of warm water",
-      "rotation": 270
+      "rotation": 0
     },
     {
       "type": "image",
@@ -57,7 +57,7 @@
       "time": 631.629,
       "image": "photos/20260512_195339.jpg",
       "caption": "Ranzijn Tuinturf Biologisch 30L bag",
-      "rotation": 90
+      "rotation": 270
     },
     {
       "type": "image",
@@ -71,7 +71,7 @@
       "time": 704.562,
       "image": "photos/20260512_195347.jpg",
       "caption": "DCM Vivimus Heide/Rhodo/Zuurminnend 40L bag",
-      "rotation": 90
+      "rotation": 270
     },
     {
       "type": "image",
@@ -99,7 +99,7 @@
       "time": 852.581,
       "image": "photos/20260512_195542.jpg",
       "caption": "DCM Vivimus Universeel 40L bag",
-      "rotation": 90
+      "rotation": 270
     },
     {
       "type": "image",
@@ -120,7 +120,7 @@
       "time": 1012.332,
       "image": "photos/20260512_195401.jpg",
       "caption": "Jardino Franse Pijnboomschors 70L bag",
-      "rotation": 90
+      "rotation": 270
     },
     {
       "type": "image",
@@ -141,7 +141,7 @@
       "time": 1165.861,
       "image": "photos/20260512_195237.jpg",
       "caption": "Ranzijn Aanplantgrond 30L bag",
-      "rotation": 90
+      "rotation": 270
     },
     {
       "type": "overlay",
