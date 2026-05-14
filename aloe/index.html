@@ -100,6 +100,8 @@ footer {
 .cue-mark.overlay-mark:hover { background: rgb(255,200,100); }
 .cue-mark.vocab-mark { background: rgba(199,155,240,0.7); }
 .cue-mark.vocab-mark:hover { background: rgb(199,155,240); }
+.cue-mark.gap-mark { background: rgba(255,90,90,0.85); }
+.cue-mark.gap-mark:hover { background: rgb(255,90,90); }
 #scrubber-marks { pointer-events: none; }
 #scrubber-marks .cue-mark { pointer-events: auto; }
 /* Vocabulary card — color-coded to match the narration voices */
@@ -126,6 +128,25 @@ footer {
 .vocab-row.lang-de .vocab-lang { color: #7ec77e; }
 .vocab-row.lang-en .vocab-lang { color: #4a9eff; }
 .vocab-row.lang-ar .vocab-lang { color: #c89bf0; }
+/* Gap slide — a visual the author declared but hasn't sourced yet */
+.gap-slide {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  width: 100%; height: 100%; padding: 2rem; gap: 1rem; text-align: center;
+  background: repeating-linear-gradient(45deg,
+    rgba(255,90,90,0.06), rgba(255,90,90,0.06) 12px,
+    rgba(255,90,90,0.02) 12px, rgba(255,90,90,0.02) 24px);
+  border: 2px dashed rgba(255,90,90,0.5); border-radius: 12px;
+}
+.gap-slide .gap-tag {
+  font-size: 0.8rem; font-weight: 700; letter-spacing: 0.12em;
+  color: #ff7a7a; text-transform: uppercase;
+}
+.gap-slide .gap-text {
+  font-size: 1.6rem; font-weight: 500; opacity: 0.92; max-width: 85%; line-height: 1.3;
+}
+.gap-slide .gap-meta {
+  font-size: 0.9rem; color: var(--dim); opacity: 0.7; max-width: 80%;
+}
 #cue-preview {
   position: fixed;
   z-index: 100;
@@ -244,8 +265,8 @@ const tTotal = document.getElementById("t-total");
 const cueCounter = document.getElementById("cue-counter");
 const sectionRibbon = document.getElementById("section-ribbon");
 
-const cues = [{"type": "overlay", "time": 219.625, "title": "The succulent recipe", "lines": ["50–60% — mineral grit (drainage, air pockets)", "30–40% — low-organic substrate (moisture buffer)", "0–10% — extra structure (bark, pumice, lava)"]}, {"type": "image", "time": 284.243, "image": "photos/20260512_195230.jpg", "caption": "Florentus Hydrokorrels 10L — expanded clay pellets for drainage", "rotation": 0}, {"type": "image", "time": 302.109, "image": "photos/dcm-perliet-10l-praxis.webp", "caption": "DCM Perliet 10L from Praxis — popped volcanic glass for aeration", "rotation": 0}, {"type": "image", "time": 323.67, "image": "photos/20260512_193046.jpg", "caption": "MyGarden Compressed Cocos brick — pure coconut coir, expands to 25 liters with 9 L of warm water", "rotation": 0}, {"type": "image", "time": 394.339, "image": "photos/20260512_195604.jpg", "caption": "Florentus Langwerkende Potgrond 10L — long-acting universal potting soil", "rotation": 0}, {"type": "image", "time": 502.721, "image": "photos/20260512_195331.jpg", "caption": "Florentus Bio Potgrond Kokos 40L bag — coconut-coir-based potting soil", "rotation": 0}, {"type": "image", "time": 567.42, "image": "photos/20260512_195508.jpg", "caption": "Florentus Bio Mediterrane Planten 40L bag — peat-free Mediterranean mix", "rotation": 0}, {"type": "image", "time": 631.629, "image": "photos/20260512_195339.jpg", "caption": "Ranzijn Tuinturf Biologisch 30L bag", "rotation": 270}, {"type": "image", "time": 682.845, "image": "photos/20260512_195301.jpg", "caption": "Florentus Hortensiagrond 20L bag", "rotation": 90}, {"type": "image", "time": 704.562, "image": "photos/20260512_195347.jpg", "caption": "DCM Vivimus Heide/Rhodo/Zuurminnend 40L bag", "rotation": 270}, {"type": "image", "time": 752.485, "image": "photos/20260512_195417.jpg", "caption": "Florentus Zaai- en Stekgrond 40L bag", "rotation": 0}, {"type": "image", "time": 824.479, "image": "photos/20260512_195317.jpg", "caption": "Pokon Moestuinbakken Mix 45L bag", "rotation": 0}, {"type": "image", "time": 832.036, "image": "photos/20260512_195429.jpg", "caption": "Ranzijn Moestuinaarde Biologisch bag", "rotation": 0}, {"type": "image", "time": 852.581, "image": "photos/20260512_195542.jpg", "caption": "DCM Vivimus Universeel 40L bag", "rotation": 270}, {"type": "image", "time": 874.321, "image": "photos/20260512_195308.jpg", "caption": "Ranzijn Compost 30L bag", "rotation": 0}, {"type": "image", "time": 930.465, "image": "photos/20260512_195230.jpg", "caption": "Florentus Hydrokorrels 10L — expanded clay pellets, the key drainage product", "rotation": 0}, {"type": "image", "time": 1012.332, "image": "photos/20260512_195401.jpg", "caption": "Jardino Franse Pijnboomschors 70L bag", "rotation": 270}, {"type": "image", "time": 1055.943, "image": "photos/20260512_195355.jpg", "caption": "Pokon Cacaodoppen 40L bag", "rotation": 0}, {"type": "image", "time": 1099.207, "image": "photos/20260512_193402.jpg", "caption": "Green Boots Tuinkalk 4kg", "rotation": 0}, {"type": "image", "time": 1165.861, "image": "photos/20260512_195237.jpg", "caption": "Ranzijn Aanplantgrond 30L bag", "rotation": 270}, {"type": "overlay", "time": 1252.211, "title": "The Ranzijn-only recipe", "lines": ["Bottom 3 cm — Florentus Hydrokorrels (drainage layer)", "2 parts — Florentus Mediterrane Potgrond", "1 part — Florentus Hydrokorrels (mixed in)", "1 part — sterilized sandy garden soil"]}, {"type": "overlay", "time": 1318.909, "title": "The proper succulent recipe", "lines": ["1 part — coconut coir or peat-free potgrond (substrate)", "1 part — perlite (light drainage, air)", "1 part — coarse grit or pumice (heavy drainage, structure)"]}, {"type": "image", "time": 1364.734, "image": "photos/pokon-cactus-potgrond-5l-praxis.webp", "caption": "Pokon Cactus Potgrond 5L from Praxis", "rotation": 0}, {"type": "image", "time": 1435.317, "image": "photos/dcm-perliet-10l-praxis.webp", "caption": "DCM Perliet 10L from Praxis", "rotation": 0}, {"type": "image", "time": 1498.854, "image": "photos/pokon-bonsai-potgrond-5l-praxis.webp", "caption": "Pokon Bonsai Potgrond 5L from Praxis — bonsai mix with pumice and perlite", "rotation": 0}, {"type": "overlay", "time": 1759.969, "title": "This week's action list", "lines": ["1 — Soak the MyGarden Cocos brick you own", "2 — Go to Praxis for DCM Perliet 10L (10 to 13 euros)", "3 — Optionally Ranzijn for Florentus Hydrokorrels 10L (6.99)", "4 — Stop watering the current pots immediately", "5 — In about 5 days when soil is bone dry, repot", "6 — Wait 5 to 7 days before first watering"]}];
-const sections = [{"time": 39.308, "level": 2, "title": "1. What aloe vera actually wants in its soil"}, {"time": 116.957, "level": 2, "title": "2. Why your sandy garden soil is \"almost right\" but probably not ideal"}, {"time": 212.125, "level": 2, "title": "3. The recipe — what a real succulent mix looks like"}, {"time": 353.102, "level": 2, "title": "4. A walk through the soil aisle at Ranzijn Tuin & Dier"}, {"time": 380.539, "level": 3, "title": "4.1 Universal potting soils — the workhorses"}, {"time": 453.908, "level": 3, "title": "4.2 Peat-free / bio soils — ecological alternatives"}, {"time": 539.197, "level": 3, "title": "4.3 Mediterranean and specialty soils — your closest match"}, {"time": 615.279, "level": 3, "title": "4.4 Acidifying soils — NOT for aloe but important to recognize"}, {"time": 745.147, "level": 3, "title": "4.5 Seed-starting and cutting soils"}, {"time": 790.841, "level": 3, "title": "4.6 Vegetable garden and food-crop soils"}, {"time": 870.008, "level": 3, "title": "4.7 Compost — too rich for aloe pots"}, {"time": 915.469, "level": 3, "title": "4.8 Drainage components — the most useful category for aloe"}, {"time": 997.819, "level": 3, "title": "4.9 Mulches and top-dressings — extra structure"}, {"time": 1096.32, "level": 3, "title": "4.10 Lime — for raising soil pH"}, {"time": 1157.948, "level": 3, "title": "4.11 Other / specialty — not for aloe directly"}, {"time": 1237.509, "level": 2, "title": "5. The compromise recipe — using only Ranzijn products"}, {"time": 1307.36, "level": 2, "title": "6. The proper recipe — and what is missing at Ranzijn"}, {"time": 1359.563, "level": 3, "title": "6.1 Cactusgrond / Vetplantengrond — the pre-mixed shortcut"}, {"time": 1433.642, "level": 3, "title": "6.2 Perlite — perliet in Dutch"}, {"time": 1486.655, "level": 3, "title": "6.3 Pumice — bims in Dutch — and coarse grit"}, {"time": 1572.36, "level": 2, "title": "7. Repotting protocol for your big aloe pieces"}, {"time": 1698.907, "level": 2, "title": "8. Watering protocol after repotting"}, {"time": 1755.381, "level": 2, "title": "9. Summary — what to actually do this week"}, {"time": 1803.431, "level": 2, "title": "Cross-references"}];
+const cues = [{"type": "image", "time": 0.087, "image": "photos/aloe-15yr-healthy-before.jpg", "caption": "The 15-year-old aloe in full health, before", "rotation": 0, "explicit": true}, {"type": "image", "time": 7.862, "image": "photos/aloe-now-in-sand.jpg", "caption": "What is left of the same aloe today, planted in sandy soil", "rotation": 0, "explicit": true}, {"type": "image", "time": 47.767, "image": "photos/aloe-habitat-oman.jpg", "caption": "Aloe vera growing wild on a rocky slope in Oman — its native range", "rotation": 0, "explicit": true}, {"type": "image", "time": 52.767, "image": "photos/diagram-flood-drought-cycle-en.svg", "caption": "The flood-then-drought cycle the aloe root is built for", "rotation": 0, "explicit": true}, {"type": "overlay", "time": 86.454, "title": "The three things that matter in the substrate", "lines": ["Fast drainage", "Low organic content", "A mix of particle sizes"]}, {"type": "image", "time": 94.492, "image": "photos/diagram-rock-pile-vs-soil-en.svg", "caption": "Fast-draining (rock pile with soil between) vs. water-holding (soil with a few rocks)", "rotation": 0, "explicit": true}, {"type": "image", "time": 129.367, "image": "photos/almere-sandy-soil.jpg", "caption": "The sandy ground in Almere the potting soil was dug from", "rotation": 0, "explicit": true}, {"type": "image", "time": 153.091, "image": "photos/aloe-now-in-sand.jpg", "caption": "The same sandy pots — the wilting is what these three problems produce", "rotation": 0, "explicit": true}, {"type": "image", "time": 228.204, "image": "photos/aloe-young-better-soil.jpg", "caption": "A younger aloe in darker soil amended with perlite and clay pellets — visibly doing better", "rotation": 0, "explicit": true}, {"type": "overlay", "time": 251.242, "title": "The succulent recipe", "lines": ["50–60% — mineral grit (drainage, air pockets)", "30–40% — low-organic substrate (moisture buffer)", "0–10% — extra structure (bark, pumice, lava)"]}, {"type": "image", "time": 315.875, "image": "photos/20260512_195230.jpg", "caption": "Florentus Hydrokorrels 10L — expanded clay pellets for drainage", "rotation": 0, "explicit": false}, {"type": "image", "time": 333.741, "image": "photos/dcm-perliet-10l-praxis.webp", "caption": "DCM Perliet 10L from Praxis — popped volcanic glass for aeration", "rotation": 0, "explicit": false}, {"type": "image", "time": 355.302, "image": "photos/20260512_193046.jpg", "caption": "MyGarden Compressed Cocos brick — pure coconut coir, expands to 25 liters with 9 L of warm water", "rotation": 0, "explicit": false}, {"type": "image", "time": 425.971, "image": "photos/peat-bog-material.jpg", "caption": "Peat — dark, fibrous, decomposed bog material", "rotation": 0, "explicit": true}, {"type": "image", "time": 434.409, "image": "photos/20260512_195604.jpg", "caption": "Florentus Langwerkende Potgrond 10L — long-acting universal potting soil", "rotation": 0, "explicit": false}, {"type": "image", "time": 542.777, "image": "photos/20260512_195331.jpg", "caption": "Florentus Bio Potgrond Kokos 40L bag — coconut-coir-based potting soil", "rotation": 0, "explicit": false}, {"type": "image", "time": 607.476, "image": "photos/20260512_195508.jpg", "caption": "Florentus Bio Mediterrane Planten 40L bag — peat-free Mediterranean mix", "rotation": 0, "explicit": false}, {"type": "image", "time": 671.685, "image": "photos/20260512_195339.jpg", "caption": "Ranzijn Tuinturf Biologisch 30L bag", "rotation": 270, "explicit": false}, {"type": "image", "time": 722.901, "image": "photos/20260512_195301.jpg", "caption": "Florentus Hortensiagrond 20L bag", "rotation": 90, "explicit": false}, {"type": "image", "time": 744.618, "image": "photos/20260512_195347.jpg", "caption": "DCM Vivimus Heide/Rhodo/Zuurminnend 40L bag", "rotation": 270, "explicit": false}, {"type": "image", "time": 792.54, "image": "photos/20260512_195417.jpg", "caption": "Florentus Zaai- en Stekgrond 40L bag", "rotation": 0, "explicit": false}, {"type": "image", "time": 864.534, "image": "photos/20260512_195317.jpg", "caption": "Pokon Moestuinbakken Mix 45L bag", "rotation": 0, "explicit": false}, {"type": "image", "time": 872.092, "image": "photos/20260512_195429.jpg", "caption": "Ranzijn Moestuinaarde Biologisch bag", "rotation": 0, "explicit": false}, {"type": "image", "time": 892.637, "image": "photos/20260512_195542.jpg", "caption": "DCM Vivimus Universeel 40L bag", "rotation": 270, "explicit": false}, {"type": "image", "time": 914.376, "image": "photos/20260512_195308.jpg", "caption": "Ranzijn Compost 30L bag", "rotation": 0, "explicit": false}, {"type": "image", "time": 970.521, "image": "photos/20260512_195230.jpg", "caption": "Florentus Hydrokorrels 10L — expanded clay pellets, the key drainage product", "rotation": 0, "explicit": false}, {"type": "image", "time": 1052.388, "image": "photos/20260512_195401.jpg", "caption": "Jardino Franse Pijnboomschors 70L bag", "rotation": 270, "explicit": false}, {"type": "image", "time": 1095.999, "image": "photos/20260512_195355.jpg", "caption": "Pokon Cacaodoppen 40L bag", "rotation": 0, "explicit": false}, {"type": "image", "time": 1139.263, "image": "photos/20260512_193402.jpg", "caption": "Green Boots Tuinkalk 4kg", "rotation": 0, "explicit": false}, {"type": "image", "time": 1205.917, "image": "photos/20260512_195237.jpg", "caption": "Ranzijn Aanplantgrond 30L bag", "rotation": 270, "explicit": false}, {"type": "overlay", "time": 1292.267, "title": "The Ranzijn-only recipe", "lines": ["Bottom 3 cm — Florentus Hydrokorrels (drainage layer)", "2 parts — Florentus Mediterrane Potgrond", "1 part — Florentus Hydrokorrels (mixed in)", "1 part — sterilized sandy garden soil"]}, {"type": "overlay", "time": 1358.965, "title": "The proper succulent recipe", "lines": ["1 part — coconut coir or peat-free potgrond (substrate)", "1 part — perlite (light drainage, air)", "1 part — coarse grit or pumice (heavy drainage, structure)"]}, {"type": "image", "time": 1404.79, "image": "photos/pokon-cactus-potgrond-5l-praxis.webp", "caption": "Pokon Cactus Potgrond 5L from Praxis", "rotation": 0, "explicit": false}, {"type": "image", "time": 1475.373, "image": "photos/dcm-perliet-10l-praxis.webp", "caption": "DCM Perliet 10L from Praxis", "rotation": 0, "explicit": false}, {"type": "image", "time": 1538.91, "image": "photos/pokon-bonsai-potgrond-5l-praxis.webp", "caption": "Pokon Bonsai Potgrond 5L from Praxis — bonsai mix with pumice and perlite", "rotation": 0, "explicit": false}, {"type": "overlay", "time": 1800.025, "title": "This week's action list", "lines": ["1 — Soak the MyGarden Cocos brick you own", "2 — Go to Praxis for DCM Perliet 10L (10 to 13 euros)", "3 — Optionally Ranzijn for Florentus Hydrokorrels 10L (6.99)", "4 — Stop watering the current pots immediately", "5 — In about 5 days when soil is bone dry, repot", "6 — Wait 5 to 7 days before first watering"]}];
+const sections = [{"time": 43.58, "level": 2, "title": "1. What aloe vera actually wants in its soil"}, {"time": 123.692, "level": 2, "title": "2. Why your sandy garden soil is \"almost right\" but probably not ideal"}, {"time": 243.905, "level": 2, "title": "3. The recipe — what a real succulent mix looks like"}, {"time": 384.734, "level": 2, "title": "4. A walk through the soil aisle at Ranzijn Tuin & Dier"}, {"time": 412.171, "level": 3, "title": "4.1 Universal potting soils — the workhorses"}, {"time": 493.964, "level": 3, "title": "4.2 Peat-free / bio soils — ecological alternatives"}, {"time": 579.253, "level": 3, "title": "4.3 Mediterranean and specialty soils — your closest match"}, {"time": 655.335, "level": 3, "title": "4.4 Acidifying soils — NOT for aloe but important to recognize"}, {"time": 785.203, "level": 3, "title": "4.5 Seed-starting and cutting soils"}, {"time": 830.897, "level": 3, "title": "4.6 Vegetable garden and food-crop soils"}, {"time": 910.064, "level": 3, "title": "4.7 Compost — too rich for aloe pots"}, {"time": 955.525, "level": 3, "title": "4.8 Drainage components — the most useful category for aloe"}, {"time": 1037.875, "level": 3, "title": "4.9 Mulches and top-dressings — extra structure"}, {"time": 1136.376, "level": 3, "title": "4.10 Lime — for raising soil pH"}, {"time": 1198.005, "level": 3, "title": "4.11 Other / specialty — not for aloe directly"}, {"time": 1277.565, "level": 2, "title": "5. The compromise recipe — using only Ranzijn products"}, {"time": 1347.416, "level": 2, "title": "6. The proper recipe — and what is missing at Ranzijn"}, {"time": 1399.619, "level": 3, "title": "6.1 Cactusgrond / Vetplantengrond — the pre-mixed shortcut"}, {"time": 1473.698, "level": 3, "title": "6.2 Perlite — perliet in Dutch"}, {"time": 1526.71, "level": 3, "title": "6.3 Pumice — bims in Dutch — and coarse grit"}, {"time": 1612.416, "level": 2, "title": "7. Repotting protocol for your big aloe pieces"}, {"time": 1738.963, "level": 2, "title": "8. Watering protocol after repotting"}, {"time": 1795.438, "level": 2, "title": "9. Summary — what to actually do this week"}, {"time": 1843.487, "level": 2, "title": "Cross-references"}];
 let currentCueIdx = -2;  // sentinel so initial render fires
 let currentSectionIdx = -2;
 
@@ -348,6 +369,28 @@ const renderVocab = cue => {
   caption.textContent = "";
 };
 
+const renderGap = cue => {
+  stage.innerHTML = "";
+  const g = document.createElement("div");
+  g.className = "gap-slide";
+  const tag = document.createElement("div");
+  tag.className = "gap-tag";
+  tag.textContent = cue.tier ? "Visual needed · tier " + cue.tier : "Visual needed";
+  g.appendChild(tag);
+  const txt = document.createElement("div");
+  txt.className = "gap-text";
+  txt.textContent = cue.gap_text || "";
+  g.appendChild(txt);
+  if (cue.note) {
+    const n = document.createElement("div");
+    n.className = "gap-meta";
+    n.textContent = cue.note;
+    g.appendChild(n);
+  }
+  stage.appendChild(g);
+  caption.textContent = "";
+};
+
 const setCue = (idx, sectionIdx) => {
   const sectionChanged = sectionIdx !== currentSectionIdx;
   // Stale-cue detection: an active cue placed before the current section
@@ -378,6 +421,7 @@ const setCue = (idx, sectionIdx) => {
   const cue = cues[effectiveIdx];
   if (cue.type === "overlay") renderOverlay(cue);
   else if (cue.type === "vocab") renderVocab(cue);
+  else if (cue.type === "gap") renderGap(cue);
   else renderImage(cue);
   cueCounter.textContent = `cue ${effectiveIdx + 1} / ${cues.length}`;
 };
@@ -422,6 +466,23 @@ const renderPreviewForCue = (cue) => {
       if (e.lang === "ar") l.dir = "rtl";
       cuePreview.appendChild(l);
     }
+  } else if (cue.type === "gap") {
+    const t = document.createElement("div");
+    t.className = "preview-overlay-title";
+    t.style.color = "#ff7a7a";
+    t.textContent = cue.tier ? "Visual needed · tier " + cue.tier : "Visual needed";
+    cuePreview.appendChild(t);
+    const l = document.createElement("div");
+    l.className = "preview-overlay-line";
+    l.textContent = cue.gap_text || "";
+    cuePreview.appendChild(l);
+    if (cue.note) {
+      const n = document.createElement("div");
+      n.className = "preview-overlay-line";
+      n.style.opacity = "0.6";
+      n.textContent = cue.note;
+      cuePreview.appendChild(n);
+    }
   }
   const tInfo = document.createElement("div");
   tInfo.className = "preview-time";
@@ -459,10 +520,10 @@ audio.addEventListener("loadedmetadata", () => {
   for (let i = 0; i < cues.length; i++) {
     const cue = cues[i];
     const mark = document.createElement("div");
-    mark.className = "cue-mark" + (cue.type === "overlay" ? " overlay-mark" : cue.type === "vocab" ? " vocab-mark" : "");
+    mark.className = "cue-mark" + (cue.type === "overlay" ? " overlay-mark" : cue.type === "vocab" ? " vocab-mark" : cue.type === "gap" ? " gap-mark" : "");
     mark.style.left = (100 * cue.time / audio.duration) + "%";
     mark.dataset.cueIndex = String(i);
-    mark.title = (cue.caption || cue.title || "") + " — " + fmt(cue.time);
+    mark.title = (cue.caption || cue.title || cue.gap_text || "") + " — " + fmt(cue.time);
     mark.addEventListener("mouseenter", () => showPreview(i, mark));
     mark.addEventListener("mouseleave", hidePreview);
     mark.addEventListener("click", e => {

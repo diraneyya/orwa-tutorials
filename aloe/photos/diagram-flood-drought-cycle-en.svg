@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <rect width="1200" height="675" fill="#161616"/>
+  <text x="600" y="58" fill="#4a9eff" font-size="36" font-weight="600" text-anchor="middle">The rain-then-drought cycle</text>
+
+  <!-- ===== LEFT panel: heavy rain, roots flooded ===== -->
+  <g transform="translate(60,96)">
+    <rect width="515" height="486" rx="18" fill="#19242f" stroke="#2f4257" stroke-width="2"/>
+    <g stroke="#5ea9e0" stroke-width="4" stroke-linecap="round" opacity="0.85">
+      <line x1="70" y1="40" x2="58" y2="86"/>
+      <line x1="130" y1="28" x2="118" y2="74"/>
+      <line x1="195" y1="44" x2="183" y2="90"/>
+      <line x1="262" y1="26" x2="250" y2="72"/>
+      <line x1="330" y1="42" x2="318" y2="88"/>
+      <line x1="398" y1="30" x2="386" y2="76"/>
+      <line x1="452" y1="46" x2="440" y2="92"/>
+      <line x1="100" y1="92" x2="88" y2="132"/>
+      <line x1="225" y1="96" x2="213" y2="136"/>
+      <line x1="365" y1="94" x2="353" y2="134"/>
+    </g>
+    <rect x="150" y="150" width="215" height="250" rx="8" fill="#3a3326"/>
+    <rect x="150" y="150" width="215" height="250" rx="8" fill="#2f6f9e" opacity="0.55"/>
+    <rect x="150" y="150" width="215" height="26" fill="#4a9eff" opacity="0.8"/>
+    <g stroke="#cdbf9b" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.7">
+      <path d="M258 176 C 240 230, 275 270, 250 330 C 235 360, 250 380, 245 392"/>
+      <path d="M258 200 C 295 240, 270 290, 300 340"/>
+      <path d="M258 200 C 220 250, 235 300, 205 350"/>
+    </g>
+    <circle cx="200" cy="250" r="5" fill="#bcd9ef" opacity="0.6"/>
+    <circle cx="320" cy="300" r="4" fill="#bcd9ef" opacity="0.6"/>
+    <circle cx="240" cy="350" r="6" fill="#bcd9ef" opacity="0.6"/>
+    <text x="257" y="450" fill="#9ec9e8" font-size="28" font-weight="600" text-anchor="middle">Heavy rain</text>
+    <text x="257" y="484" fill="#7c8a96" font-size="22" text-anchor="middle">the roots are flooded</text>
+  </g>
+
+  <!-- ===== RIGHT panel: long drought, roots breathing air ===== -->
+  <g transform="translate(625,96)">
+    <rect width="515" height="486" rx="18" fill="#2a2114" stroke="#5a4a2f" stroke-width="2"/>
+    <circle cx="430" cy="78" r="34" fill="#e8b84a"/>
+    <g stroke="#e8b84a" stroke-width="5" stroke-linecap="round">
+      <line x1="430" y1="20" x2="430" y2="2"/>
+      <line x1="478" y1="36" x2="492" y2="22"/>
+      <line x1="488" y1="78" x2="508" y2="78"/>
+      <line x1="478" y1="120" x2="492" y2="134"/>
+      <line x1="382" y1="36" x2="368" y2="22"/>
+    </g>
+    <rect x="150" y="150" width="215" height="250" rx="8" fill="#7a5f38"/>
+    <g stroke="#2a2114" stroke-width="3" fill="none" stroke-linecap="round">
+      <path d="M180 150 L 196 188 L 178 224"/>
+      <path d="M260 150 L 250 196 L 268 240 L 256 300"/>
+      <path d="M330 150 L 318 200 L 338 250"/>
+      <path d="M150 220 L 196 232 L 230 214"/>
+    </g>
+    <g stroke="#e6dcc2" stroke-width="5" fill="none" stroke-linecap="round">
+      <path d="M258 158 C 240 220, 275 260, 250 330 C 235 360, 250 380, 245 392"/>
+      <path d="M258 182 C 300 226, 272 286, 305 342"/>
+      <path d="M258 182 C 218 232, 236 296, 206 352"/>
+    </g>
+    <ellipse cx="210" cy="252" rx="14" ry="10" fill="#161616" opacity="0.55"/>
+    <ellipse cx="318" cy="296" rx="13" ry="9" fill="#161616" opacity="0.55"/>
+    <ellipse cx="236" cy="346" rx="15" ry="10" fill="#161616" opacity="0.55"/>
+    <ellipse cx="290" cy="220" rx="11" ry="8" fill="#161616" opacity="0.55"/>
+    <text x="257" y="450" fill="#e8c98a" font-size="28" font-weight="600" text-anchor="middle">Long drought</text>
+    <text x="257" y="484" fill="#9a8a6a" font-size="22" text-anchor="middle">the roots breathe air for weeks</text>
+  </g>
+
+  <g fill="none" stroke="#6f7d89" stroke-width="4">
+    <path d="M585 210 C 612 188, 612 188, 617 196" marker-end="url(#ah)"/>
+    <path d="M615 470 C 588 492, 588 492, 583 484" marker-end="url(#ah)"/>
+  </g>
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#6f7d89"/>
+    </marker>
+  </defs>
+</svg>

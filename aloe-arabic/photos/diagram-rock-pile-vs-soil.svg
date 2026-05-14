@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <rect width="1200" height="675" fill="#161616"/>
+  <text x="600" y="56" fill="#4a9eff" font-size="34" font-weight="600" text-anchor="middle" direction="rtl">صورَةٌ ذِهْنِيَّة: ماذا يَعْني تَصْريفٌ جَيِّد</text>
+
+  <!-- ===== RIGHT panel: rock pile with soil between (correct) ===== -->
+  <g transform="translate(625,90)">
+    <rect width="515" height="496" rx="18" fill="#18241b" stroke="#2f5740" stroke-width="2"/>
+    <text x="258" y="44" fill="#8fc79b" font-size="23" font-weight="500" text-anchor="middle" direction="rtl">الماءُ يَمُرُّ بِسُرْعَة</text>
+    <!-- container -->
+    <rect x="68" y="96" width="380" height="292" rx="10" fill="#20180f"/>
+    <!-- big rocks packed, with gaps -->
+    <g>
+      <circle cx="135" cy="152" r="44" fill="#8a8f96"/>
+      <circle cx="245" cy="148" r="50" fill="#9aa0a8"/>
+      <circle cx="355" cy="154" r="44" fill="#82878f"/>
+      <circle cx="170" cy="250" r="48" fill="#9aa0a8"/>
+      <circle cx="290" cy="248" r="46" fill="#868c94"/>
+      <circle cx="392" cy="258" r="36" fill="#9aa0a8"/>
+      <circle cx="132" cy="340" r="38" fill="#868c94"/>
+      <circle cx="248" cy="342" r="44" fill="#9aa0a8"/>
+      <circle cx="360" cy="344" r="36" fill="#82878f"/>
+    </g>
+    <!-- soil specks in the gaps -->
+    <g fill="#6b4f2c">
+      <circle cx="195" cy="200" r="7"/><circle cx="305" cy="198" r="6"/>
+      <circle cx="228" cy="300" r="7"/><circle cx="332" cy="312" r="6"/>
+      <circle cx="160" cy="305" r="5"/><circle cx="305" cy="305" r="5"/>
+    </g>
+    <!-- water passing straight through -->
+    <g stroke="#4a9eff" stroke-width="7" stroke-linecap="round">
+      <line x1="258" y1="60" x2="258" y2="92"/>
+      <line x1="258" y1="392" x2="258" y2="428"/>
+    </g>
+    <path d="M246 424 L258 448 L270 424 Z" fill="#4a9eff"/>
+    <text x="258" y="484" fill="#8fc79b" font-size="28" font-weight="600" text-anchor="middle" direction="rtl">كَوَمَةُ صَخْرٍ بَيْنَها تُراب</text>
+  </g>
+
+  <!-- ===== LEFT panel: soil with a few rocks (wrong) ===== -->
+  <g transform="translate(60,90)">
+    <rect width="515" height="496" rx="18" fill="#2a1a1a" stroke="#5a3030" stroke-width="2"/>
+    <text x="258" y="44" fill="#d89b9b" font-size="23" font-weight="500" text-anchor="middle" direction="rtl">الماءُ يَتَجَمَّعُ ويَرْكُد</text>
+    <!-- container -->
+    <rect x="68" y="96" width="380" height="292" rx="10" fill="#20180f"/>
+    <!-- dense soil fill -->
+    <rect x="68" y="124" width="380" height="264" fill="#4a371f"/>
+    <!-- a few scattered small rocks -->
+    <g fill="#8a8f96">
+      <circle cx="150" cy="178" r="17"/>
+      <circle cx="335" cy="214" r="15"/>
+      <circle cx="240" cy="300" r="20"/>
+      <circle cx="378" cy="332" r="14"/>
+      <circle cx="138" cy="330" r="13"/>
+    </g>
+    <!-- water pooling on top, not draining -->
+    <rect x="68" y="96" width="380" height="30" fill="#4a9eff" opacity="0.85"/>
+    <ellipse cx="258" cy="96" rx="152" ry="13" fill="#6db1ff" opacity="0.7"/>
+    <line x1="258" y1="60" x2="258" y2="88" stroke="#4a9eff" stroke-width="7" stroke-linecap="round"/>
+    <text x="258" y="484" fill="#d89b9b" font-size="28" font-weight="600" text-anchor="middle" direction="rtl">تُرابٌ بَيْنَهُ صُخور</text>
+  </g>
+</svg>

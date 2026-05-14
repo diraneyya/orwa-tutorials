@@ -1,18 +1,92 @@
 {
   "cues": [
     {
+      "type": "image",
+      "time": 0.1,
+      "image": "photos/aloe-15yr-healthy-before.jpg",
+      "caption": "The 15-year-old aloe in full health, before",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 11.537,
+      "image": "photos/aloe-now-in-sand.jpg",
+      "caption": "What is left of the same aloe today, planted in sandy soil",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 51.812,
+      "image": "photos/aloe-habitat-oman.jpg",
+      "caption": "Aloe vera growing wild on a rocky slope in Oman — its native range",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 57.888,
+      "image": "photos/diagram-flood-drought-cycle.svg",
+      "caption": "The flood-then-drought cycle the aloe root is built for",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
       "type": "overlay",
-      "time": 167.981,
-      "title": "وَصْفَةُ العَصارِيّات",
+      "time": 82.636,
+      "title": "الأُمورُ الثَّلاثَةُ الَّتي تَهُمُّ في التُّرْبَة",
       "lines": [
-        "خَمْسونَ إلى سِتّونَ بِالمِئَة: حَصًى مَعْدِنِيّ",
-        "ثَلاثونَ إلى أرْبَعونَ بِالمِئَة: رَكيزَةٌ قَليلَةُ العُضْوِيَّة",
-        "صِفْرٌ إلى عَشَرَةٌ بِالمِئَة: بُنْيَةٌ إضافِيَّة"
+        "تَصْريفٌ سَريع",
+        "مُحْتَوًى عُضْوِيٌّ مُنْخَفِض",
+        "مَزيجٌ مِنْ أحْجامِ الحُبَيْبات"
+      ]
+    },
+    {
+      "type": "image",
+      "time": 93.986,
+      "image": "photos/diagram-rock-pile-vs-soil.svg",
+      "caption": "Fast-draining (rock pile with soil between) vs. water-holding (soil with a few rocks)",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 114.786,
+      "image": "photos/almere-sandy-soil.jpg",
+      "caption": "The sandy ground in Almere the potting soil was dug from",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 140.374,
+      "image": "photos/aloe-now-in-sand.jpg",
+      "caption": "The same sandy pots — the wilting is what these three problems produce",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 170.336,
+      "image": "photos/aloe-young-better-soil.jpg",
+      "caption": "A younger aloe in darker soil amended with perlite and clay pellets — visibly doing better",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "overlay",
+      "time": 201.849,
+      "title": "وَصْفَةُ العُصارِيّات",
+      "lines": [
+        "خَمْسونَ إلى سِتّينَ بِالمِئَة: حَصًى مَعْدِنِيّ",
+        "ثَلاثونَ إلى أرْبَعينَ بِالمِئَة: رَكيزَةٌ قَليلَةُ العُضْوِيَّة",
+        "صِفْرٌ إلى عَشَرَةٍ بِالمِئَة: بُنْيَةٌ إضافِيَّة"
       ]
     },
     {
       "type": "vocab",
-      "time": 183.906,
+      "time": 217.599,
       "entries": [
         {
           "lang": "nl",
@@ -34,42 +108,55 @@
     },
     {
       "type": "image",
-      "time": 200.428,
+      "time": 234.1,
       "image": "photos/20260512_195230.jpg",
       "caption": "Florentus Hydrokorrels 10L — expanded clay pellets for drainage",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 207.6,
+      "time": 241.272,
       "image": "photos/20260512_195651.jpg",
       "caption": "Florentus Hydrokorrels 10L price tag — €6.99",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 241.91,
+      "time": 275.582,
       "image": "photos/dcm-perliet-10l-praxis.webp",
       "caption": "DCM Perliet 10L from Praxis — popped volcanic glass for aeration",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 249.959,
+      "time": 283.632,
       "image": "photos/20260512_193046.jpg",
       "caption": "MyGarden Compressed Cocos brick — pure coconut coir, expands to 25 liters",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 308.531,
+      "time": 342.329,
+      "image": "photos/peat-bog-material.jpg",
+      "caption": "Peat — dark, fibrous, decomposed bog material",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 351.704,
       "image": "photos/20260512_195558.jpg",
       "caption": "Florentus Langwerkende Potgrond 10L — long-acting potting soil",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "vocab",
-      "time": 315.982,
+      "time": 359.326,
       "entries": [
         {
           "lang": "nl",
@@ -91,210 +178,239 @@
     },
     {
       "type": "image",
-      "time": 335.426,
+      "time": 378.77,
       "image": "photos/20260512_195618.jpg",
       "caption": "Florentus Langwerkend 10L price tag — €6.99",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 345.613,
+      "time": 388.957,
       "image": "photos/20260512_195604.jpg",
       "caption": "Florentus Potgrond Universeel 10L bag",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 359.228,
+      "time": 402.572,
       "image": "photos/20260512_195612.jpg",
       "caption": "Florentus Potgrond Universeel price tag — €3.99",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 368.224,
+      "time": 411.567,
       "image": "photos/20260512_195614.jpg",
       "caption": "Ranzijn Potgrond Universeel price tag — 20L €4.25",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 383.282,
+      "time": 426.626,
       "image": "photos/20260512_195625.jpg",
       "caption": "Ranzijn Premium Potgrond price tag — 30L €10.95",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 433.556,
+      "time": 477.044,
       "image": "photos/20260512_195636.jpg",
       "caption": "Ranzijn Bio Veenvrije Potgrond price tag — 30L €6.99",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 443.737,
+      "time": 487.225,
       "image": "photos/20260512_195331.jpg",
       "caption": "Florentus Bio Potgrond Kokos 40L bag",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 454.12,
+      "time": 497.608,
       "image": "photos/20260512_195712.jpg",
       "caption": "Florentus Bio Potgrond Kokos price tag — €14.95",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 487.248,
+      "time": 530.808,
       "image": "photos/20260512_195508.jpg",
       "caption": "Florentus Bio Mediterrane Planten 40L bag",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 497.803,
+      "time": 541.364,
       "image": "photos/20260512_195634.jpg",
       "caption": "Florentus Mediterrane Potgrond price tag — 40L €12.95",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 534.203,
+      "time": 577.888,
       "image": "photos/20260512_195339.jpg",
       "caption": "Ranzijn Tuinturf Biologisch 30L bag",
-      "rotation": 270
+      "rotation": 270,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 542.164,
+      "time": 585.844,
       "image": "photos/20260512_195716.jpg",
       "caption": "Ranzijn Tuinturf price tag — €6.49",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 566.068,
+      "time": 609.749,
       "image": "photos/20260512_195301.jpg",
       "caption": "Florentus Hortensiagrond 20L bag",
-      "rotation": 90
+      "rotation": 90,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 574.874,
+      "time": 618.554,
       "image": "photos/20260512_195658.jpg",
       "caption": "Florentus Hortensiagrond price tag — €6.99",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 595.095,
+      "time": 638.774,
       "image": "photos/20260512_195347.jpg",
       "caption": "DCM Vivimus Heide/Rhodo/Zuurminnend 40L bag",
-      "rotation": 270
+      "rotation": 270,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 613.731,
+      "time": 657.411,
       "image": "photos/20260512_195719.jpg",
       "caption": "DCM Vivimus Zuurminnend price tag — €11.95",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 621.693,
+      "time": 665.448,
       "image": "photos/20260512_195417.jpg",
       "caption": "Florentus Zaai- en Stekgrond 40L bag",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 621.693,
+      "time": 665.448,
       "image": "photos/20260512_195734.jpg",
       "caption": "Florentus Zaai- en Stekgrond price tag — €13.95",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 653.452,
+      "time": 697.324,
       "image": "photos/20260512_195317.jpg",
       "caption": "Pokon Moestuinbakken Mix 45L bag",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 662.567,
+      "time": 706.438,
       "image": "photos/20260512_195708.jpg",
       "caption": "Pokon Moestuinbakken Mix price tag — €15.95",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 673.091,
+      "time": 716.962,
       "image": "photos/20260512_195429.jpg",
       "caption": "Ranzijn Moestuinaarde Biologisch bag",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 688.252,
+      "time": 732.124,
       "image": "photos/20260512_195737.jpg",
       "caption": "Ranzijn Moestuinaarde price tag — €8.99",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 698.188,
+      "time": 742.06,
       "image": "photos/20260512_195542.jpg",
       "caption": "DCM Vivimus Universeel 40L bag",
-      "rotation": 270
+      "rotation": 270,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 714.422,
+      "time": 758.294,
       "image": "photos/20260512_195308.jpg",
       "caption": "Ranzijn Compost 30L bag",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 725.253,
+      "time": 769.125,
       "image": "photos/20260512_195705.jpg",
       "caption": "Ranzijn Compost price tag — €6.25",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 755.468,
+      "time": 799.34,
       "image": "photos/20260512_195230.jpg",
       "caption": "Florentus Hydrokorrels 10L — expanded clay pellets, the key drainage product",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 767.716,
+      "time": 811.588,
       "image": "photos/20260512_195649.jpg",
       "caption": "Pokon Hydrokorrels price tag — 20L €11.95",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 788.428,
+      "time": 832.3,
       "image": "photos/20260512_195646.jpg",
       "caption": "Florentus Hydrokorrels 40L price tag — €16.95",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 809.797,
+      "time": 853.669,
       "image": "photos/20260512_195401.jpg",
       "caption": "Jardino Franse Pijnboomschors 70L bag",
-      "rotation": 270
+      "rotation": 270,
+      "explicit": false
     },
     {
       "type": "vocab",
-      "time": 814.997,
+      "time": 858.869,
       "entries": [
         {
           "lang": "nl",
@@ -316,28 +432,31 @@
     },
     {
       "type": "image",
-      "time": 825.119,
+      "time": 868.99,
       "image": "photos/20260512_195730.jpg",
       "caption": "Jardino Franse Boomschors price tag — €18.95",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 840.499,
+      "time": 884.37,
       "image": "photos/20260512_195732.jpg",
       "caption": "Ranzijn Boomschors price tag — 40L €12.95",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 852.885,
+      "time": 896.756,
       "image": "photos/20260512_195355.jpg",
       "caption": "Pokon Cacaodoppen 40L bag",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "vocab",
-      "time": 858.183,
+      "time": 902.054,
       "entries": [
         {
           "lang": "nl",
@@ -359,56 +478,63 @@
     },
     {
       "type": "image",
-      "time": 868.3,
+      "time": 912.172,
       "image": "photos/20260512_195722.jpg",
       "caption": "Pokon Cacaodoppen price tag — €15.95",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 889.497,
+      "time": 933.369,
       "image": "photos/20260512_193402.jpg",
       "caption": "Green Boots Tuinkalk 4kg box",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 918.41,
+      "time": 962.282,
       "image": "photos/20260512_195237.jpg",
       "caption": "Ranzijn Aanplantgrond 30L bag",
-      "rotation": 270
+      "rotation": 270,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 923.96,
+      "time": 967.832,
       "image": "photos/20260512_195654.jpg",
       "caption": "Ranzijn Aanplantgrond price tag — €6.99",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 940.553,
+      "time": 984.425,
       "image": "photos/20260512_195640.jpg",
       "caption": "Florentus Potgrond Terras Balkon price tag — €11.95",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 957.957,
+      "time": 1001.83,
       "image": "photos/20260512_195643.jpg",
       "caption": "Florentus Rozen Potgrond price tag — €4.99",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 966.322,
+      "time": 1010.193,
       "image": "photos/20260512_195701.jpg",
       "caption": "Florentus Gazongrond price tag — €7.99",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "overlay",
-      "time": 991.224,
+      "time": 1035.096,
       "title": "وَصْفَةُ رانْزايْن وَحْدَه",
       "lines": [
         "قاعُ ثَلاثَةِ سنتيمِترات: هيدروكورِلز",
@@ -419,8 +545,8 @@
     },
     {
       "type": "overlay",
-      "time": 1033.574,
-      "title": "وَصْفَةُ العَصارِيّاتِ السَّليمَة",
+      "time": 1077.446,
+      "title": "وَصْفَةُ العُصارِيّاتِ السَّليمَة",
       "lines": [
         "جُزْءٌ واحِد: ألْيافُ جَوْزِ هِنْدٍ أوْ بوتغروند خالٍ مِنَ الخُثّ",
         "جُزْءٌ واحِد: بيرلايت",
@@ -429,14 +555,15 @@
     },
     {
       "type": "image",
-      "time": 1060.687,
+      "time": 1104.571,
       "image": "photos/pokon-cactus-potgrond-5l-praxis.webp",
       "caption": "Pokon Cactus Potgrond 5L from Praxis",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "vocab",
-      "time": 1069.387,
+      "time": 1113.271,
       "entries": [
         {
           "lang": "nl",
@@ -448,7 +575,7 @@
         },
         {
           "lang": "ar",
-          "word": "نَباتٌ عَصارِيّ"
+          "word": "نَباتٌ عُصارِيّ"
         },
         {
           "lang": "en",
@@ -458,21 +585,23 @@
     },
     {
       "type": "image",
-      "time": 1096.613,
+      "time": 1140.509,
       "image": "photos/dcm-perliet-10l-praxis.webp",
       "caption": "DCM Perliet 10L from Praxis",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 1109.376,
+      "time": 1153.272,
       "image": "photos/pokon-bonsai-potgrond-5l-praxis.webp",
       "caption": "Pokon Bonsai Potgrond 5L from Praxis — bonsai mix with pumice and perlite",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "vocab",
-      "time": 1121.951,
+      "time": 1165.86,
       "entries": [
         {
           "lang": "nl",
@@ -494,7 +623,7 @@
     },
     {
       "type": "overlay",
-      "time": 1239.463,
+      "time": 1283.382,
       "title": "قائِمَةُ هٰذا الأُسْبوع",
       "lines": [
         "واحِد: انْقَعْ قالَبَ جَوْزِ الهِنْدِ الَّذي تَمْلِكُه",
@@ -508,122 +637,122 @@
   ],
   "sections": [
     {
-      "time": 39.612,
+      "time": 47.7,
       "level": 2,
       "title": "١ — ما الَّذي يُريدُهُ الصَّبّارُ في تُرْبَتِه"
     },
     {
-      "time": 103.206,
+      "time": 107.611,
       "level": 2,
       "title": "٢ — لِماذا تُرْبَةُ حَديقَتِكَ الرَّمْلِيَّةُ قَريبَةٌ مِنَ الصَّوابِ لٰكِنَّها غَيْرُ مِثالِيَّة"
     },
     {
-      "time": 158.844,
+      "time": 192.124,
       "level": 2,
-      "title": "٣ — الوَصْفَة: كَيْفَ يَبْدو مَزيجُ العَصارِيّاتِ الحَقيقِيّ"
+      "title": "٣ — الوَصْفَة: كَيْفَ يَبْدو مَزيجُ العُصارِيّاتِ الحَقيقِيّ"
     },
     {
-      "time": 276.414,
+      "time": 310.087,
       "level": 2,
       "title": "٤ — جَوْلَةٌ في مَمَرِّ التُّرْبَةِ بِمَتْجَرِ رانْزايْن"
     },
     {
-      "time": 296.444,
+      "time": 330.116,
       "level": 3,
-      "title": "٤·١ — تُرَبُ الأُصُصِ العامَّة"
+      "title": "٤·١ — تُرْبَةُ الأُصُصِ العامَّة"
     },
     {
-      "time": 407.906,
+      "time": 451.25,
       "level": 3,
-      "title": "٤·٢ — التُّرَبُ الخالِيَةُ مِنَ الخُثّ"
+      "title": "٤·٢ — التُّرْبَةُ الخالِيَةُ مِنَ الخُثّ"
     },
     {
-      "time": 470.844,
+      "time": 514.332,
       "level": 3,
-      "title": "٤·٣ — التُّرَبُ المُتَوَسِّطِيَّة: أقْرَبُ تَطابُقٍ لَك"
+      "title": "٤·٣ — التُّرْبَةُ المُتَوَسِّطِيَّة: أقْرَبُ تَطابُقٍ لَك"
     },
     {
-      "time": 523.303,
+      "time": 566.863,
       "level": 3,
-      "title": "٤·٤ — التُّرَبُ المُحَمِّضَة: لَيْسَتْ لِلصَّبّار"
+      "title": "٤·٤ — التُّرْبَةُ المُحَمِّضَة: لَيْسَتْ لِلصَّبّار"
     },
     {
-      "time": 613.731,
+      "time": 657.411,
       "level": 3,
-      "title": "٤·٥ — تُرَبُ البَذْرِ والعُقَل"
+      "title": "٤·٥ — تُرْبَةُ البَذْرِ والعُقَل"
     },
     {
-      "time": 643.116,
+      "time": 686.869,
       "level": 3,
-      "title": "٤·٦ — تُرَبُ حَديقَةِ الخُضار"
+      "title": "٤·٦ — تُرْبَةُ حَديقَةِ الخُضار"
     },
     {
-      "time": 712.647,
+      "time": 756.519,
       "level": 3,
       "title": "٤·٧ — السَّمادُ العُضْوِيّ"
     },
     {
-      "time": 740.107,
+      "time": 783.98,
       "level": 3,
       "title": "٤·٨ — مُكَوِّناتُ التَّصْريف: أنْفَعُ فِئَةٍ لِلصَّبّار"
     },
     {
-      "time": 800.222,
+      "time": 844.094,
       "level": 3,
       "title": "٤·٩ — النَّشارَةُ والتَّغْطِيَةُ السَّطْحِيَّة"
     },
     {
-      "time": 885.868,
+      "time": 929.74,
       "level": 3,
       "title": "٤·١٠ — الكِلْس: لِرَفْعِ حُموضَةِ التُّرْبَة"
     },
     {
-      "time": 914.812,
+      "time": 958.684,
       "level": 3,
       "title": "٤·١١ — أُخْرى ومُتَخَصِّصَة"
     },
     {
-      "time": 976.112,
+      "time": 1019.985,
       "level": 2,
       "title": "٥ — الوَصْفَةُ الوَسَط: بِمُنْتَجاتِ رانْزايْن فَقَط"
     },
     {
-      "time": 1021.399,
+      "time": 1065.271,
       "level": 2,
       "title": "٦ — الوَصْفَةُ السَّليمَة: وما يَنْقُصُ في رانْزايْن"
     },
     {
-      "time": 1057.649,
+      "time": 1101.534,
       "level": 3,
       "title": "٦·١ — كاكْتوسغروند: المَزيجُ الجاهِز"
     },
     {
-      "time": 1089.389,
+      "time": 1133.284,
       "level": 3,
       "title": "٦·٢ — البيرلايت"
     },
     {
-      "time": 1107.188,
+      "time": 1151.084,
       "level": 3,
       "title": "٦·٣ — الخَفّان"
     },
     {
-      "time": 1136.884,
+      "time": 1180.804,
       "level": 2,
       "title": "٧ — بروتوكولُ إعادَةِ الزِّراعَة"
     },
     {
-      "time": 1196.037,
+      "time": 1239.957,
       "level": 2,
       "title": "٨ — بروتوكولُ السَّقْي"
     },
     {
-      "time": 1236.125,
+      "time": 1280.045,
       "level": 2,
       "title": "٩ — الخُلاصَة: ماذا تَفْعَلُ هٰذا الأُسْبوع"
     },
     {
-      "time": 1280.737,
+      "time": 1324.658,
       "level": 2,
       "title": "مَراجِعُ ذاتُ صِلَة"
     }

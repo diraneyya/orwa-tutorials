@@ -1,16 +1,24 @@
-This tutorial is written for your specific situation: a fifteen year old aloe vera, big rootstock pieces planted in sandy soil dug from the Almere garden, now showing yellow-green and curled leaves. The question is whether the sandy soil was the right call, and if not, what to switch to.
+This is the aloe this guide is written for: fifteen years old, and this is how it looked in good health — a big, full, dark-green plant.
 
-It also serves as a tour of the soil aisles at Action and Ranzijn Tuin & Dier so you can recognize what you are seeing on a future trip. Along the way I will gloss the Dutch terms — the bag fronts read like a vocabulary lesson, and once you know that [nl: grond] just means soil and [nl: potgrond] just means pot-soil, the whole aisle becomes navigable.
+And this is what is left of it today: big rootstock pieces planted in sandy soil dug from the Almere garden, leaves now yellow-green and curled. The question is whether the sandy soil was the right call, and if not, what to switch to.
+
+This guide is also a tour of the soil aisles at Action and Ranzijn Tuin & Dier so you can recognize what you are seeing on a future trip. Along the way I will gloss the Dutch terms — the bag fronts read like a vocabulary lesson, and once you know that [nl: grond] just means soil and [nl: potgrond] just means pot-soil, the whole aisle becomes navigable.
 
 1. What aloe vera actually wants in its soil.
 
-Aloe vera is a cam succulent from arid East Africa and the Arabian Peninsula. The species' entire biology assumes brief, intense rain events followed by long dry spells. Roots flood, then air out for weeks. Native habitat is gravelly, rocky, slightly weathered volcanic soil — not the dark humic earth that [nl: potgrond] tries to simulate. Roots must have oxygen available continuously. If they sit in saturated soil, they suffocate, then opportunistic fungi (Pythium, Fusarium) move in and the plant rots from the base up.
+Aloe vera is a cam succulent from arid East Africa and the Arabian Peninsula.
 
-Three things matter for the substrate, in order of importance: fast drainage, low organic content, and a mix of particle sizes including grit two to ten millimeters across. A useful mental model: imagine the substrate as a rock pile with some soil between the rocks, not as a soil with some rocks scattered through it. That is the right ratio.
+The species' entire biology assumes brief, intense rain events followed by long dry spells. Roots flood, then air out for weeks. Native habitat is gravelly, rocky, slightly weathered volcanic soil — not the dark humic earth that [nl: potgrond] tries to simulate. Roots must have oxygen available continuously. If they sit in saturated soil, they suffocate, then opportunistic fungi (Pythium, Fusarium) move in and the plant rots from the base up.
+
+The three things that matter in the substrate. Fast drainage. Low organic content. A mix of particle sizes.
+
+A useful mental model: imagine the substrate as a rock pile with some soil between the rocks, not as a soil with some rocks scattered through it. That is the right ratio — and the particle sizes should include grit two to ten millimeters across.
 
 Target p H is six point zero to seven point five — slightly acidic to neutral. Almere tap water at p H seven point eight with bicarbonate buffer drifts the substrate alkaline over time. Aloe tolerates this fine.
 
 2. Why your sandy garden soil is "almost right" but probably not ideal.
+
+This is the sandy ground in Almere the potting soil was dug from. Notice it is pale and fine — and that weeds and seedlings grow in it on their own.
 
 Sandy soil from your Almere garden is closer to right than ordinary potting soil. Sand has good drainage and low organic content — both green flags for aloe. This is why the big rootstock pieces have not outright died.
 
@@ -21,6 +29,8 @@ Second, soil from a garden bed has invisible passengers. You already noted woodl
 Third, fine sand holds water at the bottom of the pot. Water travels downward, hits the pot floor, and capillary action makes it cling to the fine particles instead of draining. The bottom two to three centimeters of a sandy pot stays saturated even after the surface looks dry. This is exactly where rot starts.
 
 The fact that leaves are yellow-green and drooping but the base is not blackened yet suggests the plant is in stress mode but has not crossed into active rot. That is a window of opportunity — repot before rot starts.
+
+Compare this: another, younger aloe planted in darker soil with perlite and clay pellets mixed in. It stands more upright, and its center is green and growing. Same plant, different soil, different outcome — which is exactly what this guide is trying to show.
 
 3. The recipe — what a real succulent mix looks like.
 
@@ -51,6 +61,8 @@ What follows is the soil aisle at Ranzijn organized as if you were walking throu
 4.1 Universal potting soils — the workhorses.
 
 These are the cheapest, most generic bags. Brown, peat-heavy, formulated to be "good enough" for everything — which means perfect for nothing.
+
+Peat — the dark, slow-decomposing bog material these bags are heavy with — holds water hard, which is the opposite of what aloe wants.
 
 This is [nl: Florentus Langwerkende Potgrond], ten liter bag, three euros ninety nine.
 

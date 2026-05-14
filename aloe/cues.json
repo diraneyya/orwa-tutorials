@@ -1,8 +1,82 @@
 {
   "cues": [
     {
+      "type": "image",
+      "time": 0.087,
+      "image": "photos/aloe-15yr-healthy-before.jpg",
+      "caption": "The 15-year-old aloe in full health, before",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 7.862,
+      "image": "photos/aloe-now-in-sand.jpg",
+      "caption": "What is left of the same aloe today, planted in sandy soil",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 47.767,
+      "image": "photos/aloe-habitat-oman.jpg",
+      "caption": "Aloe vera growing wild on a rocky slope in Oman — its native range",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 52.767,
+      "image": "photos/diagram-flood-drought-cycle-en.svg",
+      "caption": "The flood-then-drought cycle the aloe root is built for",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
       "type": "overlay",
-      "time": 219.625,
+      "time": 86.454,
+      "title": "The three things that matter in the substrate",
+      "lines": [
+        "Fast drainage",
+        "Low organic content",
+        "A mix of particle sizes"
+      ]
+    },
+    {
+      "type": "image",
+      "time": 94.492,
+      "image": "photos/diagram-rock-pile-vs-soil-en.svg",
+      "caption": "Fast-draining (rock pile with soil between) vs. water-holding (soil with a few rocks)",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 129.367,
+      "image": "photos/almere-sandy-soil.jpg",
+      "caption": "The sandy ground in Almere the potting soil was dug from",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 153.091,
+      "image": "photos/aloe-now-in-sand.jpg",
+      "caption": "The same sandy pots — the wilting is what these three problems produce",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 228.204,
+      "image": "photos/aloe-young-better-soil.jpg",
+      "caption": "A younger aloe in darker soil amended with perlite and clay pellets — visibly doing better",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "overlay",
+      "time": 251.242,
       "title": "The succulent recipe",
       "lines": [
         "50–60% — mineral grit (drainage, air pockets)",
@@ -12,140 +86,167 @@
     },
     {
       "type": "image",
-      "time": 284.243,
+      "time": 315.875,
       "image": "photos/20260512_195230.jpg",
       "caption": "Florentus Hydrokorrels 10L — expanded clay pellets for drainage",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 302.109,
+      "time": 333.741,
       "image": "photos/dcm-perliet-10l-praxis.webp",
       "caption": "DCM Perliet 10L from Praxis — popped volcanic glass for aeration",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 323.67,
+      "time": 355.302,
       "image": "photos/20260512_193046.jpg",
       "caption": "MyGarden Compressed Cocos brick — pure coconut coir, expands to 25 liters with 9 L of warm water",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 394.339,
+      "time": 425.971,
+      "image": "photos/peat-bog-material.jpg",
+      "caption": "Peat — dark, fibrous, decomposed bog material",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 434.409,
       "image": "photos/20260512_195604.jpg",
       "caption": "Florentus Langwerkende Potgrond 10L — long-acting universal potting soil",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 502.721,
+      "time": 542.777,
       "image": "photos/20260512_195331.jpg",
       "caption": "Florentus Bio Potgrond Kokos 40L bag — coconut-coir-based potting soil",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 567.42,
+      "time": 607.476,
       "image": "photos/20260512_195508.jpg",
       "caption": "Florentus Bio Mediterrane Planten 40L bag — peat-free Mediterranean mix",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 631.629,
+      "time": 671.685,
       "image": "photos/20260512_195339.jpg",
       "caption": "Ranzijn Tuinturf Biologisch 30L bag",
-      "rotation": 270
+      "rotation": 270,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 682.845,
+      "time": 722.901,
       "image": "photos/20260512_195301.jpg",
       "caption": "Florentus Hortensiagrond 20L bag",
-      "rotation": 90
+      "rotation": 90,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 704.562,
+      "time": 744.618,
       "image": "photos/20260512_195347.jpg",
       "caption": "DCM Vivimus Heide/Rhodo/Zuurminnend 40L bag",
-      "rotation": 270
+      "rotation": 270,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 752.485,
+      "time": 792.54,
       "image": "photos/20260512_195417.jpg",
       "caption": "Florentus Zaai- en Stekgrond 40L bag",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 824.479,
+      "time": 864.534,
       "image": "photos/20260512_195317.jpg",
       "caption": "Pokon Moestuinbakken Mix 45L bag",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 832.036,
+      "time": 872.092,
       "image": "photos/20260512_195429.jpg",
       "caption": "Ranzijn Moestuinaarde Biologisch bag",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 852.581,
+      "time": 892.637,
       "image": "photos/20260512_195542.jpg",
       "caption": "DCM Vivimus Universeel 40L bag",
-      "rotation": 270
+      "rotation": 270,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 874.321,
+      "time": 914.376,
       "image": "photos/20260512_195308.jpg",
       "caption": "Ranzijn Compost 30L bag",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 930.465,
+      "time": 970.521,
       "image": "photos/20260512_195230.jpg",
       "caption": "Florentus Hydrokorrels 10L — expanded clay pellets, the key drainage product",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 1012.332,
+      "time": 1052.388,
       "image": "photos/20260512_195401.jpg",
       "caption": "Jardino Franse Pijnboomschors 70L bag",
-      "rotation": 270
+      "rotation": 270,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 1055.943,
+      "time": 1095.999,
       "image": "photos/20260512_195355.jpg",
       "caption": "Pokon Cacaodoppen 40L bag",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 1099.207,
+      "time": 1139.263,
       "image": "photos/20260512_193402.jpg",
       "caption": "Green Boots Tuinkalk 4kg",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 1165.861,
+      "time": 1205.917,
       "image": "photos/20260512_195237.jpg",
       "caption": "Ranzijn Aanplantgrond 30L bag",
-      "rotation": 270
+      "rotation": 270,
+      "explicit": false
     },
     {
       "type": "overlay",
-      "time": 1252.211,
+      "time": 1292.267,
       "title": "The Ranzijn-only recipe",
       "lines": [
         "Bottom 3 cm — Florentus Hydrokorrels (drainage layer)",
@@ -156,7 +257,7 @@
     },
     {
       "type": "overlay",
-      "time": 1318.909,
+      "time": 1358.965,
       "title": "The proper succulent recipe",
       "lines": [
         "1 part — coconut coir or peat-free potgrond (substrate)",
@@ -166,28 +267,31 @@
     },
     {
       "type": "image",
-      "time": 1364.734,
+      "time": 1404.79,
       "image": "photos/pokon-cactus-potgrond-5l-praxis.webp",
       "caption": "Pokon Cactus Potgrond 5L from Praxis",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 1435.317,
+      "time": 1475.373,
       "image": "photos/dcm-perliet-10l-praxis.webp",
       "caption": "DCM Perliet 10L from Praxis",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "image",
-      "time": 1498.854,
+      "time": 1538.91,
       "image": "photos/pokon-bonsai-potgrond-5l-praxis.webp",
       "caption": "Pokon Bonsai Potgrond 5L from Praxis — bonsai mix with pumice and perlite",
-      "rotation": 0
+      "rotation": 0,
+      "explicit": false
     },
     {
       "type": "overlay",
-      "time": 1759.969,
+      "time": 1800.025,
       "title": "This week's action list",
       "lines": [
         "1 — Soak the MyGarden Cocos brick you own",
@@ -201,122 +305,122 @@
   ],
   "sections": [
     {
-      "time": 39.308,
+      "time": 43.58,
       "level": 2,
       "title": "1. What aloe vera actually wants in its soil"
     },
     {
-      "time": 116.957,
+      "time": 123.692,
       "level": 2,
       "title": "2. Why your sandy garden soil is \"almost right\" but probably not ideal"
     },
     {
-      "time": 212.125,
+      "time": 243.905,
       "level": 2,
       "title": "3. The recipe — what a real succulent mix looks like"
     },
     {
-      "time": 353.102,
+      "time": 384.734,
       "level": 2,
       "title": "4. A walk through the soil aisle at Ranzijn Tuin & Dier"
     },
     {
-      "time": 380.539,
+      "time": 412.171,
       "level": 3,
       "title": "4.1 Universal potting soils — the workhorses"
     },
     {
-      "time": 453.908,
+      "time": 493.964,
       "level": 3,
       "title": "4.2 Peat-free / bio soils — ecological alternatives"
     },
     {
-      "time": 539.197,
+      "time": 579.253,
       "level": 3,
       "title": "4.3 Mediterranean and specialty soils — your closest match"
     },
     {
-      "time": 615.279,
+      "time": 655.335,
       "level": 3,
       "title": "4.4 Acidifying soils — NOT for aloe but important to recognize"
     },
     {
-      "time": 745.147,
+      "time": 785.203,
       "level": 3,
       "title": "4.5 Seed-starting and cutting soils"
     },
     {
-      "time": 790.841,
+      "time": 830.897,
       "level": 3,
       "title": "4.6 Vegetable garden and food-crop soils"
     },
     {
-      "time": 870.008,
+      "time": 910.064,
       "level": 3,
       "title": "4.7 Compost — too rich for aloe pots"
     },
     {
-      "time": 915.469,
+      "time": 955.525,
       "level": 3,
       "title": "4.8 Drainage components — the most useful category for aloe"
     },
     {
-      "time": 997.819,
+      "time": 1037.875,
       "level": 3,
       "title": "4.9 Mulches and top-dressings — extra structure"
     },
     {
-      "time": 1096.32,
+      "time": 1136.376,
       "level": 3,
       "title": "4.10 Lime — for raising soil pH"
     },
     {
-      "time": 1157.948,
+      "time": 1198.005,
       "level": 3,
       "title": "4.11 Other / specialty — not for aloe directly"
     },
     {
-      "time": 1237.509,
+      "time": 1277.565,
       "level": 2,
       "title": "5. The compromise recipe — using only Ranzijn products"
     },
     {
-      "time": 1307.36,
+      "time": 1347.416,
       "level": 2,
       "title": "6. The proper recipe — and what is missing at Ranzijn"
     },
     {
-      "time": 1359.563,
+      "time": 1399.619,
       "level": 3,
       "title": "6.1 Cactusgrond / Vetplantengrond — the pre-mixed shortcut"
     },
     {
-      "time": 1433.642,
+      "time": 1473.698,
       "level": 3,
       "title": "6.2 Perlite — perliet in Dutch"
     },
     {
-      "time": 1486.655,
+      "time": 1526.71,
       "level": 3,
       "title": "6.3 Pumice — bims in Dutch — and coarse grit"
     },
     {
-      "time": 1572.36,
+      "time": 1612.416,
       "level": 2,
       "title": "7. Repotting protocol for your big aloe pieces"
     },
     {
-      "time": 1698.907,
+      "time": 1738.963,
       "level": 2,
       "title": "8. Watering protocol after repotting"
     },
     {
-      "time": 1755.381,
+      "time": 1795.438,
       "level": 2,
       "title": "9. Summary — what to actually do this week"
     },
     {
-      "time": 1803.431,
+      "time": 1843.487,
       "level": 2,
       "title": "Cross-references"
     }
