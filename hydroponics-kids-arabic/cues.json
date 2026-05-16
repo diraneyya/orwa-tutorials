@@ -1,0 +1,271 @@
+{
+  "cues": [
+    {
+      "type": "image",
+      "time": 0.1,
+      "image": "photos/tower-daytime.jpg",
+      "caption": "The hydroponic tower in Almere — radish growing without soil",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "overlay",
+      "time": 28.15,
+      "title": "هٰذا الدَّرسُ يَشرَحُ ثَلاثةَ أشياء",
+      "lines": [
+        "كَيْفَ صُنِعَ البُرج",
+        "ماذا يَنمو فيه",
+        "وما الذي يُبقي النَّباتاتِ سَعيدة"
+      ]
+    },
+    {
+      "type": "overlay",
+      "time": 52.1,
+      "title": "ما صَنَعَتْهُ نوريّة",
+      "lines": [
+        "ثَنَتِ البَلاستيكَ بِالحَرارَة",
+        "قَطَّعَتْ مُكَعَّباتِ الإسفَنج",
+        "ضَبَطَتْ ميقاتَ المِضَخّة"
+      ]
+    },
+    {
+      "type": "overlay",
+      "time": 62.513,
+      "title": "أوَّلًا: الأُنبوب",
+      "lines": [
+        "كانَ مُستَقيمًا",
+        "احتاجَ إلى انحِناءةٍ في الأسفَل",
+        "لِكَيْ يَقِفَ على الحائِط"
+      ]
+    },
+    {
+      "type": "overlay",
+      "time": 100.7,
+      "title": "ثانِيًا: الإسفَنج",
+      "lines": [
+        "ليفةُ الجَليِ مِنَ المَطبَخ",
+        "قُطِّعَتْ إلى مُكَعَّباتٍ صَغيرة",
+        "كُلُّ نَبتةٍ في مُكَعَّبِها"
+      ]
+    },
+    {
+      "type": "overlay",
+      "time": 149.025,
+      "title": "الغِطاءُ الرَّماديّ",
+      "lines": [
+        "فِراشٌ يُنفَخُ بِالهَواء",
+        "يَقي البُرجَ مِنْ مَطَرِ هولَندا",
+        "حَتّى لا يُخَفَّفَ الطَّعامُ في الماء"
+      ]
+    },
+    {
+      "type": "overlay",
+      "time": 186.953,
+      "title": "يَنمو في البُرج",
+      "lines": [
+        "فُجلٌ أحمَرُ مُستَديرٌ تَحتَ الأرض",
+        "وَرَقٌ أخضَرُ يَخرُجُ في الأعلى"
+      ]
+    },
+    {
+      "type": "overlay",
+      "time": 210.003,
+      "title": "الفُجلُ في الأسفَل",
+      "lines": [
+        "أوَّلًا جَذرٌ رَفيعٌ كَالخَيط",
+        "ثُمَّ يَنتَفِخُ شَيئًا فَشَيئًا",
+        "حَتّى يَصيرَ كُرَةً حَمراء"
+      ]
+    },
+    {
+      "type": "overlay",
+      "time": 244.053,
+      "title": "الأوراقُ في الأعلى",
+      "lines": [
+        "تَأخُذُ ضَوءَ الشَّمس",
+        "تَطبُخُ الغِذاءَ",
+        "تُرسِلُهُ إلى الجَذر"
+      ]
+    },
+    {
+      "type": "overlay",
+      "time": 290.403,
+      "title": "ثَلاثةُ أشياءَ تُحِبُّها النَّباتات",
+      "lines": [
+        "في مائِها طَعامٌ كافٍ",
+        "ليسَ حامِضًا ولا قَلَوِيًّا",
+        "دافِئٌ قَليلًا، لا بارِد"
+      ]
+    },
+    {
+      "type": "image",
+      "time": 329.14,
+      "image": "photos/tds-ec-meter-open.jpg",
+      "caption": "A small meter that \"tastes\" the water — tells us how much food is dissolved",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 372.22,
+      "image": "photos/diagram-ph-kids-ar.svg",
+      "caption": "Plants like water in the middle — not sour like lemon, not soapy like soap",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 398.645,
+      "image": "photos/colombo-ph-test-6.5.jpg",
+      "caption": "A drop of test liquid turns the water yellow-green — that means \"just right\"",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 432.97,
+      "image": "photos/bsi-ph-down.jpg",
+      "caption": "The bottle that makes the water a little more sour — bought at Gamma",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 479.382,
+      "image": "photos/superfish-heater-box.jpg",
+      "caption": "A small heater for the water — like a kettle, but it just keeps it warm, not boiling",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 492.47,
+      "image": "photos/heater-in-reservoir.jpg",
+      "caption": "The heater inside the bucket — keeps the water around 20°C all day",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "overlay",
+      "time": 512.52,
+      "title": "الميقات",
+      "lines": [
+        "كُلَّ ساعةٍ يَعمَلُ الماءُ خَمسَ عَشرَةَ دَقيقة",
+        "ثُمَّ يَستَريحُ خَمسًا وأربَعينَ دَقيقة",
+        "هٰكَذا طَوالَ النَّهارِ واللَّيل"
+      ]
+    },
+    {
+      "type": "overlay",
+      "time": 524.908,
+      "title": "المِضَخّة",
+      "lines": [
+        "تَختَبِئُ تَحتَ الماءِ في الدَّلو",
+        "تَرفَعُ الماءَ إلى أعلى البُرج",
+        "يَنزِلُ يُغَذّي كُلَّ نَبتة"
+      ]
+    },
+    {
+      "type": "overlay",
+      "time": 557.438,
+      "title": "الجَذرُ يُريدُ شَيئَيْن",
+      "lines": [
+        "الماءَ",
+        "والهَواء",
+        "لَوْ بَقِيَ غارِقًا لاختَنَق"
+      ]
+    },
+    {
+      "type": "overlay",
+      "time": 590.188,
+      "title": "ضَبَطَتْهُ نوريّة",
+      "lines": [
+        "ضَغَطَتْ على الأزرارِ الصَّغيرة",
+        "في الجِهازِ الكَهرَبائيِّ خَلفَ البُرج",
+        "حَتّى ظَهَرَتِ الأرقامُ المَطلوبة"
+      ]
+    },
+    {
+      "type": "overlay",
+      "time": 626.938,
+      "title": "بَعدَ بِضعةِ أسابيع",
+      "lines": [
+        "يَنتَفِخُ الجَذرُ تَحتَ الإسفَنج",
+        "يَصيرُ كُرَةً حَمراءَ مُمتَلِئة",
+        "نَقطِفُهُ ونَأكُلُهُ مَعًا"
+      ]
+    },
+    {
+      "type": "overlay",
+      "time": 638.363,
+      "title": "البُرجُ الآنَ يَعمَل",
+      "lines": [
+        "طَعامٌ كافٍ في الماء",
+        "ولا حامِضٌ ولا قَلَوِيّ",
+        "ودافِئٌ عِندَ عِشرينَ دَرَجة"
+      ]
+    },
+    {
+      "type": "overlay",
+      "time": 667.426,
+      "title": "كُلَّ يَوْم",
+      "lines": [
+        "يَرفَعُ الخالُ الإسفَنجَ قَليلًا",
+        "ويَنظُرُ إلى الجَذر",
+        "هَلْ كَبُر؟"
+      ]
+    },
+    {
+      "type": "overlay",
+      "time": 705.463,
+      "title": "بَعدَ شَهرٍ تَقريبًا",
+      "lines": [
+        "نَقطِفُ الفُجلَ مَعًا",
+        "ونَغسِلُهُ ونَأكُلُه",
+        "لَيسَ مِنَ المَتجَر، بَلْ مِنْ صُنعِكُم"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "time": 39.087,
+      "level": 2,
+      "title": "١ — مَنْ صَنَعَ البُرجَ وكَيْف"
+    },
+    {
+      "time": 183.628,
+      "level": 2,
+      "title": "٢ — ماذا يَنمو في البُرج"
+    },
+    {
+      "time": 266.99,
+      "level": 2,
+      "title": "٣ — ثَلاثةُ أشياءَ تُريدُها النَّباتاتُ مِنَ الماء"
+    },
+    {
+      "time": 302.778,
+      "level": 3,
+      "title": "٣·١ — طَعامٌ في الماء"
+    },
+    {
+      "time": 367.303,
+      "level": 3,
+      "title": "٣·٢ — ماءٌ ليسَ حامِضًا ولا قَلَوِيًّا"
+    },
+    {
+      "time": 456.895,
+      "level": 3,
+      "title": "٣·٣ — ماءٌ ليسَ بارِدًا"
+    },
+    {
+      "time": 505.058,
+      "level": 2,
+      "title": "٤ — السِّرُّ الذي ضَبَطَتْهُ نوريّة"
+    },
+    {
+      "time": 624.313,
+      "level": 2,
+      "title": "٥ — وَماذا بَعد؟"
+    }
+  ]
+}
