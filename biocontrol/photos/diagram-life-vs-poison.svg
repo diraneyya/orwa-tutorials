@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif">
+  <rect width="1280" height="720" fill="#1a1a1a"/>
+  <text x="640" y="78" text-anchor="middle" fill="#eaeaea" font-size="50" font-weight="700">Fight life with life</text>
+  <text x="640" y="120" text-anchor="middle" fill="#f0a868" font-size="30">biologische bestrijding — biological pest control</text>
+
+  <!-- LEFT: poison -->
+  <rect x="70" y="170" width="540" height="470" rx="18" fill="#241416" stroke="#ff6b6b" stroke-width="2.5"/>
+  <text x="340" y="232" text-anchor="middle" fill="#ff6b6b" font-size="34" font-weight="700">THE OLD WAY: poison</text>
+  <text x="340" y="272" text-anchor="middle" fill="#c98b8b" font-size="26">gif · pesticide · slakkenkorrels</text>
+  <!-- poison bottle -->
+  <rect x="305" y="300" width="70" height="100" rx="10" fill="none" stroke="#ff6b6b" stroke-width="3"/>
+  <rect x="325" y="285" width="30" height="20" fill="#ff6b6b"/>
+  <text x="340" y="368" text-anchor="middle" fill="#ff6b6b" font-size="40">&#9760;</text>
+  <text x="100" y="450" fill="#dcdcdc" font-size="26">• kills broadly — bees, worms, your pets</text>
+  <text x="100" y="500" fill="#dcdcdc" font-size="26">• leaves chemical residue behind</text>
+  <text x="100" y="550" fill="#dcdcdc" font-size="26">• a one-time hit, then it's gone</text>
+  <text x="100" y="600" fill="#dcdcdc" font-size="26">• carries a registration number</text>
+
+  <!-- RIGHT: living enemy -->
+  <rect x="670" y="170" width="540" height="470" rx="18" fill="#142418" stroke="#7ec77e" stroke-width="2.5"/>
+  <text x="940" y="232" text-anchor="middle" fill="#7ec77e" font-size="34" font-weight="700">THE LIVING WAY</text>
+  <text x="940" y="272" text-anchor="middle" fill="#a7d8a7" font-size="26">aaltjes · nematoden · a hungry ally</text>
+  <!-- coiled nematode icon -->
+  <path d="M895 320 q40 -25 70 0 q30 25 0 50 q-40 25 -70 0 q-25 -22 5 -45" fill="none" stroke="#7ec77e" stroke-width="4" stroke-linecap="round"/>
+  <text x="700" y="450" fill="#dcdcdc" font-size="26">• one living hunter, one target pest</text>
+  <text x="700" y="500" fill="#dcdcdc" font-size="26">• breeds, spreads, keeps working</text>
+  <text x="700" y="550" fill="#dcdcdc" font-size="26">• harmless to people, pets, bees</text>
+  <text x="700" y="600" fill="#dcdcdc" font-size="26">• it's alive — not a chemical</text>
+</svg>

@@ -1,0 +1,424 @@
+{
+  "cues": [
+    {
+      "type": "image",
+      "time": 1.938,
+      "image": "photos/orwa-slug.jpg",
+      "caption": "The suspect — found under a seed tray in Almere",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 30.642,
+      "image": "photos/slug-damage.jpg",
+      "caption": "Caught in the act — a slug eating a leaf down to lace",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 36.542,
+      "image": "photos/orwa-slug.jpg",
+      "caption": "Back to our suspect — could you just... eat him?",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "vocab",
+      "time": 88.409,
+      "entries": [
+        {
+          "lang": "nl",
+          "word": "gif"
+        },
+        {
+          "lang": "de",
+          "word": "Gift"
+        },
+        {
+          "lang": "es",
+          "word": "veneno"
+        },
+        {
+          "lang": "ar",
+          "word": "سُمّ"
+        },
+        {
+          "lang": "en",
+          "word": "poison"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "time": 128.242,
+      "entries": [
+        {
+          "lang": "nl",
+          "word": "aaltjes  (aal + tje)"
+        },
+        {
+          "lang": "de",
+          "word": "Fadenwürmer"
+        },
+        {
+          "lang": "es",
+          "word": "nematodos"
+        },
+        {
+          "lang": "ar",
+          "word": "ديدانٌ خَيطِيّة"
+        },
+        {
+          "lang": "en",
+          "word": "nematodes / \"little eels\""
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "time": 157.761,
+      "image": "photos/diagram-life-vs-poison.svg",
+      "caption": "Two ways to win — poison vs. a living ally",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "vocab",
+      "time": 185.48,
+      "entries": [
+        {
+          "lang": "nl",
+          "word": "biologische bestrijding"
+        },
+        {
+          "lang": "de",
+          "word": "biologische Bekämpfung"
+        },
+        {
+          "lang": "es",
+          "word": "control biológico"
+        },
+        {
+          "lang": "ar",
+          "word": "المُكافَحةُ الحَيَوِيّة"
+        },
+        {
+          "lang": "en",
+          "word": "biological control"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "time": 218.881,
+      "image": "photos/arion-closeup.jpg",
+      "caption": "Arion vulgaris — the Spanish slug, our Goliath",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "vocab",
+      "time": 218.881,
+      "entries": [
+        {
+          "lang": "nl",
+          "word": "naaktslak"
+        },
+        {
+          "lang": "de",
+          "word": "Nacktschnecke"
+        },
+        {
+          "lang": "es",
+          "word": "babosa"
+        },
+        {
+          "lang": "ar",
+          "word": "بَزّاقة"
+        },
+        {
+          "lang": "en",
+          "word": "slug (\"naked snail\")"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "time": 271.391,
+      "entries": [
+        {
+          "lang": "nl",
+          "word": "Spaanse wegslak"
+        },
+        {
+          "lang": "de",
+          "word": "Spanische Wegschnecke"
+        },
+        {
+          "lang": "es",
+          "word": "babosa española"
+        },
+        {
+          "lang": "ar",
+          "word": "البَزّاقةُ الإسبانِيّة"
+        },
+        {
+          "lang": "en",
+          "word": "Spanish slug"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "time": 284.928,
+      "image": "photos/nematode-phasmarhabditis.png",
+      "caption": "The hero, under the microscope — a single nematode",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 319.651,
+      "image": "photos/nematode-hb.jpg",
+      "caption": "A swarm of nematodes overwhelming a single insect host",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 338.513,
+      "image": "photos/diagram-hunt.svg",
+      "caption": "The hunt, step by step",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 362.351,
+      "image": "photos/slug-infected.jpg",
+      "caption": "The proof — a slug with the tell-tale swollen mantle",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 424.336,
+      "image": "photos/diagram-shop.svg",
+      "caption": "How to tell the living box from the poison box",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "vocab",
+      "time": 424.336,
+      "entries": [
+        {
+          "lang": "nl",
+          "word": "toelatingsnummer · werkzame stof"
+        },
+        {
+          "lang": "de",
+          "word": "Zulassungsnummer · Wirkstoff"
+        },
+        {
+          "lang": "es",
+          "word": "número de registro · sustancia activa"
+        },
+        {
+          "lang": "ar",
+          "word": "رَقَمُ التَّرخيص · مادّة فعّالة"
+        },
+        {
+          "lang": "en",
+          "word": "registration no. · active substance"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "time": 447.106,
+      "entries": [
+        {
+          "lang": "nl",
+          "word": "slakkenkorrels"
+        },
+        {
+          "lang": "de",
+          "word": "Schneckenkorn"
+        },
+        {
+          "lang": "es",
+          "word": "antibabosas (gránulos)"
+        },
+        {
+          "lang": "ar",
+          "word": "حُبَيباتٌ ضِدَّ البَزّاقات"
+        },
+        {
+          "lang": "en",
+          "word": "slug pellets (a pesticide)"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "time": 457.967,
+      "entries": [
+        {
+          "lang": "nl",
+          "word": "koelkast · bestelkaart"
+        },
+        {
+          "lang": "de",
+          "word": "Kühlschrank · Bestellkarte"
+        },
+        {
+          "lang": "es",
+          "word": "nevera · tarjeta de pedido"
+        },
+        {
+          "lang": "ar",
+          "word": "ثَلّاجة · بِطاقةُ طَلَب"
+        },
+        {
+          "lang": "en",
+          "word": "fridge · order card"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "time": 499.012,
+      "entries": [
+        {
+          "lang": "nl",
+          "word": "Hebben jullie aaltjes tegen slakken?"
+        },
+        {
+          "lang": "es",
+          "word": "¿Tienen nematodos para las babosas?"
+        },
+        {
+          "lang": "en",
+          "word": "Do you have nematodes for slugs?"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "time": 506.644,
+      "entries": [
+        {
+          "lang": "nl",
+          "word": "Ik zoek iets biologisch, geen gif."
+        },
+        {
+          "lang": "es",
+          "word": "Busco algo biológico, no veneno."
+        },
+        {
+          "lang": "en",
+          "word": "I'm looking for something biological, no poison."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "time": 510.235,
+      "entries": [
+        {
+          "lang": "nl",
+          "word": "Moeten ze in de koelkast?"
+        },
+        {
+          "lang": "es",
+          "word": "¿Tienen que ir en la nevera?"
+        },
+        {
+          "lang": "en",
+          "word": "Do they need to go in the fridge?"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "time": 526.324,
+      "entries": [
+        {
+          "lang": "nl",
+          "word": "Dank je wel!"
+        },
+        {
+          "lang": "es",
+          "word": "¡Gracias!"
+        },
+        {
+          "lang": "en",
+          "word": "Thank you!"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "time": 529.582,
+      "image": "photos/diagram-life-vs-poison.svg",
+      "caption": "Fight life with life",
+      "rotation": 0,
+      "explicit": true
+    }
+  ],
+  "sections": [
+    {
+      "time": 0.05,
+      "level": 2,
+      "title": "A crime in the nursery"
+    },
+    {
+      "time": 75.51,
+      "level": 2,
+      "title": "First, three Dutch sounds"
+    },
+    {
+      "time": 154.611,
+      "level": 2,
+      "title": "The big idea: fight life with life"
+    },
+    {
+      "time": 217.482,
+      "level": 2,
+      "title": "Meet Goliath"
+    },
+    {
+      "time": 283.666,
+      "level": 2,
+      "title": "Enter David"
+    },
+    {
+      "time": 337.088,
+      "level": 2,
+      "title": "How David wins"
+    },
+    {
+      "time": 385.878,
+      "level": 2,
+      "title": "So Erin was right — with one footnote"
+    },
+    {
+      "time": 423.073,
+      "level": 2,
+      "title": "Now: the shop"
+    },
+    {
+      "time": 483.195,
+      "level": 2,
+      "title": "Say it out loud"
+    },
+    {
+      "time": 528.207,
+      "level": 2,
+      "title": "The family motto"
+    }
+  ]
+}

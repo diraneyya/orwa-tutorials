@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif">
+  <rect width="1280" height="720" fill="#1a1a1a"/>
+  <text x="640" y="58" text-anchor="middle" fill="#eaeaea" font-size="44" font-weight="700">In the shop: alive, or poison?</text>
+
+  <!-- start -->
+  <rect x="440" y="86" width="400" height="60" rx="12" fill="#202020" stroke="#888" stroke-width="2"/>
+  <text x="640" y="124" text-anchor="middle" fill="#dcdcdc" font-size="24">You're holding a slug product.</text>
+
+  <!-- question -->
+  <rect x="320" y="178" width="640" height="92" rx="12" fill="#23210f" stroke="#f0a868" stroke-width="2.5"/>
+  <text x="640" y="214" text-anchor="middle" fill="#f0a868" font-size="24" font-weight="700">Does the box show a toelatingsnummer / Ctgb-nummer</text>
+  <text x="640" y="246" text-anchor="middle" fill="#f0a868" font-size="24" font-weight="700">and name a "werkzame stof" (active substance)?</text>
+
+  <!-- arrows -->
+  <text x="640" y="172" text-anchor="middle" fill="#888" font-size="28">&#8595;</text>
+  <line x1="430" y1="290" x2="320" y2="372" stroke="#ff6b6b" stroke-width="2.5"/>
+  <line x1="850" y1="290" x2="960" y2="372" stroke="#7ec77e" stroke-width="2.5"/>
+  <text x="360" y="338" text-anchor="middle" fill="#ff6b6b" font-size="26" font-weight="700">YES</text>
+  <text x="920" y="338" text-anchor="middle" fill="#7ec77e" font-size="26" font-weight="700">NO</text>
+
+  <!-- PESTICIDE branch -->
+  <rect x="60" y="378" width="540" height="262" rx="16" fill="#241416" stroke="#ff6b6b" stroke-width="2.5"/>
+  <text x="330" y="420" text-anchor="middle" fill="#ff6b6b" font-size="30" font-weight="700">&#9888; PESTICIDE — walk on</text>
+  <text x="330" y="456" text-anchor="middle" fill="#c98b8b" font-size="23">slakkenkorrels (slug pellets)</text>
+  <text x="90" y="506" fill="#dcdcdc" font-size="23">• metaldehyde → chemical poison. Avoid.</text>
+  <text x="90" y="548" fill="#dcdcdc" font-size="23">• ijzerfosfaat → sold as "bio", pet-safe,</text>
+  <text x="118" y="578" fill="#dcdcdc" font-size="23">but still a registered pesticide.</text>
+  <text x="90" y="620" fill="#9aa0a6" font-size="22">Not what Erin had in mind.</text>
+
+  <!-- LIVING branch -->
+  <rect x="680" y="378" width="540" height="262" rx="16" fill="#142418" stroke="#7ec77e" stroke-width="2.5"/>
+  <text x="950" y="420" text-anchor="middle" fill="#7ec77e" font-size="30" font-weight="700">&#10003; LIVING — this one</text>
+  <text x="950" y="456" text-anchor="middle" fill="#a7d8a7" font-size="23">aaltjes · nematoden</text>
+  <text x="710" y="506" fill="#dcdcdc" font-size="23">• in a fridge, or sold as a bestelkaart</text>
+  <text x="710" y="548" fill="#dcdcdc" font-size="23">• says "Phasmarhabditis" + a use-by date</text>
+  <text x="710" y="590" fill="#dcdcdc" font-size="23">• no registration number anywhere</text>
+  <text x="710" y="626" fill="#9aa0a6" font-size="22">Brands: Ecostyle · Neudorff · No-slug</text>
+
+  <!-- footer phrase -->
+  <text x="640" y="692" text-anchor="middle" fill="#f0a868" font-size="28" font-style="italic">Just ask: &#171; Heb je aaltjes tegen slakken? &#187;</text>
+</svg>
