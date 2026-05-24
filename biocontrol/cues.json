@@ -86,7 +86,7 @@
     },
     {
       "type": "vocab",
-      "time": 192.008,
+      "time": 198.419,
       "entries": [
         {
           "lang": "nl",
@@ -112,7 +112,7 @@
     },
     {
       "type": "image",
-      "time": 225.41,
+      "time": 231.817,
       "image": "photos/arion-closeup.jpg",
       "caption": "Arion vulgaris — the Spanish slug, our Goliath",
       "rotation": 0,
@@ -120,7 +120,7 @@
     },
     {
       "type": "vocab",
-      "time": 225.41,
+      "time": 231.817,
       "entries": [
         {
           "lang": "nl",
@@ -146,7 +146,7 @@
     },
     {
       "type": "vocab",
-      "time": 277.919,
+      "time": 284.327,
       "entries": [
         {
           "lang": "nl",
@@ -172,7 +172,7 @@
     },
     {
       "type": "image",
-      "time": 291.457,
+      "time": 297.865,
       "image": "photos/nematode-phasmarhabditis.png",
       "caption": "The hero, under the microscope — a single nematode",
       "rotation": 0,
@@ -180,7 +180,7 @@
     },
     {
       "type": "image",
-      "time": 327.878,
+      "time": 338.726,
       "image": "photos/nematode-hb.jpg",
       "caption": "A swarm of nematodes overwhelming a single insect host",
       "rotation": 0,
@@ -188,7 +188,31 @@
     },
     {
       "type": "image",
-      "time": 346.741,
+      "time": 359.252,
+      "image": "photos/orwa-tray-worm.jpg",
+      "caption": "Orwa's tray worm — a harmless oligochaete, NOT the hero",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 388.739,
+      "image": "photos/nematode-phasmarhabditis.png",
+      "caption": "The real hero — half a millimetre, invisible to the eye",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 409.864,
+      "image": "photos/orwa-tray-worm.jpg",
+      "caption": "So your tray worm is a harmless cleaner — not the assassin",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 431.708,
       "image": "photos/diagram-hunt.svg",
       "caption": "The hunt, step by step",
       "rotation": 0,
@@ -196,7 +220,7 @@
     },
     {
       "type": "image",
-      "time": 370.579,
+      "time": 455.546,
       "image": "photos/slug-infected.jpg",
       "caption": "The proof — a slug with the tell-tale swollen mantle",
       "rotation": 0,
@@ -204,7 +228,7 @@
     },
     {
       "type": "image",
-      "time": 396.697,
+      "time": 481.658,
       "image": "photos/erin-product.svg",
       "caption": "NaturesGoodGuys Triple Blend (Hb+Sc+Sf) — the one Erin bought",
       "rotation": 0,
@@ -212,7 +236,7 @@
     },
     {
       "type": "image",
-      "time": 445.479,
+      "time": 530.439,
       "image": "photos/diagram-shop.svg",
       "caption": "How to tell the living box from the poison box",
       "rotation": 0,
@@ -220,7 +244,7 @@
     },
     {
       "type": "vocab",
-      "time": 445.479,
+      "time": 530.439,
       "entries": [
         {
           "lang": "nl",
@@ -246,7 +270,7 @@
     },
     {
       "type": "vocab",
-      "time": 468.25,
+      "time": 553.21,
       "entries": [
         {
           "lang": "nl",
@@ -272,7 +296,7 @@
     },
     {
       "type": "vocab",
-      "time": 479.111,
+      "time": 564.071,
       "entries": [
         {
           "lang": "nl",
@@ -298,7 +322,7 @@
     },
     {
       "type": "vocab",
-      "time": 522.148,
+      "time": 590.749,
       "entries": [
         {
           "lang": "nl",
@@ -316,7 +340,7 @@
     },
     {
       "type": "vocab",
-      "time": 529.78,
+      "time": 621.22,
       "entries": [
         {
           "lang": "nl",
@@ -334,7 +358,7 @@
     },
     {
       "type": "vocab",
-      "time": 533.37,
+      "time": 621.22,
       "entries": [
         {
           "lang": "nl",
@@ -352,7 +376,7 @@
     },
     {
       "type": "vocab",
-      "time": 549.46,
+      "time": 640.708,
       "entries": [
         {
           "lang": "nl",
@@ -370,7 +394,7 @@
     },
     {
       "type": "image",
-      "time": 552.717,
+      "time": 645.933,
       "image": "photos/diagram-life-vs-poison.svg",
       "caption": "Fight life with life",
       "rotation": 0,
@@ -394,37 +418,42 @@
       "title": "The big idea: fight life with life"
     },
     {
-      "time": 224.01,
+      "time": 230.417,
       "level": 2,
       "title": "Meet Goliath"
     },
     {
-      "time": 290.194,
+      "time": 296.602,
       "level": 2,
       "title": "Enter David"
     },
     {
-      "time": 345.316,
+      "time": 356.151,
+      "level": 2,
+      "title": "Plot twist: the worm you already met"
+    },
+    {
+      "time": 430.283,
       "level": 2,
       "title": "How David wins"
     },
     {
-      "time": 394.11,
+      "time": 479.07,
       "level": 2,
       "title": "So Erin was right — with one footnote"
     },
     {
-      "time": 444.217,
+      "time": 529.177,
       "level": 2,
       "title": "Now: the shop"
     },
     {
-      "time": 504.339,
+      "time": 589.299,
       "level": 2,
       "title": "Say it out loud"
     },
     {
-      "time": 551.342,
+      "time": 644.558,
       "level": 2,
       "title": "The family motto"
     }
