@@ -2,7 +2,7 @@
   "cues": [
     {
       "type": "image",
-      "time": 1.938,
+      "time": 1.996,
       "image": "photos/orwa-slug.jpg",
       "caption": "The suspect — found under a seed tray in Almere",
       "rotation": 0,
@@ -10,7 +10,7 @@
     },
     {
       "type": "image",
-      "time": 30.642,
+      "time": 36.103,
       "image": "photos/slug-damage.jpg",
       "caption": "Caught in the act — a slug eating a leaf down to lace",
       "rotation": 0,
@@ -18,7 +18,7 @@
     },
     {
       "type": "image",
-      "time": 36.542,
+      "time": 41.965,
       "image": "photos/orwa-slug.jpg",
       "caption": "Back to our suspect — could you just... eat him?",
       "rotation": 0,
@@ -26,7 +26,7 @@
     },
     {
       "type": "vocab",
-      "time": 88.409,
+      "time": 94.938,
       "entries": [
         {
           "lang": "nl",
@@ -52,7 +52,7 @@
     },
     {
       "type": "vocab",
-      "time": 128.242,
+      "time": 134.77,
       "entries": [
         {
           "lang": "nl",
@@ -78,7 +78,7 @@
     },
     {
       "type": "image",
-      "time": 157.761,
+      "time": 164.288,
       "image": "photos/diagram-life-vs-poison.svg",
       "caption": "Two ways to win — poison vs. a living ally",
       "rotation": 0,
@@ -86,7 +86,7 @@
     },
     {
       "type": "vocab",
-      "time": 185.48,
+      "time": 192.008,
       "entries": [
         {
           "lang": "nl",
@@ -112,7 +112,7 @@
     },
     {
       "type": "image",
-      "time": 218.881,
+      "time": 225.41,
       "image": "photos/arion-closeup.jpg",
       "caption": "Arion vulgaris — the Spanish slug, our Goliath",
       "rotation": 0,
@@ -120,7 +120,7 @@
     },
     {
       "type": "vocab",
-      "time": 218.881,
+      "time": 225.41,
       "entries": [
         {
           "lang": "nl",
@@ -146,7 +146,7 @@
     },
     {
       "type": "vocab",
-      "time": 271.391,
+      "time": 277.919,
       "entries": [
         {
           "lang": "nl",
@@ -172,7 +172,7 @@
     },
     {
       "type": "image",
-      "time": 284.928,
+      "time": 291.457,
       "image": "photos/nematode-phasmarhabditis.png",
       "caption": "The hero, under the microscope — a single nematode",
       "rotation": 0,
@@ -180,7 +180,7 @@
     },
     {
       "type": "image",
-      "time": 319.651,
+      "time": 327.878,
       "image": "photos/nematode-hb.jpg",
       "caption": "A swarm of nematodes overwhelming a single insect host",
       "rotation": 0,
@@ -188,7 +188,7 @@
     },
     {
       "type": "image",
-      "time": 338.513,
+      "time": 346.741,
       "image": "photos/diagram-hunt.svg",
       "caption": "The hunt, step by step",
       "rotation": 0,
@@ -196,7 +196,7 @@
     },
     {
       "type": "image",
-      "time": 362.351,
+      "time": 370.579,
       "image": "photos/slug-infected.jpg",
       "caption": "The proof — a slug with the tell-tale swollen mantle",
       "rotation": 0,
@@ -204,7 +204,15 @@
     },
     {
       "type": "image",
-      "time": 424.336,
+      "time": 396.697,
+      "image": "photos/erin-product.svg",
+      "caption": "NaturesGoodGuys Triple Blend (Hb+Sc+Sf) — the one Erin bought",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 445.479,
       "image": "photos/diagram-shop.svg",
       "caption": "How to tell the living box from the poison box",
       "rotation": 0,
@@ -212,7 +220,7 @@
     },
     {
       "type": "vocab",
-      "time": 424.336,
+      "time": 445.479,
       "entries": [
         {
           "lang": "nl",
@@ -238,7 +246,7 @@
     },
     {
       "type": "vocab",
-      "time": 447.106,
+      "time": 468.25,
       "entries": [
         {
           "lang": "nl",
@@ -264,7 +272,7 @@
     },
     {
       "type": "vocab",
-      "time": 457.967,
+      "time": 479.111,
       "entries": [
         {
           "lang": "nl",
@@ -290,7 +298,7 @@
     },
     {
       "type": "vocab",
-      "time": 499.012,
+      "time": 522.148,
       "entries": [
         {
           "lang": "nl",
@@ -308,7 +316,7 @@
     },
     {
       "type": "vocab",
-      "time": 506.644,
+      "time": 529.78,
       "entries": [
         {
           "lang": "nl",
@@ -326,7 +334,7 @@
     },
     {
       "type": "vocab",
-      "time": 510.235,
+      "time": 533.37,
       "entries": [
         {
           "lang": "nl",
@@ -344,7 +352,7 @@
     },
     {
       "type": "vocab",
-      "time": 526.324,
+      "time": 549.46,
       "entries": [
         {
           "lang": "nl",
@@ -362,7 +370,7 @@
     },
     {
       "type": "image",
-      "time": 529.582,
+      "time": 552.717,
       "image": "photos/diagram-life-vs-poison.svg",
       "caption": "Fight life with life",
       "rotation": 0,
@@ -376,47 +384,47 @@
       "title": "A crime in the nursery"
     },
     {
-      "time": 75.51,
+      "time": 82.037,
       "level": 2,
       "title": "First, three Dutch sounds"
     },
     {
-      "time": 154.611,
+      "time": 161.138,
       "level": 2,
       "title": "The big idea: fight life with life"
     },
     {
-      "time": 217.482,
+      "time": 224.01,
       "level": 2,
       "title": "Meet Goliath"
     },
     {
-      "time": 283.666,
+      "time": 290.194,
       "level": 2,
       "title": "Enter David"
     },
     {
-      "time": 337.088,
+      "time": 345.316,
       "level": 2,
       "title": "How David wins"
     },
     {
-      "time": 385.878,
+      "time": 394.11,
       "level": 2,
       "title": "So Erin was right — with one footnote"
     },
     {
-      "time": 423.073,
+      "time": 444.217,
       "level": 2,
       "title": "Now: the shop"
     },
     {
-      "time": 483.195,
+      "time": 504.339,
       "level": 2,
       "title": "Say it out loud"
     },
     {
-      "time": 528.207,
+      "time": 551.342,
       "level": 2,
       "title": "The family motto"
     }
