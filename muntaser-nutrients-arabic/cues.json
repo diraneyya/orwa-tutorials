@@ -1,0 +1,260 @@
+{
+  "cues": [
+    {
+      "type": "image",
+      "time": 0.1,
+      "image": "photos/tower-daytime.jpg",
+      "caption": "البرج المائي — يتغذى النبات من الماء وحده",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "overlay",
+      "time": 23.788,
+      "title": "هٰذا الدَّرسُ فيهِ سِتُّ أفكار",
+      "lines": [
+        "الأملاحُ السَّبعةُ وألقابُها",
+        "ترتيبُ الخَلطِ الذي لا يَتَغَيَّر",
+        "قَلَمُ قِياسِ الأملاحِ الذائِبةِ هُوَ الحَكَم",
+        "الوَصْفاتُ المُختَلِفةُ لِكُلِّ واحِدةٍ مِن مَراحِلِ نُموِّ النَّبات",
+        "وماذا تَفعَلُ إذا ظَهَرَتْ عِلّةٌ في نُموِّ النَّبات",
+        "وأخيرًا، البُرجُ المائيُّ الأوَّلُ الذي صَنَعتُهُ ومشاكِلُه"
+      ]
+    },
+    {
+      "type": "image",
+      "time": 108.388,
+      "image": "photos/card-salts.png",
+      "caption": "الأملاح السبعة وألقابها وما يعطيه كل منها",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 178.642,
+      "image": "photos/card-salts.png",
+      "caption": "ترتيب الخلط الثابت — الكلس أولاً، والحديد والتوابل آخراً",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 245.816,
+      "image": "photos/tds-ec-meter-open.jpg",
+      "caption": "قلم قياس الأملاح الذائبة — يدلّك على قوة الماء",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 321.389,
+      "image": "photos/card-veg.png",
+      "caption": "المرحلة الأولى — وصفة النمو الخضري، للخس والطماطم الصغيرة",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 387.127,
+      "image": "photos/card-flower.png",
+      "caption": "المرحلة الثانية — الإزهار، يرتفع الفوسفات ويصعد البوتاس",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 442.684,
+      "image": "photos/card-pulp.png",
+      "caption": "المرحلة الثالثة — تكوين اللب، البوتاس والكلس في أعلاهما",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 518.197,
+      "image": "photos/card-ripen.png",
+      "caption": "المرحلة الرابعة — النضج، نيتروجين أقل وبوتاسيوم ومغنيسيوم أكثر",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 571.922,
+      "image": "photos/card-troubleshoot.png",
+      "caption": "صفحة التشخيص السريع — كيف تقرأ إشارات النبات",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 623.833,
+      "image": "photos/tower-standing.jpg",
+      "caption": "البرج الأول — أنبت نباتاً حقيقياً، لكنه يميل وأنبوبه خارجي",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "overlay",
+      "time": 660.596,
+      "title": "مشاكِلُ البُرجِ الأوّل",
+      "lines": [
+        "وَصلةُ البُرجِ بِالغطاء، وهي الأكبَر",
+        "تَنقيطُ المنافِذِ الذي أغرَقَ الغطاء",
+        "تَثبيتُ البُرجِ ومَسارُ أنبوبِ الماء",
+        "وشَيءٌ واحِدٌ أتقَنتُهُ فاحتَفِظْ بِه"
+      ]
+    },
+    {
+      "type": "image",
+      "time": 676.196,
+      "image": "photos/tower-standing.jpg",
+      "caption": "الشيء الذي نجح — الغطاء العلوي والإسفنج يغلّفان الجدار الداخلي",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 702.508,
+      "image": "photos/base-joint-outside-pipe.jpg",
+      "caption": "أكبر خلل — البرج يجلس فوق الغطاء، فيسيل الماء العائد عليه",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 723.17,
+      "image": "photos/heatgun-ports-base.jpg",
+      "caption": "الحل — وصلة في الغطاء يدخل البرج في داخلها",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 745.708,
+      "image": "photos/heatgun-ports-base.jpg",
+      "caption": "منافذ مسدس الحرارة غير المنتظمة — الماء يتقاطر خارجاً لا داخلاً",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 761.795,
+      "image": "photos/plate-water-damage.jpg",
+      "caption": "ساعات من التنقيط — ضاع المحلول وتعفّن الغطاء الخشبي",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 780.558,
+      "image": "photos/sealant-acrylic.jpg",
+      "caption": "حاولت سدّ التسرب — معجون أكريليكي، ثم سيليكون",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 787.233,
+      "image": "photos/sealant-silicone.jpg",
+      "caption": "لكن السدّ يعالج العرض — الحل منافذ سليمة وغطاء لا يفسده الماء",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 810.221,
+      "image": "photos/tower-standing.jpg",
+      "caption": "خللان أصغر — البرج يميل، والأنبوب خارجي (والأصح داخلي)",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 829.383,
+      "image": "photos/reservoir-bricks-pump.jpg",
+      "caption": "القاع يعمل — طوبتان تحملان البرج، والمضخة بينهما ترفع الماء",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 854.42,
+      "image": "photos/tower-daytime.jpg",
+      "caption": "من مزارع تراب إلى مزارع ماء — اليدان نفسهما، وصنعة جديدة",
+      "rotation": 0,
+      "explicit": true
+    }
+  ],
+  "sections": [
+    {
+      "time": 48.55,
+      "level": 2,
+      "title": "١ — الفِكرةُ الكَبيرةُ قَبلَ أيِّ مِلعَقة"
+    },
+    {
+      "time": 104.375,
+      "level": 2,
+      "title": "٢ — الأملاحُ السَّبعةُ وألقابُها"
+    },
+    {
+      "time": 174.292,
+      "level": 2,
+      "title": "٣ — ترتيبُ الخَلطِ الذي لا يَتَغَيَّر"
+    },
+    {
+      "time": 241.591,
+      "level": 2,
+      "title": "٤ — قَلَمُ قِياسِ الأملاحِ هُوَ الحَكَم"
+    },
+    {
+      "time": 316.914,
+      "level": 2,
+      "title": "٥ — المَرحَلةُ الأولى وهي النُّموُّ الخَضَري"
+    },
+    {
+      "time": 382.327,
+      "level": 2,
+      "title": "٦ — المَرحَلةُ الثّانية: الإزهار"
+    },
+    {
+      "time": 437.777,
+      "level": 2,
+      "title": "٧ — المَرحَلةُ الثّالثة: تَكوينُ اللُّبّ"
+    },
+    {
+      "time": 513.059,
+      "level": 2,
+      "title": "٨ — المَرحَلةُ الرّابِعة: نُضجُ الثَّمَر"
+    },
+    {
+      "time": 567.259,
+      "level": 2,
+      "title": "٩ — ماذا تَفعَلُ إذا ظَهَرَتْ عِلّةٌ في نُموِّ النَّبات"
+    },
+    {
+      "time": 618.108,
+      "level": 2,
+      "title": "١٠ — البُرجُ الأوّلُ الذي صَنَعتُهُ: ما أتقَنتُهُ وما أخفَقتُ فيه"
+    },
+    {
+      "time": 696.77,
+      "level": 2,
+      "title": "١١ — المُشكِلةُ الأكبَر: كَيفَ يَجلِسُ البُرجُ على الغِطاء"
+    },
+    {
+      "time": 741.433,
+      "level": 2,
+      "title": "١٢ — التَّنقيطُ الذي أغرَقَ الغِطاء"
+    },
+    {
+      "time": 804.946,
+      "level": 2,
+      "title": "١٣ — التَّثبيتُ والأنبوب، ثُمَّ إليكَ التَّحَدّي"
+    },
+    {
+      "time": 850.846,
+      "level": 2,
+      "title": "١٤ — وفي الخِتام"
+    }
+  ]
+}
